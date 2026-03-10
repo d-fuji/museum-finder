@@ -68,8 +68,8 @@ describe("MuseumDetailPage", () => {
 
   it("should display a link to the website", async () => {
     render(<MuseumDetailPage />);
-    const link = await screen.findByText("公式サイトを見る →");
-    expect(link).toHaveAttribute("href", "https://example.com");
+    const link = await screen.findByText("公式サイトを見る");
+    expect(link.closest("a")).toHaveAttribute("href", "https://example.com");
   });
 
   it("should display reviews", async () => {
@@ -80,8 +80,8 @@ describe("MuseumDetailPage", () => {
 
   it("should display back link to list page", async () => {
     render(<MuseumDetailPage />);
-    const backLink = await screen.findByText("← 一覧に戻る");
-    expect(backLink).toHaveAttribute("href", "/");
+    const backLink = await screen.findByText("一覧に戻る");
+    expect(backLink.closest("a")).toHaveAttribute("href", "/");
   });
 
   it("should show error state when museum not found", async () => {

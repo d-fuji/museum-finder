@@ -1,20 +1,26 @@
+import { Star } from "lucide-react";
+import { cn } from "@/lib/utils";
+
 type Props = {
   rating: number;
   size?: "sm" | "md";
 };
 
 export function StarRating({ rating, size = "md" }: Props) {
-  const sizeClass = size === "sm" ? "text-sm" : "text-lg";
+  const iconSize = size === "sm" ? 14 : 18;
 
   return (
-    <span className={`inline-flex items-center gap-0.5 ${sizeClass}`} aria-label={`${rating}点`}>
+    <span className="inline-flex items-center gap-0.5" aria-label={`${rating}点`}>
       {[1, 2, 3, 4, 5].map((star) => (
-        <span
+        <Star
           key={star}
-          className={star <= Math.round(rating) ? "text-yellow-400" : "text-gray-300"}
-        >
-          ★
-        </span>
+          size={iconSize}
+          className={cn(
+            star <= Math.round(rating)
+              ? "fill-yellow-400 text-yellow-400"
+              : "fill-none text-muted-foreground/30"
+          )}
+        />
       ))}
     </span>
   );

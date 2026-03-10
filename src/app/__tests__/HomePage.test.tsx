@@ -1,10 +1,23 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, it, expect, beforeAll, afterAll, afterEach } from "vitest";
+import { describe, it, expect, beforeAll, afterAll, afterEach, vi } from "vitest";
 import { http, HttpResponse } from "msw";
 import { setupServer } from "msw/node";
 import type { MuseumSummary } from "@/types/api";
 import HomePage from "../page";
+
+vi.mock("next/navigation", () => ({
+  useRouter: () => ({ push: vi.fn() }),
+}));
+
+vi.mock("react-map-gl/maplibre", () => ({
+  default: ({ children }: { children?: React.ReactNode }) => (
+    <div data-testid="map">{children}</div>
+  ),
+  Marker: ({ children }: { children?: React.ReactNode }) => (
+    <div data-testid="marker">{children}</div>
+  ),
+}));
 
 const museums: MuseumSummary[] = [
   {
@@ -64,8 +77,30 @@ describe("HomePage", () => {
     });
   });
 
-  it("should show loading state initially", () => {
+  it("should show skeleton loading state initially", () => {
+    const { container } = render(<HomePage />);
+    const skeletons = container.querySelectorAll("[data-slot='skeleton']");
+    expect(skeletons.length).toBeGreaterThan(0);
+  });
+
+  it("should show map view when map toggle is clicked", async () => {
     render(<HomePage />);
-    expect(screen.getByText("読み込み中...")).toBeInTheDocument();
+    await screen.findByText("テスト企業博物館");
+
+    await userEvent.click(screen.getByRole("button", { name: "地図表示" }));
+
+    expect(screen.getByTestId("map")).toBeInTheDocument();
+  });
+
+  it("should switch back to list view when list toggle is clicked", async () => {
+    render(<HomePage />);
+    await screen.findByText("テスト企業博物館");
+
+    await userEvent.click(screen.getByRole("button", { name: "地図表示" }));
+    expect(screen.getByTestId("map")).toBeInTheDocument();
+
+    await userEvent.click(screen.getByRole("button", { name: "リスト表示" }));
+    expect(screen.getByText("テスト企業博物館")).toBeInTheDocument();
+    expect(screen.queryByTestId("map")).not.toBeInTheDocument();
   });
 });

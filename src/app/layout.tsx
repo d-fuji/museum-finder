@@ -25,12 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-gray-50 font-sans antialiased`}
-      >
-        <header className="sticky top-0 z-10 border-b border-gray-200 bg-white">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <header className="sticky top-0 z-10 border-b border-border bg-background">
           <div className="mx-auto flex max-w-3xl items-center px-4 py-3">
-            <Link href="/" className="text-lg font-bold text-gray-900">
+            <Link href="/" className="text-lg font-bold text-foreground">
               Museum Compass
             </Link>
           </div>

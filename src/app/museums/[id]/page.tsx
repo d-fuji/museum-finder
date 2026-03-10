@@ -2,8 +2,14 @@
 
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import { getMuseumById } from "@/lib/api";
 import { useFetch } from "@/lib/useFetch";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Separator } from "@/components/ui/separator";
 import { StarRating } from "@/components/StarRating";
 import { ReviewCard } from "@/components/ReviewCard";
 
@@ -12,72 +18,112 @@ const CATEGORY_LABEL: Record<string, string> = {
   CITY_HISTORY: "市の歴史館",
 };
 
+function DetailSkeleton() {
+  return (
+    <div>
+      <Skeleton className="mb-4 h-4 w-24" />
+      <Card className="mb-6">
+        <CardHeader>
+          <Skeleton className="h-5 w-20" />
+          <Skeleton className="h-8 w-64" />
+          <Skeleton className="h-4 w-40" />
+        </CardHeader>
+        <CardContent className="space-y-2">
+          <Skeleton className="h-4 w-48" />
+          <Skeleton className="h-4 w-full" />
+          <Skeleton className="h-4 w-3/4" />
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
+
 export default function MuseumDetailPage() {
   const { id } = useParams<{ id: string }>();
   const { data: museum, loading, error } = useFetch(() => getMuseumById(id), [id]);
 
   if (loading) {
-    return <div className="py-12 text-center text-sm text-gray-400">読み込み中...</div>;
+    return <DetailSkeleton />;
   }
 
   if (error || !museum) {
     return (
-      <div className="py-12 text-center">
-        <p className="text-sm text-gray-400">施設が見つかりません</p>
-        <Link href="/" className="mt-4 inline-block text-sm text-blue-600 hover:underline">
+      <div className="flex flex-col items-center gap-4 py-16">
+        <p className="text-muted-foreground">施設が見つかりません</p>
+        <Button variant="outline" size="sm" nativeButton={false} render={<Link href="/" />}>
+          <ArrowLeft />
           一覧に戻る
-        </Link>
+        </Button>
       </div>
     );
   }
 
   return (
     <div>
-      <Link href="/" className="mb-4 inline-block text-sm text-blue-600 hover:underline">
-        ← 一覧に戻る
-      </Link>
+      <Button
+        variant="ghost"
+        size="sm"
+        className="mb-4 -ml-2"
+        nativeButton={false}
+        render={<Link href="/" />}
+      >
+        <ArrowLeft />
+        一覧に戻る
+      </Button>
 
-      <section className="mb-6">
-        <span className="mb-2 inline-block rounded bg-blue-50 px-2 py-0.5 text-xs font-medium text-blue-700">
-          {CATEGORY_LABEL[museum.category] ?? museum.category}
-        </span>
-        <h1 className="text-2xl font-bold text-gray-900">{museum.name}</h1>
-
-        <div className="mt-2 flex items-center gap-2">
-          <StarRating rating={museum.averageRating} />
-          <span className="text-sm text-gray-500">
-            {museum.averageRating.toFixed(1)} ({museum.reviewCount}件のレビュー)
-          </span>
-        </div>
-
-        {museum.address && <p className="mt-3 text-sm text-gray-600">📍 {museum.address}</p>}
-
-        {museum.description && <p className="mt-3 text-gray-700">{museum.description}</p>}
-
-        {museum.websiteUrl && (
-          <a
-            href={museum.websiteUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-3 inline-block text-sm text-blue-600 hover:underline"
-          >
-            公式サイトを見る →
-          </a>
-        )}
-      </section>
-
-      <section>
-        <h2 className="mb-3 text-lg font-bold text-gray-900">レビュー ({museum.reviews.length})</h2>
-        {museum.reviews.length === 0 ? (
-          <p className="text-sm text-gray-400">まだレビューがありません</p>
-        ) : (
-          <div>
-            {museum.reviews.map((review) => (
-              <ReviewCard key={review.id} review={review} />
-            ))}
+      <Card className="mb-6">
+        <CardHeader>
+          <Badge variant="secondary" className="w-fit">
+            {CATEGORY_LABEL[museum.category] ?? museum.category}
+          </Badge>
+          <CardTitle>
+            <h1 className="text-2xl font-bold">{museum.name}</h1>
+          </CardTitle>
+          <div className="mt-1 flex items-center gap-2">
+            <StarRating rating={museum.averageRating} />
+            <span className="text-sm text-muted-foreground">
+              {museum.averageRating.toFixed(1)} ({museum.reviewCount}件のレビュー)
+            </span>
           </div>
-        )}
-      </section>
+        </CardHeader>
+        <CardContent className="space-y-3">
+          {museum.address && <p className="text-sm text-muted-foreground">📍 {museum.address}</p>}
+          {museum.description && <p className="text-foreground">{museum.description}</p>}
+          {museum.websiteUrl && (
+            <Button
+              variant="outline"
+              size="sm"
+              nativeButton={false}
+              render={<a href={museum.websiteUrl} target="_blank" rel="noopener noreferrer" />}
+            >
+              <ExternalLink />
+              公式サイトを見る
+            </Button>
+          )}
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>
+            <h2 className="text-lg font-bold">レビュー ({museum.reviews.length})</h2>
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          {museum.reviews.length === 0 ? (
+            <p className="text-sm text-muted-foreground">まだレビューがありません</p>
+          ) : (
+            <div>
+              {museum.reviews.map((review, i) => (
+                <div key={review.id}>
+                  <ReviewCard review={review} />
+                  {i < museum.reviews.length - 1 && <Separator />}
+                </div>
+              ))}
+            </div>
+          )}
+        </CardContent>
+      </Card>
     </div>
   );
 }

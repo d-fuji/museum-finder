@@ -9,6 +9,8 @@
 
 - Next.js (App Router) / Vercel
 - Tailwind CSS（モバイルファースト）
+- UIライブラリ: shadcn/ui (v4, Base UI ベース) + Lucide React アイコン
+- 地図: react-map-gl + MapLibre GL JS
 - API仕様: OpenAPI 3.0 (`docs/openapi.yaml`)
 - モック: MSW (Mock Service Worker) でAPIをモック
 - 型定義: `src/types/api.ts`（OpenAPIスキーマと対応）
@@ -20,6 +22,7 @@
 src/
   app/           # Next.js App Router ページ
   components/    # UIコンポーネント
+    ui/          # shadcn/ui コンポーネント
   types/         # 型定義
   data/          # JSONフィクスチャ（MSWのモックデータ）
   mocks/         # MSWハンドラー・セットアップ

@@ -11,6 +11,8 @@
 | レイヤー       | 技術                                | 備考                     |
 | -------------- | ----------------------------------- | ------------------------ |
 | フロントエンド | Next.js (App Router) + Tailwind CSS | モバイルファースト       |
+| UIライブラリ   | shadcn/ui (v4) + Lucide React       | Base UIベース            |
+| 地図           | react-map-gl + MapLibre GL JS       | OSS、APIキー不要         |
 | API仕様        | OpenAPI 3.0 (yaml)                  | `docs/openapi.yaml`      |
 | モック         | MSW (Mock Service Worker)           | 開発時はMSWでAPIをモック |
 | データ         | JSONフィクスチャ                    | `src/data/` に配置       |
@@ -21,8 +23,9 @@
 
 ### 施設一覧表示
 
-- 地図上にピン表示（将来対応。MVPではリスト優先）
 - リスト形式で施設を一覧表示
+- 地図上にピン表示（Leaflet / react-leaflet）
+- リスト / 地図の表示切替
 - カテゴリ（企業博物館 / 市の歴史館）で絞り込み
 
 ### 施設詳細表示
@@ -36,7 +39,7 @@
 - ユーザー認証（Firebase Authentication）
 - レビュー投稿
 - お気に入り登録
-- 地図表示（Google Maps / Mapbox）
+- 地図上での絞り込み・検索
 - バックエンドAPI（NestJS + PostgreSQL + Prisma）
 - 管理画面
 
