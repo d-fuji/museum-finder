@@ -1,0 +1,62 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "日本郵船歴史博物館",
+    "category": "CORPORATE",
+    "description": "日本郵船の歴史と日本の海運の発展を紹介する博物館。明治期の豪華客船の模型や航海関連資料を展示。",
+    "latitude": 35.4488,
+    "longitude": 139.6425,
+    "address": "神奈川県横浜市中区海岸通3-9",
+    "websiteUrl": "https://museum.nyk.com/",
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "name": "小樽市総合博物館",
+    "category": "CITY_HISTORY",
+    "description": "北海道の鉄道発祥の地、小樽の歴史と自然を紹介。旧手宮鉄道施設は国の重要文化財。",
+    "latitude": 43.2064,
+    "longitude": 141.0059,
+    "address": "北海道小樽市手宮1-3-6",
+    "websiteUrl": "https://www.city.otaru.lg.jp/categories/bunya/shisetsu/museum/",
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "name": "神戸海洋博物館",
+    "category": "CITY_HISTORY",
+    "description": "神戸港の歴史と海・船・港の魅力を伝える博物館。川崎重工の企業ミュージアムも併設。",
+    "latitude": 34.6841,
+    "longitude": 135.1855,
+    "address": "兵庫県神戸市中央区波止場町2-2",
+    "websiteUrl": "https://kobe-maritime-museum.com/",
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "name": "九州鉄道記念館",
+    "category": "CORPORATE",
+    "description": "門司港にある九州の鉄道の歴史を紹介する記念館。明治期の赤レンガ造りの旧九州鉄道本社を活用。",
+    "latitude": 33.9463,
+    "longitude": 130.9614,
+    "address": "福岡県北九州市門司区清滝2-3-29",
+    "websiteUrl": "https://www.k-rhm.jp/",
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "name": "トヨタ産業技術記念館",
+    "category": "CORPORATE",
+    "description": "トヨタグループの発祥地に建つ産業技術の博物館。繊維機械から自動車技術までの変遷を展示。",
+    "latitude": 35.1815,
+    "longitude": 136.8726,
+    "address": "愛知県名古屋市西区則武新町4-1-35",
+    "websiteUrl": "https://www.tcmit.org/",
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2025-01-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,141 @@
+openapi: "3.0.3"
+info:
+  title: Museum Compass API
+  version: "0.1.0"
+  description: 企業博物館・歴史館評価アプリ API
+
+servers:
+  - url: /api
+    description: Local / MSW mock
+
+paths:
+  /museums:
+    get:
+      summary: 施設一覧取得
+      operationId: getMuseums
+      parameters:
+        - name: category
+          in: query
+          required: false
+          schema:
+            $ref: "#/components/schemas/Category"
+          description: カテゴリで絞り込み
+      responses:
+        "200":
+          description: 施設一覧
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/MuseumSummary"
+
+  /museums/{id}:
+    get:
+      summary: 施設詳細取得
+      operationId: getMuseumById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "200":
+          description: 施設詳細（レビュー含む）
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MuseumDetail"
+        "404":
+          description: 施設が見つからない
+
+components:
+  schemas:
+    Category:
+      type: string
+      enum:
+        - CORPORATE
+        - CITY_HISTORY
+
+    MuseumSummary:
+      type: object
+      required:
+        - id
+        - name
+        - category
+        - latitude
+        - longitude
+        - averageRating
+        - reviewCount
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+        category:
+          $ref: "#/components/schemas/Category"
+        description:
+          type: string
+        latitude:
+          type: number
+          format: double
+        longitude:
+          type: number
+          format: double
+        address:
+          type: string
+        websiteUrl:
+          type: string
+          format: uri
+        averageRating:
+          type: number
+          format: double
+          description: 平均評価 (1-5)。レビューがない場合は0
+        reviewCount:
+          type: integer
+          description: レビュー数
+
+    MuseumDetail:
+      allOf:
+        - $ref: "#/components/schemas/MuseumSummary"
+        - type: object
+          required:
+            - reviews
+          properties:
+            reviews:
+              type: array
+              items:
+                $ref: "#/components/schemas/Review"
+
+    Review:
+      type: object
+      required:
+        - id
+        - rating
+        - userId
+        - museumId
+        - userName
+        - createdAt
+      properties:
+        id:
+          type: string
+          format: uuid
+        rating:
+          type: integer
+          minimum: 1
+          maximum: 5
+        comment:
+          type: string
+        userId:
+          type: string
+        museumId:
+          type: string
+          format: uuid
+        userName:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
