@@ -1,13 +1,23 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect, beforeAll, afterAll, afterEach, vi } from "vitest";
 import { http, HttpResponse } from "msw";
 import { setupServer } from "msw/node";
 import type { MuseumSummary } from "@/types/api";
+import { SWRTestProvider } from "@/lib/test-utils";
 import HomePage from "../page";
 
+function renderHomePage() {
+  return render(<HomePage />, { wrapper: SWRTestProvider });
+}
+
+const mockPush = vi.fn();
+const mockReplace = vi.fn();
+let mockSearchParams = new URLSearchParams();
+
 vi.mock("next/navigation", () => ({
-  useRouter: () => ({ push: vi.fn() }),
+  useRouter: () => ({ push: mockPush, replace: mockReplace }),
+  useSearchParams: () => mockSearchParams,
 }));
 
 vi.mock("react-map-gl/maplibre", () => ({
@@ -50,57 +60,71 @@ const server = setupServer(
 );
 
 beforeAll(() => server.listen());
-afterEach(() => server.resetHandlers());
+afterEach(() => {
+  server.resetHandlers();
+  mockSearchParams = new URLSearchParams();
+  mockPush.mockClear();
+  mockReplace.mockClear();
+});
 afterAll(() => server.close());
 
 describe("HomePage", () => {
   it("should display page heading", async () => {
-    render(<HomePage />);
+    renderHomePage();
     expect(screen.getByRole("heading", { name: "博物館を探す" })).toBeInTheDocument();
   });
 
   it("should display museum list after loading", async () => {
-    render(<HomePage />);
+    renderHomePage();
     expect(await screen.findByText("テスト企業博物館")).toBeInTheDocument();
     expect(screen.getByText("テスト歴史館")).toBeInTheDocument();
   });
 
-  it("should filter museums when category button is clicked", async () => {
-    render(<HomePage />);
+  it("should update URL when category button is clicked", async () => {
+    renderHomePage();
     await screen.findByText("テスト企業博物館");
 
     await userEvent.click(screen.getByRole("button", { name: "企業博物館" }));
 
-    await waitFor(() => {
-      expect(screen.getByText("テスト企業博物館")).toBeInTheDocument();
-      expect(screen.queryByText("テスト歴史館")).not.toBeInTheDocument();
-    });
+    expect(mockReplace).toHaveBeenCalledWith("/?category=CORPORATE", { scroll: false });
+  });
+
+  it("should filter museums based on category search param", async () => {
+    mockSearchParams = new URLSearchParams("category=CORPORATE");
+    renderHomePage();
+
+    await screen.findByText("テスト企業博物館");
+    expect(screen.queryByText("テスト歴史館")).not.toBeInTheDocument();
   });
 
   it("should show skeleton loading state initially", () => {
-    const { container } = render(<HomePage />);
+    const { container } = renderHomePage();
     const skeletons = container.querySelectorAll("[data-slot='skeleton']");
     expect(skeletons.length).toBeGreaterThan(0);
   });
 
-  it("should show map view when map toggle is clicked", async () => {
-    render(<HomePage />);
+  it("should update URL when map toggle is clicked", async () => {
+    renderHomePage();
     await screen.findByText("テスト企業博物館");
 
     await userEvent.click(screen.getByRole("button", { name: "地図表示" }));
 
-    expect(screen.getByTestId("map")).toBeInTheDocument();
+    expect(mockReplace).toHaveBeenCalledWith("/?view=map", { scroll: false });
   });
 
-  it("should switch back to list view when list toggle is clicked", async () => {
-    render(<HomePage />);
-    await screen.findByText("テスト企業博物館");
-
-    await userEvent.click(screen.getByRole("button", { name: "地図表示" }));
-    expect(screen.getByTestId("map")).toBeInTheDocument();
+  it("should update URL when list toggle is clicked", async () => {
+    mockSearchParams = new URLSearchParams("view=map");
+    renderHomePage();
 
     await userEvent.click(screen.getByRole("button", { name: "リスト表示" }));
-    expect(screen.getByText("テスト企業博物館")).toBeInTheDocument();
-    expect(screen.queryByTestId("map")).not.toBeInTheDocument();
+
+    expect(mockReplace).toHaveBeenCalledWith("/", { scroll: false });
+  });
+
+  it("should restore map view from URL search params", async () => {
+    mockSearchParams = new URLSearchParams("view=map");
+    renderHomePage();
+    await screen.findByTestId("map");
+    expect(screen.getByTestId("map")).toBeInTheDocument();
   });
 });

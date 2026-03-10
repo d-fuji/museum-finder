@@ -13,6 +13,7 @@
 | フロントエンド | Next.js (App Router) + Tailwind CSS | モバイルファースト       |
 | UIライブラリ   | shadcn/ui (v4) + Lucide React       | Base UIベース            |
 | 地図           | react-map-gl + MapLibre GL JS       | OSS、APIキー不要         |
+| データフェッチ | SWR                                 | stale-while-revalidate   |
 | API仕様        | OpenAPI 3.0 (yaml)                  | `docs/openapi.yaml`      |
 | モック         | MSW (Mock Service Worker)           | 開発時はMSWでAPIをモック |
 | データ         | JSONフィクスチャ                    | `src/data/` に配置       |
@@ -24,7 +25,7 @@
 ### 施設一覧表示
 
 - リスト形式で施設を一覧表示
-- 地図上にピン表示（Leaflet / react-leaflet）
+- 地図上にピン表示（react-map-gl + MapLibre GL JS）
 - リスト / 地図の表示切替
 - カテゴリ（企業博物館 / 市の歴史館）で絞り込み
 

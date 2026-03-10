@@ -10,6 +10,7 @@
 - Next.js (App Router) / Vercel
 - Tailwind CSS（モバイルファースト）
 - UIライブラリ: shadcn/ui (v4, Base UI ベース) + Lucide React アイコン
+- データフェッチ: SWR
 - 地図: react-map-gl + MapLibre GL JS
 - API仕様: OpenAPI 3.0 (`docs/openapi.yaml`)
 - モック: MSW (Mock Service Worker) でAPIをモック
@@ -38,6 +39,7 @@ docs/
 - 実行: `npx vitest run`（全テスト）、`npx vitest run <path>`（個別）
 - テストファイル: `__tests__/` ディレクトリに配置（対象モジュールの隣）
 - MSW: テスト時は `src/mocks/server.ts` を使用
+- SWR: テスト時は `SWRTestProvider`（`src/lib/test-utils.tsx`）でラップしてキャッシュを分離する
 
 ## Lint & フォーマット
 

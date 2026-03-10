@@ -127,3 +127,22 @@
     @apply font-sans;
   }
 }
+
+/* MapLibre popup close button - high specificity to override maplibre-gl.css */
+.maplibregl-popup .maplibregl-popup-close-button {
+  font-size: 1.25rem !important;
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+  color: var(--muted-foreground);
+}
+
+.maplibregl-popup .maplibregl-popup-close-button:hover {
+  color: var(--foreground);
+  background-color: var(--muted);
+  border-radius: 0.25rem;
+}

@@ -15,6 +15,7 @@ type Props = {
 
 const JAPAN_CENTER = { latitude: 36.5, longitude: 137.0 };
 const DEFAULT_ZOOM = 5;
+const MAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
 
 export function MuseumMap({ museums, onMuseumClick }: Props) {
   const [selectedMuseum, setSelectedMuseum] = useState<MuseumSummary | null>(null);
@@ -26,7 +27,7 @@ export function MuseumMap({ museums, onMuseumClick }: Props) {
         zoom: DEFAULT_ZOOM,
       }}
       style={{ width: "100%", height: "100%" }}
-      mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
+      mapStyle={MAP_STYLE}
     >
       {museums.map((museum) => (
         <Marker
@@ -50,6 +51,7 @@ export function MuseumMap({ museums, onMuseumClick }: Props) {
           closeOnClick={false}
           anchor="bottom"
           offset={28}
+          className="museum-popup"
         >
           <div className="min-w-40 p-1">
             <p className="text-sm font-bold text-foreground">{selectedMuseum.name}</p>

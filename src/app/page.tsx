@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
-import type { Category } from "@/types/api";
+import { useCallback } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import useSWR from "swr";
+import type { Category, MuseumSummary } from "@/types/api";
 import { getMuseums } from "@/lib/api";
-import { useFetch } from "@/lib/useFetch";
 import { MuseumCard } from "@/components/MuseumCard";
 import { MuseumCardSkeleton } from "@/components/MuseumCardSkeleton";
 import { CategoryFilter } from "@/components/CategoryFilter";
@@ -15,12 +15,51 @@ import { Skeleton } from "@/components/ui/skeleton";
 type FilterValue = Category | "ALL";
 type ViewMode = "list" | "map";
 
+function isViewMode(value: string | null): value is ViewMode {
+  return value === "list" || value === "map";
+}
+
 export default function HomePage() {
   const router = useRouter();
-  const [filter, setFilter] = useState<FilterValue>("ALL");
-  const [viewMode, setViewMode] = useState<ViewMode>("list");
+  const searchParams = useSearchParams();
+
+  const viewMode: ViewMode = isViewMode(searchParams.get("view"))
+    ? (searchParams.get("view")! as ViewMode)
+    : "list";
+  const filter: FilterValue = (searchParams.get("category") as FilterValue) || "ALL";
   const category = filter === "ALL" ? undefined : filter;
-  const { data: museums, loading } = useFetch(() => getMuseums(category), [filter]);
+  const swrKey = category ? `/api/museums?category=${category}` : "/api/museums";
+  const { data: museums, isLoading } = useSWR<MuseumSummary[]>(swrKey, () => getMuseums(category));
+
+  const updateParams = useCallback(
+    (updates: Record<string, string | null>) => {
+      const params = new URLSearchParams(searchParams.toString());
+      for (const [key, value] of Object.entries(updates)) {
+        if (value === null) {
+          params.delete(key);
+        } else {
+          params.set(key, value);
+        }
+      }
+      const qs = params.toString();
+      router.replace(qs ? `/?${qs}` : "/", { scroll: false });
+    },
+    [searchParams, router]
+  );
+
+  const setViewMode = useCallback(
+    (mode: ViewMode) => {
+      updateParams({ view: mode === "list" ? null : mode });
+    },
+    [updateParams]
+  );
+
+  const setFilter = useCallback(
+    (value: FilterValue) => {
+      updateParams({ category: value === "ALL" ? null : value });
+    },
+    [updateParams]
+  );
 
   return (
     <div>
@@ -34,7 +73,7 @@ export default function HomePage() {
         <ViewToggle value={viewMode} onChange={setViewMode} />
       </div>
 
-      {loading ? (
+      {isLoading && !museums ? (
         viewMode === "map" ? (
           <Skeleton className="h-[70vh] w-full rounded-lg" />
         ) : (

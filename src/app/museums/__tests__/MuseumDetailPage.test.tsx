@@ -1,9 +1,15 @@
 import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { describe, it, expect, beforeAll, afterAll, afterEach, vi } from "vitest";
 import { http, HttpResponse } from "msw";
 import { setupServer } from "msw/node";
 import type { MuseumDetail } from "@/types/api";
+import { SWRTestProvider } from "@/lib/test-utils";
 import MuseumDetailPage from "../[id]/page";
+
+function renderDetailPage() {
+  return render(<MuseumDetailPage />, { wrapper: SWRTestProvider });
+}
 
 const museumDetail: MuseumDetail = {
   id: "detail-1",
@@ -29,8 +35,11 @@ const museumDetail: MuseumDetail = {
   ],
 };
 
+const mockBack = vi.fn();
+
 vi.mock("next/navigation", () => ({
   useParams: () => ({ id: "detail-1" }),
+  useRouter: () => ({ back: mockBack }),
 }));
 
 const server = setupServer(
@@ -45,43 +54,44 @@ afterAll(() => server.close());
 
 describe("MuseumDetailPage", () => {
   it("should display museum name after loading", async () => {
-    render(<MuseumDetailPage />);
+    renderDetailPage();
     expect(await screen.findByText("テスト博物館詳細")).toBeInTheDocument();
   });
 
   it("should display category label", async () => {
-    render(<MuseumDetailPage />);
+    renderDetailPage();
     expect(await screen.findByText("企業博物館")).toBeInTheDocument();
   });
 
   it("should display address", async () => {
-    render(<MuseumDetailPage />);
+    renderDetailPage();
     await screen.findByText("テスト博物館詳細");
     expect(screen.getByText(/東京都中央区1-2-3/)).toBeInTheDocument();
   });
 
   it("should display description", async () => {
-    render(<MuseumDetailPage />);
+    renderDetailPage();
     await screen.findByText("テスト博物館詳細");
     expect(screen.getByText("詳細ページ用の説明文です")).toBeInTheDocument();
   });
 
   it("should display a link to the website", async () => {
-    render(<MuseumDetailPage />);
+    renderDetailPage();
     const link = await screen.findByText("公式サイトを見る");
     expect(link.closest("a")).toHaveAttribute("href", "https://example.com");
   });
 
   it("should display reviews", async () => {
-    render(<MuseumDetailPage />);
+    renderDetailPage();
     expect(await screen.findByText("素晴らしい博物館です")).toBeInTheDocument();
     expect(screen.getByText("レビュワー太郎")).toBeInTheDocument();
   });
 
-  it("should display back link to list page", async () => {
-    render(<MuseumDetailPage />);
-    const backLink = await screen.findByText("一覧に戻る");
-    expect(backLink.closest("a")).toHaveAttribute("href", "/");
+  it("should call router.back when back button is clicked", async () => {
+    renderDetailPage();
+    const backButton = await screen.findByRole("button", { name: "一覧に戻る" });
+    await userEvent.click(backButton);
+    expect(mockBack).toHaveBeenCalled();
   });
 
   it("should show error state when museum not found", async () => {
@@ -90,7 +100,7 @@ describe("MuseumDetailPage", () => {
         return new HttpResponse(null, { status: 404 });
       })
     );
-    render(<MuseumDetailPage />);
+    renderDetailPage();
     expect(await screen.findByText("施設が見つかりません")).toBeInTheDocument();
   });
 });

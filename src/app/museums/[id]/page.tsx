@@ -1,10 +1,10 @@
 "use client";
 
-import { useParams } from "next/navigation";
-import Link from "next/link";
+import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
+import useSWR from "swr";
+import type { MuseumDetail } from "@/types/api";
 import { getMuseumById } from "@/lib/api";
-import { useFetch } from "@/lib/useFetch";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -40,9 +40,14 @@ function DetailSkeleton() {
 
 export default function MuseumDetailPage() {
   const { id } = useParams<{ id: string }>();
-  const { data: museum, loading, error } = useFetch(() => getMuseumById(id), [id]);
+  const router = useRouter();
+  const {
+    data: museum,
+    isLoading,
+    error,
+  } = useSWR<MuseumDetail>(`/api/museums/${id}`, () => getMuseumById(id));
 
-  if (loading) {
+  if (isLoading) {
     return <DetailSkeleton />;
   }
 
@@ -50,7 +55,7 @@ export default function MuseumDetailPage() {
     return (
       <div className="flex flex-col items-center gap-4 py-16">
         <p className="text-muted-foreground">施設が見つかりません</p>
-        <Button variant="outline" size="sm" nativeButton={false} render={<Link href="/" />}>
+        <Button variant="outline" size="sm" onClick={() => router.back()}>
           <ArrowLeft />
           一覧に戻る
         </Button>
@@ -60,13 +65,7 @@ export default function MuseumDetailPage() {
 
   return (
     <div>
-      <Button
-        variant="ghost"
-        size="sm"
-        className="mb-4 -ml-2"
-        nativeButton={false}
-        render={<Link href="/" />}
-      >
+      <Button variant="ghost" size="sm" className="mb-4 -ml-2" onClick={() => router.back()}>
         <ArrowLeft />
         一覧に戻る
       </Button>
