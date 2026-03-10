@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import { Suspense, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import useSWR from "swr";
 import type { Category, MuseumSummary } from "@/types/api";
@@ -19,7 +19,7 @@ function isViewMode(value: string | null): value is ViewMode {
   return value === "list" || value === "map";
 }
 
-export default function HomePage() {
+function HomeContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -99,5 +99,32 @@ export default function HomePage() {
         </div>
       )}
     </div>
+  );
+}
+
+function HomeFallback() {
+  return (
+    <div>
+      <section className="mb-6">
+        <Skeleton className="mb-1 h-8 w-48" />
+        <Skeleton className="h-4 w-64" />
+      </section>
+      <div className="mb-4">
+        <Skeleton className="h-9 w-64" />
+      </div>
+      <div className="flex flex-col gap-3">
+        {[1, 2, 3].map((i) => (
+          <MuseumCardSkeleton key={i} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default function HomePage() {
+  return (
+    <Suspense fallback={<HomeFallback />}>
+      <HomeContent />
+    </Suspense>
   );
 }
