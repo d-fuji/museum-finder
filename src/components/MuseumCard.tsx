@@ -33,7 +33,9 @@ export function MuseumCard({ museum }: Props) {
         <CardContent>
           {museum.address && <p className="text-sm text-muted-foreground">{museum.address}</p>}
           {museum.description && (
-            <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">{museum.description}</p>
+            <p className="mt-1 line-clamp-1 text-sm text-muted-foreground sm:line-clamp-2">
+              {museum.description}
+            </p>
           )}
         </CardContent>
       </Card>
