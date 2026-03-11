@@ -44,4 +44,31 @@ describe("MuseumCard", () => {
     render(<MuseumCard museum={museum} />);
     expect(screen.getByText("(3)")).toBeInTheDocument();
   });
+
+  it("should display admission fee when present", () => {
+    render(<MuseumCard museum={{ ...museum, admissionFee: 500 }} />);
+    expect(screen.getByText("500円")).toBeInTheDocument();
+  });
+
+  it("should display free admission when fee is 0", () => {
+    render(<MuseumCard museum={{ ...museum, admissionFee: 0 }} />);
+    expect(screen.getByText("無料")).toBeInTheDocument();
+  });
+
+  it("should not display admission fee when not set", () => {
+    render(<MuseumCard museum={museum} />);
+    expect(screen.queryByText(/円/)).not.toBeInTheDocument();
+    expect(screen.queryByText("無料")).not.toBeInTheDocument();
+  });
+
+  it("should display closed badge when museum is closed", () => {
+    render(<MuseumCard museum={{ ...museum, isClosed: true }} />);
+    expect(screen.getByText("閉館中")).toBeInTheDocument();
+  });
+
+  it("should apply muted styling when museum is closed", () => {
+    const { container } = render(<MuseumCard museum={{ ...museum, isClosed: true }} />);
+    const card = container.querySelector("[data-slot='card']");
+    expect(card?.className).toMatch(/opacity/);
+  });
 });

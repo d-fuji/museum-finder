@@ -1,7 +1,13 @@
 "use client";
 
 import type { Category } from "@/types/api";
-import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { CATEGORY_LABEL } from "@/lib/museum-utils";
 
 type FilterValue = Category | "ALL";
@@ -18,18 +24,17 @@ const LABELS: Record<FilterValue, string> = {
 
 export function CategoryFilter({ value, onChange }: Props) {
   return (
-    <div className="flex gap-2" role="group" aria-label="カテゴリフィルター">
-      {(Object.keys(LABELS) as FilterValue[]).map((key) => (
-        <Button
-          key={key}
-          variant={value === key ? "default" : "secondary"}
-          size="sm"
-          onClick={() => onChange(key)}
-          aria-pressed={value === key}
-        >
-          {LABELS[key]}
-        </Button>
-      ))}
-    </div>
+    <Select value={value} onValueChange={(val) => onChange(val as FilterValue)}>
+      <SelectTrigger aria-label="カテゴリフィルター" size="sm">
+        <SelectValue placeholder="カテゴリを選択">{LABELS[value]}</SelectValue>
+      </SelectTrigger>
+      <SelectContent>
+        {(Object.entries(LABELS) as [FilterValue, string][]).map(([key, label]) => (
+          <SelectItem key={key} value={key}>
+            {label}
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
   );
 }

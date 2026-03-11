@@ -145,7 +145,7 @@ describe("MuseumDetailPage", () => {
     expect(screen.getByText("改装のため休館中")).toBeInTheDocument();
   });
 
-  it("should display operating hours when present", async () => {
+  it("should hide full operating hours by default and show them on toggle click", async () => {
     server.use(
       http.get("/api/museums/1", () => {
         return HttpResponse.json({
@@ -174,8 +174,38 @@ describe("MuseumDetailPage", () => {
     );
     renderDetailPage();
     await screen.findByText("テスト博物館詳細");
+
+    // Full table is hidden by default
+    expect(screen.queryByText("休館")).not.toBeInTheDocument();
+
+    // Click toggle to expand
+    await userEvent.click(screen.getByRole("button", { name: /営業時間/ }));
     expect(screen.getByText("休館")).toBeInTheDocument();
     expect(screen.getByText("10:00 - 17:00")).toBeInTheDocument();
+  });
+
+  it("should display visit info section with admission fee and hours", async () => {
+    server.use(
+      http.get("/api/museums/1", () => {
+        return HttpResponse.json({
+          ...museumDetail,
+          admissionFee: 500,
+          operatingHours: [
+            {
+              id: 1,
+              museumId: 1,
+              dayOfWeek: 2,
+              openTime: "09:00",
+              closeTime: "17:00",
+              isClosed: false,
+            },
+          ],
+        });
+      })
+    );
+    renderDetailPage();
+    expect(await screen.findByText("訪問情報")).toBeInTheDocument();
+    expect(screen.getByText(/500円/)).toBeInTheDocument();
   });
 
   it("should show error state when museum not found", async () => {

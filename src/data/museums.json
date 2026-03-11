@@ -1,5 +1,6 @@
 [
   {
+    "code": "b32bcc41-62ca-438c-916b-db2ceebdb380",
     "name": "日本郵船歴史博物館",
     "category": "CORPORATE_MUSEUM",
     "description": "日本郵船の歴史と日本の海運の発展を紹介する博物館。明治期の豪華客船の模型や航海関連資料を展示。",
@@ -7,20 +8,67 @@
     "longitude": 139.6425,
     "address": "神奈川県横浜市中区海岸通3-9",
     "websiteUrl": "https://museum.nyk.com/",
-    "admissionFee": 1000,
-    "isClosed": false,
+    "admissionFee": 400,
+    "isClosed": true,
+    "closedMessage": "2027年春頃リニューアルオープン予定",
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
     ],
-    "tags": ["港町", "明治期"]
+    "tags": [
+      "港町",
+      "明治期"
+    ]
   },
   {
+    "code": "a84a84c0-5e9a-48a8-a97a-5f61827999c3",
     "name": "小樽市総合博物館",
     "category": "HISTORY_MUSEUM",
     "description": "北海道の鉄道発祥の地、小樽の歴史と自然を紹介。旧手宮鉄道施設は国の重要文化財。",
@@ -31,17 +79,58 @@
     "admissionFee": 400,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町", "明治期"]
+    "tags": [
+      "港町",
+      "明治期"
+    ]
   },
   {
+    "code": "4d62905e-eac5-4cc3-926f-a68f6bd58980",
     "name": "神戸海洋博物館",
     "category": "HISTORY_MUSEUM",
     "description": "神戸港の歴史と海・船・港の魅力を伝える博物館。川崎重工の企業ミュージアムも併設。",
@@ -52,17 +141,57 @@
     "admissionFee": 900,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "18:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
+    "code": "250e8c7a-b6e7-4f65-984e-e2332aab2589",
     "name": "九州鉄道記念館",
     "category": "CORPORATE_MUSEUM",
     "description": "門司港にある九州の鉄道の歴史を紹介する記念館。明治期の赤レンガ造りの旧九州鉄道本社を活用。",
@@ -73,17 +202,58 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町", "明治期"]
+    "tags": [
+      "港町",
+      "明治期"
+    ]
   },
   {
+    "code": "9bed5371-3eab-4a25-bfef-541012cf462a",
     "name": "トヨタ産業技術記念館",
     "category": "CORPORATE_MUSEUM",
     "description": "トヨタグループの発祥地に建つ産業技術の博物館。繊維機械から自動車技術までの変遷を展示。",
@@ -94,17 +264,57 @@
     "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "c56e7eab-b38c-4db4-b7de-cd84fabca116",
     "name": "尚古集成館",
     "category": "HISTORY_MUSEUM",
     "description": "薩摩藩の近代化事業を伝え、重要文化財の機械工場を建物として活用した博物館。",
@@ -118,6 +328,7 @@
     "tags": []
   },
   {
+    "code": "901be57f-a315-4947-ae71-c882a3c0b358",
     "name": "萩博物館",
     "category": "HISTORY_MUSEUM",
     "description": "幕末の志士たちの思想と、萩における初期産業化のプロセスを総合的に展示。",
@@ -128,17 +339,55 @@
     "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "d43c1442-a18b-4904-9dc2-5d656e745ff3",
     "name": "韮山反射炉ガイダンスセンター",
     "category": "HISTORY_MUSEUM",
     "description": "世界遺産「韮山反射炉」の歴史と大砲鋳造技術を、最新の映像技術で解説。",
@@ -149,17 +398,55 @@
     "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "8652c78d-3f88-49f9-b302-9c958a797d69",
     "name": "佐野常民と三重津海軍所跡の歴史館",
     "category": "HISTORY_MUSEUM",
     "description": "三重津海軍所での蒸気船開発と、佐野常民の博愛精神を紹介する施設。",
@@ -170,17 +457,55 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "65d92393-4859-4327-bbd4-3d5a6ab6342c",
     "name": "橋野鉄鉱山インフォメーションセンター",
     "category": "HISTORY_MUSEUM",
     "description": "日本最古の洋式高炉跡である橋野鉄鉱山の歴史と採掘技術を解説する拠点。",
@@ -191,17 +516,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "14ccef87-4545-4eef-8251-2ad7d5ea88c5",
     "name": "鹿児島県歴史資料センター 黎明館",
     "category": "HISTORY_MUSEUM",
     "description": "鹿児島の歴史、民俗、美術を広く扱い、集成館事業の社会的背景を補完する。",
@@ -212,17 +574,55 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "18:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "3ef8b185-4332-4165-a4f4-f67a37b01d2b",
     "name": "鹿児島市立ふるさと考古歴史館",
     "category": "HISTORY_MUSEUM",
     "description": "出土品を通じて古代から近世までの歴史を展示し、近代化への連続性を解説。",
@@ -233,17 +633,55 @@
     "admissionFee": 200,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "bed2bf1d-374e-4998-8dc9-403f3f4103d9",
     "name": "西郷南洲顕彰館",
     "category": "HISTORY_MUSEUM",
     "description": "西郷隆盛の思想と行動を伝え、明治維新期の政治的変遷を学ぶための施設。",
@@ -254,17 +692,55 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "e2627c18-3ab4-4c1e-bd56-c1a036cf0c09",
     "name": "産業遺産情報センター",
     "category": "HISTORY_MUSEUM",
     "description": "全8エリアの構成資産に関する情報を集約し、日本の産業革命を俯瞰する施設。",
@@ -275,17 +751,55 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "18:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "57fb2eb0-dc92-4792-a166-7d4c0c01fe9a",
     "name": "横浜開港資料館",
     "category": "HISTORY_MUSEUM",
     "description": "幕末から昭和初期までの横浜の歴史を、膨大な公文書や資料で解き明かす。",
@@ -296,17 +810,57 @@
     "admissionFee": 200,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
+    "code": "90027d6e-dd6a-4191-8dd3-9f0bed134f66",
     "name": "長崎歴史文化博物館",
     "category": "HISTORY_MUSEUM",
     "description": "「海外交流史」をテーマに、長崎奉行所跡に建つ本格的な歴史博物館。",
@@ -317,17 +871,54 @@
     "admissionFee": 630,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "08:30", "closeTime": "19:00", "isClosed": false, "note": "最終入館18:30" },
-      { "dayOfWeek": 3, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "08:30", "closeTime": "19:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "最終入館18:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "19:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "eaa40ea3-7278-4f4c-8a4e-95350ac22b18",
     "name": "関門海峡ミュージアム",
     "category": "HISTORY_MUSEUM",
     "description": "関門海峡の歴史や海運を、ドラマチックな映像と展示で紹介する施設。",
@@ -338,17 +929,57 @@
     "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
+    "code": "e610fb89-66bf-4a5d-a5a8-fc89cd35abd5",
     "name": "市立函館博物館",
     "category": "HISTORY_MUSEUM",
     "description": "函館の自然、歴史、美術を網羅し、五稜郭や開港の記憶を保存する。",
@@ -359,17 +990,57 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
+    "code": "89fa3fa4-86b0-4207-a362-b26ae0ea5571",
     "name": "函館市写真歴史館",
     "category": "HISTORY_MUSEUM",
     "description": "明治から昭和にかけての貴重な写真を通じ、函館の街並みの変遷を展示。",
@@ -380,17 +1051,54 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "cbddac95-6f0d-443e-8745-0da673420209",
     "name": "新潟市歴史博物館 みなとぴあ",
     "category": "HISTORY_MUSEUM",
     "description": "旧新潟税関庁舎を中心に、新潟の水の歴史と港の発展を多角的に紹介。",
@@ -401,17 +1109,57 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "18:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
+    "code": "11c3739e-9b91-48fa-8c60-d8093979f80b",
     "name": "下関市立歴史博物館",
     "category": "HISTORY_MUSEUM",
     "description": "長府の武家屋敷地に位置し、幕末の志士や海運の歴史を詳しく解説。",
@@ -422,17 +1170,55 @@
     "admissionFee": 200,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "2fe71fb7-3377-4f5d-897f-3d9840ef03ef",
     "name": "神戸市立博物館",
     "category": "HISTORY_MUSEUM",
     "description": "東西文化の交流をテーマに、国宝の銅鐸や南蛮美術などを展示。",
@@ -443,17 +1229,57 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
+    "code": "b87216d7-501f-48a9-b482-73ce259e31b2",
     "name": "神戸文学館",
     "category": "HISTORY_MUSEUM",
     "description": "明治期のチャペルを利用した建物で、神戸ゆかりの作家や作品を紹介。",
@@ -464,17 +1290,57 @@
     "admissionFee": 200,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["明治期"]
+    "tags": [
+      "明治期"
+    ]
   },
   {
+    "code": "24510444-b802-4587-9f8a-fd58e957284d",
     "name": "横浜市歴史博物館",
     "category": "HISTORY_MUSEUM",
     "description": "横浜の歴史を原始から現代まで、「人々の暮らし」を軸に体系的に展示。",
@@ -485,17 +1351,55 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "72dfa73b-c4a1-41e2-b8fd-50ea55672923",
     "name": "横浜市八聖殿郷土資料館",
     "category": "HISTORY_MUSEUM",
     "description": "横浜の伝統的な漁法や農具を展示し、市民の暮らしのルーツを伝える。",
@@ -506,17 +1410,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "e6b8d209-771c-4d78-bc0e-19e341c332f9",
     "name": "長崎市歴史民俗資料館",
     "category": "HISTORY_MUSEUM",
     "description": "長崎の伝統産業や生活用具、原爆以前の街の様子を伝える資料を展示。",
@@ -527,17 +1468,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "d1f394f2-61eb-4da6-a161-800fc696dbb5",
     "name": "大阪企業家ミュージアム",
     "category": "CORPORATE_MUSEUM",
     "description": "大阪を拠点に活躍した105名の企業家の挑戦と創意工夫の歴史を展示。",
@@ -545,20 +1523,57 @@
     "longitude": 135.5022,
     "address": "大阪府大阪市中央区本町1-4-5",
     "websiteUrl": "https://www.kigyoka.jp/",
-    "admissionFee": 300,
+    "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:30", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:30", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:30", "isClosed": false, "note": "最終入館17:00" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:30", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": true
+      }
     ],
     "tags": []
   },
   {
+    "code": "339d220f-8e18-42af-8035-8a3916a4633d",
     "name": "ブラザーミュージアム",
     "category": "CORPORATE_MUSEUM",
     "description": "ミシンの歴史から最新のプリンター、工作機械まで、ブラザーの技術を展示。",
@@ -569,17 +1584,53 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      }
     ],
     "tags": []
   },
   {
+    "code": "a10cbd30-978d-4e03-a692-b2ae8f74b07c",
     "name": "ノリタケの森",
     "category": "CORPORATE_MUSEUM",
     "description": "日本初の洋食器メーカーの歴史を伝えるミュージアム。赤レンガ建築も魅力。",
@@ -590,17 +1641,57 @@
     "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["明治期"]
+    "tags": [
+      "明治期"
+    ]
   },
   {
+    "code": "d3bf8f58-6c6a-4de0-9abe-930896694427",
     "name": "MIZKAN MUSEUM",
     "category": "CORPORATE_MUSEUM",
     "description": "酢造りの歴史と食文化を、実物大の弁才船や体験型展示で学ぶ大型施設。",
@@ -611,17 +1702,56 @@
     "admissionFee": 600,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "完全予約制" },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "d2eba1e7-ce30-40db-909f-fffa43501116",
     "name": "スズキ歴史館",
     "category": "CORPORATE_MUSEUM",
     "description": "スズキの原点である織機から、歴代の自動車、バイク開発の歩みを展示。",
@@ -632,17 +1762,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "要予約" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      }
     ],
     "tags": []
   },
   {
+    "code": "ca02e795-93fe-4a1c-841f-669253f8056f",
     "name": "TOTOミュージアム",
     "category": "CORPORATE_MUSEUM",
     "description": "創立100周年を記念し、水まわり文化の変遷とTOTOの技術、製品を展示。",
@@ -653,17 +1820,55 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "80f016b7-7db3-4f1d-a9c6-656342c0c101",
     "name": "三菱重工業長崎造船所史料館",
     "category": "CORPORATE_MUSEUM",
     "description": "現存する最古の木型場を活用。造船、機械製作の近代化の歩みを伝える。",
@@ -674,17 +1879,55 @@
     "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": true
+      }
     ],
-    "tags": ["明治期"]
+    "tags": [
+      "明治期"
+    ]
   },
   {
+    "code": "02fea1f5-872c-414b-abcc-09e05a41db7c",
     "name": "三菱みなとみらい技術館",
     "category": "CORPORATE_MUSEUM",
     "description": "航空宇宙、海洋、環境・エネルギーなどの最先端技術を体験型で学べる。",
@@ -695,17 +1938,57 @@
     "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:30", "isClosed": false, "note": "最終入館17:00" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:30", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "04b0bf9a-21c9-4062-81a5-0864cd2edf62",
     "name": "門司電気通信レトロ館",
     "category": "CORPORATE_MUSEUM",
     "description": "大正期の電信局建築で、明治から現代までの電話、通信の歴史を展示。",
@@ -716,17 +1999,55 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
+    "code": "0b9cc360-2de0-43c3-82d0-f15deaa96f8b",
     "name": "竹中大工道具館",
     "category": "CORPORATE_MUSEUM",
     "description": "大工道具の歴史と職人の技を伝える、日本で唯一の大工道具専門博物館。",
@@ -737,17 +2058,55 @@
     "admissionFee": 500,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": false, "note": "最終入館16:00" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "78b5685f-1557-48c3-ae8a-cb4530adb560",
     "name": "カップヌードルミュージアム大阪池田",
     "category": "CORPORATE_MUSEUM",
     "description": "インスタントラーメン発明の歴史を展示し、創意工夫の大切さを伝える。",
@@ -758,17 +2117,56 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": true },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false, "note": "最終入館15:30" },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館15:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "45064927-2731-4b19-a612-f1804b3662fe",
     "name": "パナソニックミュージアム",
     "category": "CORPORATE_MUSEUM",
     "description": "松下幸之助の生涯、経営哲学、そして歴代製品を通じた暮らしの進化を展示。",
@@ -779,17 +2177,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "要事前予約" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要事前予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      }
     ],
     "tags": []
   },
   {
+    "code": "e54b7e39-5e92-4392-b974-6c70e2bac2de",
     "name": "サントリー山崎蒸溜所 山崎ウイスキー館",
     "category": "CORPORATE_MUSEUM",
     "description": "日本のウイスキーづくりの歴史、貴重な原酒や創業時の資料を展示。",
@@ -800,17 +2235,53 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "eb968553-f79e-43f8-9a58-54ef4be43e70",
     "name": "髙島屋史料館",
     "category": "CORPORATE_MUSEUM",
     "description": "百貨店が所蔵する美術品や歴史資料を通じ、日本の商業文化の発展を展示。",
@@ -824,6 +2295,7 @@
     "tags": []
   },
   {
+    "code": "58e7e6c7-413d-485e-a038-f17088775ab7",
     "name": "白鶴酒造資料館",
     "category": "CORPORATE_MUSEUM",
     "description": "大正初期の酒蔵を利用し、伝統的な日本酒造りの工程を等身大の人形で再現。",
@@ -834,17 +2306,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "044401a5-3217-4b43-9d35-a43103a427f8",
     "name": "菊正宗酒造記念館",
     "category": "CORPORATE_MUSEUM",
     "description": "国指定の重要有形民俗文化財を所蔵。灘の酒造り文化を深く学べる。",
@@ -855,17 +2364,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "69a75e5d-521c-4312-a94b-9c1a1208bebd",
     "name": "沢の鶴資料館",
     "category": "CORPORATE_MUSEUM",
     "description": "古い酒蔵を復元し、江戸時代の酒造りの道具や工程を展示する重要文化財。",
@@ -876,17 +2422,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "16:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "16:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "16:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "16:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "16:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "16:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "16:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "16:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "16:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "fa3a4efb-0e24-475e-a210-36c56e3cb19e",
     "name": "造幣博物館",
     "category": "CORPORATE_MUSEUM",
     "description": "明治期のレンガ造り建築。貨幣の歴史や製造工程、世界各国のコインを展示。",
@@ -897,17 +2480,56 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      }
     ],
-    "tags": ["明治期"]
+    "tags": [
+      "明治期"
+    ]
   },
   {
+    "code": "1074b0f9-e7f4-42a7-aa57-311890249624",
     "name": "いすゞプラザ",
     "category": "CORPORATE_MUSEUM",
     "description": "働く車の役割や、いすゞのものづくりの歴史、プロセスを体験型で紹介。",
@@ -918,17 +2540,56 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "要事前予約" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要事前予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "10f32a6f-2884-47a6-8c0a-21bcf33a7880",
     "name": "三菱オートギャラリー",
     "category": "CORPORATE_MUSEUM",
     "description": "三菱自動車の原点から現代までの代表的な車両を一堂に集めて展示。",
@@ -939,17 +2600,53 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      }
     ],
     "tags": []
   },
   {
+    "code": "be91ac64-67cd-45d8-8da4-56735d0eb2e1",
     "name": "大阪歴史博物館",
     "category": "HISTORY_MUSEUM",
     "description": "古代の難波宮から近現代の都市大阪までを、実物大模型で体験的に紹介。",
@@ -960,17 +2657,54 @@
     "admissionFee": 600,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "12cdd461-2bfd-48b8-bece-b18fad3615da",
     "name": "大阪くらしの今昔館",
     "category": "HISTORY_MUSEUM",
     "description": "江戸から昭和の大阪の町並みを実物大で再現し、暮らしの変遷を展示。",
@@ -981,17 +2715,56 @@
     "admissionFee": 600,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "2d754b75-a831-477c-b5fc-90bc611fc70d",
     "name": "名古屋市博物館",
     "category": "HISTORY_MUSEUM",
     "description": "名古屋の歴史を総合的に紹介し、尾張の文化から近代工業への歩みを展示。",
@@ -1002,17 +2775,55 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "77058627-1f64-4023-8bf9-d3a233a37400",
     "name": "名古屋市市政資料館",
     "category": "HISTORY_MUSEUM",
     "description": "重要文化財の旧裁判所建築を活用。法と政治、名古屋の都市発展を記録。",
@@ -1023,17 +2834,57 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["明治期"]
+    "tags": [
+      "明治期"
+    ]
   },
   {
+    "code": "6c28ed88-eeac-4240-9b3d-9c57b0763d7f",
     "name": "北名古屋市歴史民俗資料館",
     "category": "HISTORY_MUSEUM",
     "description": "「昭和日常博物館」として親しまれ、戦後の生活用品を膨大にコレクション。",
@@ -1044,17 +2895,55 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "cb5334e7-3c89-4ef6-ad58-b7d005663c10",
     "name": "北九州市立自然史・歴史博物館",
     "category": "HISTORY_MUSEUM",
     "description": "自然史と歴史を融合。恐竜から八幡製鐵所の歴史、現在の環境問題まで。",
@@ -1065,17 +2954,55 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "996da393-21d6-426d-ad72-52379a6d3a96",
     "name": "北九州市立長崎街道木屋瀬宿記念館",
     "category": "HISTORY_MUSEUM",
     "description": "江戸時代の宿場町としての賑わいと、地域の伝統文化を多角的に展示。",
@@ -1086,17 +3013,55 @@
     "admissionFee": 150,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "966d3cc2-e592-40ff-a74c-cdc56a51968c",
     "name": "ピースおおさか",
     "category": "HISTORY_MUSEUM",
     "description": "大阪大空襲の体験を伝え、平和の尊さを考えるための国際平和センター。",
@@ -1107,17 +3072,55 @@
     "admissionFee": 250,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "5636b362-05bc-4481-b298-41d7d4cbc1cb",
     "name": "大阪府立狭山池博物館",
     "category": "HISTORY_MUSEUM",
     "description": "1400年の歴史を持つ日本最古のため池を軸に、土木技術の歴史を展示。",
@@ -1128,17 +3131,55 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "85de334f-ceef-4311-86de-a43973157752",
     "name": "昭和館",
     "category": "HISTORY_MUSEUM",
     "description": "戦中・戦後の国民生活の労苦を伝え、当時の実物資料を多数展示する。",
@@ -1149,17 +3190,55 @@
     "admissionFee": 300,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:30", "isClosed": false, "note": "最終入館17:00" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:30", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "75dab2c0-1660-463c-929a-154a677b66cb",
     "name": "新潟市江南区郷土資料館",
     "category": "HISTORY_MUSEUM",
     "description": "地域の農耕や生活の歴史を伝え、地域文化の交流拠点として機能する。",
@@ -1170,17 +3249,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "c096f263-63b5-4858-9200-dff012ef5b01",
     "name": "北九州市立小倉城庭園",
     "category": "HISTORY_MUSEUM",
     "description": "小倉城跡にあり、小笠原流の礼法や江戸時代の武家文化、地域の伝統を展示。",
@@ -1191,17 +3307,55 @@
     "admissionFee": 350,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "0b8ea1dc-e21d-4549-898c-a8756e2664d6",
     "name": "江東区立深川江戸資料館",
     "category": "HISTORY_MUSEUM",
     "description": "江戸時代末期の深川の町並みを実物大で再現し、下町の生活を展示。",
@@ -1212,17 +3366,56 @@
     "admissionFee": 400,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "683796f9-89c1-4f16-952e-4c501d54b590",
     "name": "アド・ミュージアム東京",
     "category": "CORPORATE_MUSEUM",
     "description": "日本で唯一の広告の総合博物館。江戸時代から現代までの広告文化を展示。",
@@ -1233,17 +3426,53 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "11:00", "closeTime": "18:00", "isClosed": true },
-      { "dayOfWeek": 1, "openTime": "11:00", "closeTime": "18:00", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "11:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "11:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "11:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "11:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "11:00", "closeTime": "18:00", "isClosed": true }
+      {
+        "dayOfWeek": 0,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": true
+      }
     ],
     "tags": []
   },
   {
+    "code": "7d8054b2-2cea-44c1-810c-3442227e35cc",
     "name": "伊勢半本店 紅ミュージアム",
     "category": "CORPORATE_MUSEUM",
     "description": "日本伝統の紅の歴史と化粧文化を、貴重な資料や製造工程と共に紹介。",
@@ -1254,17 +3483,54 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "11:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 3, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "11:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "7da57acb-6ffc-4070-9996-524dad1f7b84",
     "name": "印刷博物館",
     "category": "CORPORATE_MUSEUM",
     "description": "印刷の歴史、技術、表現の変遷を、実物資料と体験コーナーで多角的に展示。",
@@ -1275,17 +3541,57 @@
     "admissionFee": 400,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "18:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "2a43cfc3-04dd-42ff-9e79-456a58ce7c14",
     "name": "ガスの科学館（がすてなーに）",
     "category": "CORPORATE_MUSEUM",
     "description": "エネルギーとしてのガスの役割や歴史、環境問題を体験型で学べる施設。",
@@ -1296,17 +3602,57 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
+    "code": "72641997-3274-4318-addf-438a25220f3e",
     "name": "GAS MUSEUM がす資料館",
     "category": "CORPORATE_MUSEUM",
     "description": "明治期のレンガ建築を利用し、日本のガス事業の歩みと文明開化を展示。",
@@ -1317,17 +3663,56 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["明治期"]
+    "tags": [
+      "明治期"
+    ]
   },
   {
+    "code": "5d8948c6-83b7-4139-8a0e-4b4283aefffd",
     "name": "貨幣博物館",
     "category": "CORPORATE_MUSEUM",
     "description": "日本銀行が運営。貨幣の歴史、貴重な古銭や世界の通貨を体系的に展示。",
@@ -1338,17 +3723,55 @@
     "admissionFee": 0,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "2538e665-3372-4604-8892-6307b0dcb5f2",
     "name": "たばこと塩の博物館",
     "category": "CORPORATE_MUSEUM",
     "description": "たばこと塩という専売品を通じ、生活文化の変遷を独自の視点で紹介。",
@@ -1359,17 +3782,55 @@
     "admissionFee": 100,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "18:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
     ],
     "tags": []
   },
   {
+    "code": "e3541d7b-497d-4ef9-840f-168634e53e28",
     "name": "地下鉄博物館",
     "category": "CORPORATE_MUSEUM",
     "description": "日本の地下鉄の歴史、技術、安全への取り組みを、実物車両と共に展示。",
@@ -1380,14 +3841,52 @@
     "admissionFee": 220,
     "isClosed": false,
     "operatingHours": [
-      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
-      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
-      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
-      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   }
 ]

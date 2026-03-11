@@ -18,6 +18,7 @@ enum Category {
 
 model Museum {
   id            Int      @id @default(autoincrement())
+  code          String   @unique @default(cuid()) @db.VarChar(36)
   name          String   @db.VarChar(255)
   category      Category
   description   String?  @db.Text

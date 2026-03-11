@@ -84,11 +84,12 @@ describe("HomePage", () => {
     expect(screen.getByText("テスト歴史館")).toBeInTheDocument();
   });
 
-  it("should update URL when category button is clicked", async () => {
+  it("should update URL when category is selected", async () => {
     renderHomePage();
     await screen.findByText("テスト企業博物館");
 
-    await userEvent.click(screen.getByRole("button", { name: "企業ミュージアム" }));
+    await userEvent.click(screen.getByRole("combobox", { name: "カテゴリフィルター" }));
+    await userEvent.click(await screen.findByRole("option", { name: "企業ミュージアム" }));
 
     expect(mockReplace).toHaveBeenCalledWith("/?category=CORPORATE_MUSEUM", { scroll: false });
   });
