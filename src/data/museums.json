@@ -48,5 +48,625 @@
     "address": "愛知県名古屋市西区則武新町4-1-35",
     "websiteUrl": "https://www.tcmit.org/",
     "tags": ["体験型"]
+  },
+  {
+    "name": "尚古集成館",
+    "category": "HISTORY_MUSEUM",
+    "description": "薩摩藩の近代化事業を伝え、重要文化財の機械工場を建物として活用した博物館。",
+    "latitude": 31.6185,
+    "longitude": 130.5712,
+    "address": "鹿児島県鹿児島市吉野町9698-1",
+    "websiteUrl": "https://www.shuseikan.jp/",
+    "tags": []
+  },
+  {
+    "name": "萩博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "幕末の志士たちの思想と、萩における初期産業化のプロセスを総合的に展示。",
+    "latitude": 34.4089,
+    "longitude": 131.3997,
+    "address": "山口県萩市大字堀内355番地",
+    "websiteUrl": "https://hagimuseum.jp/",
+    "tags": []
+  },
+  {
+    "name": "韮山反射炉ガイダンスセンター",
+    "category": "HISTORY_MUSEUM",
+    "description": "世界遺産「韮山反射炉」の歴史と大砲鋳造技術を、最新の映像技術で解説。",
+    "latitude": 35.063,
+    "longitude": 138.9197,
+    "address": "静岡県伊豆の国市中260-1",
+    "websiteUrl": "https://www.city.izunokuni.shizuoka.jp/bunka_bunkazai/manabi/bunkazai/hansyaro/",
+    "tags": []
+  },
+  {
+    "name": "佐野常民と三重津海軍所跡の歴史館",
+    "category": "HISTORY_MUSEUM",
+    "description": "三重津海軍所での蒸気船開発と、佐野常民の博愛精神を紹介する施設。",
+    "latitude": 33.2206,
+    "longitude": 130.3747,
+    "address": "佐賀県佐賀市川副町大字早津江津446-1",
+    "websiteUrl": "https://sano-mietsu-historymuseum.city.saga.lg.jp/",
+    "tags": []
+  },
+  {
+    "name": "橋野鉄鉱山インフォメーションセンター",
+    "category": "HISTORY_MUSEUM",
+    "description": "日本最古の洋式高炉跡である橋野鉄鉱山の歴史と採掘技術を解説する拠点。",
+    "latitude": 39.3747,
+    "longitude": 141.7789,
+    "address": "岩手県釜石市橋野町2-6",
+    "websiteUrl": "https://www.city.kamaishi.iwate.jp/docs/2020030600160/",
+    "tags": []
+  },
+  {
+    "name": "鹿児島県歴史資料センター 黎明館",
+    "category": "HISTORY_MUSEUM",
+    "description": "鹿児島の歴史、民俗、美術を広く扱い、集成館事業の社会的背景を補完する。",
+    "latitude": 31.5966,
+    "longitude": 130.5578,
+    "address": "鹿児島県鹿児島市城山町7番2号",
+    "websiteUrl": "https://www.pref.kagoshima.jp/reimeikan/",
+    "tags": []
+  },
+  {
+    "name": "鹿児島市立ふるさと考古歴史館",
+    "category": "HISTORY_MUSEUM",
+    "description": "出土品を通じて古代から近世までの歴史を展示し、近代化への連続性を解説。",
+    "latitude": 31.4989,
+    "longitude": 130.4936,
+    "address": "鹿児島県鹿児島市下福元町3763-1",
+    "websiteUrl": "http://www.k-kb.or.jp/koukokan/",
+    "tags": []
+  },
+  {
+    "name": "西郷南洲顕彰館",
+    "category": "HISTORY_MUSEUM",
+    "description": "西郷隆盛の思想と行動を伝え、明治維新期の政治的変遷を学ぶための施設。",
+    "latitude": 31.6089,
+    "longitude": 130.5467,
+    "address": "鹿児島県鹿児島市上竜尾町2-1",
+    "websiteUrl": "https://www.saigou.jp/",
+    "tags": []
+  },
+  {
+    "name": "産業遺産情報センター",
+    "category": "HISTORY_MUSEUM",
+    "description": "全8エリアの構成資産に関する情報を集約し、日本の産業革命を俯瞰する施設。",
+    "latitude": 35.6923,
+    "longitude": 139.7195,
+    "address": "東京都新宿区若松町19-1",
+    "websiteUrl": "https://www.ihic.jp/",
+    "tags": []
+  },
+  {
+    "name": "横浜開港資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "幕末から昭和初期までの横浜の歴史を、膨大な公文書や資料で解き明かす。",
+    "latitude": 35.4456,
+    "longitude": 139.6441,
+    "address": "神奈川県横浜市中区日本大通3",
+    "websiteUrl": "http://www.kaikou.city.yokohama.jp/",
+    "tags": ["港町"]
+  },
+  {
+    "name": "長崎歴史文化博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "「海外交流史」をテーマに、長崎奉行所跡に建つ本格的な歴史博物館。",
+    "latitude": 32.7553,
+    "longitude": 129.8737,
+    "address": "長崎県長崎市立山1-1-1",
+    "websiteUrl": "https://www.nmhc.jp/",
+    "tags": []
+  },
+  {
+    "name": "関門海峡ミュージアム",
+    "category": "HISTORY_MUSEUM",
+    "description": "関門海峡の歴史や海運を、ドラマチックな映像と展示で紹介する施設。",
+    "latitude": 33.9461,
+    "longitude": 130.9619,
+    "address": "福岡県北九州市門司区西海岸1-3-3",
+    "websiteUrl": "https://mojiko-retoro9.jp/spot/kanmon_kaikyo_museum/",
+    "tags": ["港町"]
+  },
+  {
+    "name": "市立函館博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "函館の自然、歴史、美術を網羅し、五稜郭や開港の記憶を保存する。",
+    "latitude": 41.7717,
+    "longitude": 140.7142,
+    "address": "北海道函館市青柳町17-1",
+    "websiteUrl": "http://hakohaku.com/",
+    "tags": ["港町"]
+  },
+  {
+    "name": "函館市写真歴史館",
+    "category": "HISTORY_MUSEUM",
+    "description": "明治から昭和にかけての貴重な写真を通じ、函館の街並みの変遷を展示。",
+    "latitude": 41.7733,
+    "longitude": 140.7133,
+    "address": "北海道函館市元町12-18",
+    "websiteUrl": null,
+    "tags": []
+  },
+  {
+    "name": "新潟市歴史博物館 みなとぴあ",
+    "category": "HISTORY_MUSEUM",
+    "description": "旧新潟税関庁舎を中心に、新潟の水の歴史と港の発展を多角的に紹介。",
+    "latitude": 37.9261,
+    "longitude": 139.0397,
+    "address": "新潟県新潟市中央区柳島町2-10",
+    "websiteUrl": "http://www.nchm.jp/",
+    "tags": ["港町"]
+  },
+  {
+    "name": "下関市立歴史博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "長府の武家屋敷地に位置し、幕末の志士や海運の歴史を詳しく解説。",
+    "latitude": 34.0019,
+    "longitude": 130.9786,
+    "address": "山口県下関市長府川端2-2-27",
+    "websiteUrl": "https://www.shimonoseki-rekihaku.jp/",
+    "tags": []
+  },
+  {
+    "name": "神戸市立博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "東西文化の交流をテーマに、国宝の銅鐸や南蛮美術などを展示。",
+    "latitude": 34.6893,
+    "longitude": 135.1954,
+    "address": "兵庫県神戸市中央区京町24",
+    "websiteUrl": "https://www.kobecitymuseum.jp/",
+    "tags": ["港町"]
+  },
+  {
+    "name": "神戸文学館",
+    "category": "HISTORY_MUSEUM",
+    "description": "明治期のチャペルを利用した建物で、神戸ゆかりの作家や作品を紹介。",
+    "latitude": 34.7028,
+    "longitude": 135.2011,
+    "address": "兵庫県神戸市灘区王子町3-1-2",
+    "websiteUrl": "http://www.kobebungakukan.jp/",
+    "tags": ["明治期"]
+  },
+  {
+    "name": "横浜市歴史博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "横浜の歴史を原始から現代まで、「人々の暮らし」を軸に体系的に展示。",
+    "latitude": 35.5422,
+    "longitude": 139.5514,
+    "address": "神奈川県横浜市都筑区中川中央1-18-1",
+    "websiteUrl": "https://www.rekihaku.city.yokohama.jp/",
+    "tags": []
+  },
+  {
+    "name": "横浜市八聖殿郷土資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "横浜の伝統的な漁法や農具を展示し、市民の暮らしのルーツを伝える。",
+    "latitude": 35.4311,
+    "longitude": 139.6503,
+    "address": "神奈川県横浜市中区本牧元町76-1",
+    "websiteUrl": "https://sites.google.com/view/hasseiden/",
+    "tags": []
+  },
+  {
+    "name": "長崎市歴史民俗資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "長崎の伝統産業や生活用具、原爆以前の街の様子を伝える資料を展示。",
+    "latitude": 32.7622,
+    "longitude": 129.8814,
+    "address": "長崎県長崎市平野町7-8",
+    "websiteUrl": "https://www.city.nagasaki.lg.jp/page/2481.html",
+    "tags": []
+  },
+  {
+    "name": "大阪企業家ミュージアム",
+    "category": "CORPORATE_MUSEUM",
+    "description": "大阪を拠点に活躍した105名の企業家の挑戦と創意工夫の歴史を展示。",
+    "latitude": 34.6819,
+    "longitude": 135.5022,
+    "address": "大阪府大阪市中央区本町1-4-5",
+    "websiteUrl": "https://www.kigyoka.jp/",
+    "tags": []
+  },
+  {
+    "name": "ブラザーミュージアム",
+    "category": "CORPORATE_MUSEUM",
+    "description": "ミシンの歴史から最新のプリンター、工作機械まで、ブラザーの技術を展示。",
+    "latitude": 35.1317,
+    "longitude": 136.9414,
+    "address": "愛知県名古屋市瑞穂区塩入町5-15",
+    "websiteUrl": "https://global.brother/ja/museum",
+    "tags": []
+  },
+  {
+    "name": "ノリタケの森",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本初の洋食器メーカーの歴史を伝えるミュージアム。赤レンガ建築も魅力。",
+    "latitude": 35.1722,
+    "longitude": 136.8808,
+    "address": "愛知県名古屋市西区則武新町3-1-36",
+    "websiteUrl": "https://www.noritake.co.jp/mori/",
+    "tags": ["明治期"]
+  },
+  {
+    "name": "MIZKAN MUSEUM",
+    "category": "CORPORATE_MUSEUM",
+    "description": "酢造りの歴史と食文化を、実物大の弁才船や体験型展示で学ぶ大型施設。",
+    "latitude": 34.8919,
+    "longitude": 136.9328,
+    "address": "愛知県半田市中村町2-6",
+    "websiteUrl": "https://www.mizkan.co.jp/mim/",
+    "tags": ["体験型"]
+  },
+  {
+    "name": "スズキ歴史館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "スズキの原点である織機から、歴代の自動車、バイク開発の歩みを展示。",
+    "latitude": 34.7014,
+    "longitude": 137.7342,
+    "address": "静岡県浜松市中央区増楽町1301",
+    "websiteUrl": "https://suzuki-rekishikan.jp/",
+    "tags": []
+  },
+  {
+    "name": "TOTOミュージアム",
+    "category": "CORPORATE_MUSEUM",
+    "description": "創立100周年を記念し、水まわり文化の変遷とTOTOの技術、製品を展示。",
+    "latitude": 33.8828,
+    "longitude": 130.8758,
+    "address": "福岡県北九州市小倉北区中島2-1-1",
+    "websiteUrl": "https://jp.toto.com/knowledge/visit/museum/",
+    "tags": []
+  },
+  {
+    "name": "三菱重工業長崎造船所史料館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "現存する最古の木型場を活用。造船、機械製作の近代化の歩みを伝える。",
+    "latitude": 32.7442,
+    "longitude": 129.8589,
+    "address": "長崎県長崎市飽の浦町1-1",
+    "websiteUrl": "https://www.mhi.com/jp/company/location/nagasakiw/museum/",
+    "tags": ["明治期"]
+  },
+  {
+    "name": "三菱みなとみらい技術館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "航空宇宙、海洋、環境・エネルギーなどの最先端技術を体験型で学べる。",
+    "latitude": 35.4561,
+    "longitude": 139.6319,
+    "address": "神奈川県横浜市西区みなとみらい3-3-1",
+    "websiteUrl": "https://www.mhi.com/jp/museum/",
+    "tags": ["体験型"]
+  },
+  {
+    "name": "門司電気通信レトロ館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "大正期の電信局建築で、明治から現代までの電話、通信の歴史を展示。",
+    "latitude": 33.9408,
+    "longitude": 130.9633,
+    "address": "福岡県北九州市門司区浜町4-1",
+    "websiteUrl": "https://www.ntt-west.co.jp/kyushu/moji/",
+    "tags": ["港町"]
+  },
+  {
+    "name": "竹中大工道具館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "大工道具の歴史と職人の技を伝える、日本で唯一の大工道具専門博物館。",
+    "latitude": 34.7044,
+    "longitude": 135.1997,
+    "address": "兵庫県神戸市中央区熊内町7-5-1",
+    "websiteUrl": "https://www.dougukan.jp/",
+    "tags": []
+  },
+  {
+    "name": "カップヌードルミュージアム大阪池田",
+    "category": "CORPORATE_MUSEUM",
+    "description": "インスタントラーメン発明の歴史を展示し、創意工夫の大切さを伝える。",
+    "latitude": 34.8228,
+    "longitude": 135.4317,
+    "address": "大阪府池田市満寿美町8-25",
+    "websiteUrl": "https://www.cupnoodles-museum.jp/ja/osaka_ikeda/",
+    "tags": ["体験型"]
+  },
+  {
+    "name": "パナソニックミュージアム",
+    "category": "CORPORATE_MUSEUM",
+    "description": "松下幸之助の生涯、経営哲学、そして歴代製品を通じた暮らしの進化を展示。",
+    "latitude": 34.7342,
+    "longitude": 135.5858,
+    "address": "大阪府門真市大字門真1006",
+    "websiteUrl": "https://holdings.panasonic/jp/corporate/museum.html",
+    "tags": []
+  },
+  {
+    "name": "サントリー山崎蒸溜所 山崎ウイスキー館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本のウイスキーづくりの歴史、貴重な原酒や創業時の資料を展示。",
+    "latitude": 34.8856,
+    "longitude": 135.6614,
+    "address": "大阪府三島郡島本町山崎5-2-1",
+    "websiteUrl": "https://www.suntory.co.jp/factory/yamazaki/",
+    "tags": []
+  },
+  {
+    "name": "髙島屋史料館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "百貨店が所蔵する美術品や歴史資料を通じ、日本の商業文化の発展を展示。",
+    "latitude": 34.6628,
+    "longitude": 135.5058,
+    "address": "大阪府大阪市浪速区日本橋3-5-25",
+    "websiteUrl": "https://www.takashimaya.co.jp/shiryokan/",
+    "tags": []
+  },
+  {
+    "name": "白鶴酒造資料館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "大正初期の酒蔵を利用し、伝統的な日本酒造りの工程を等身大の人形で再現。",
+    "latitude": 34.7169,
+    "longitude": 135.2578,
+    "address": "兵庫県神戸市東灘区住吉南町4-5-5",
+    "websiteUrl": "http://www.hakutsuru.co.jp/community/shiryo/",
+    "tags": []
+  },
+  {
+    "name": "菊正宗酒造記念館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "国指定の重要有形民俗文化財を所蔵。灘の酒造り文化を深く学べる。",
+    "latitude": 34.7119,
+    "longitude": 135.2683,
+    "address": "兵庫県神戸市東灘区魚崎西町1-9-1",
+    "websiteUrl": "https://www.kikumasa.co.jp/kinenkan/",
+    "tags": []
+  },
+  {
+    "name": "沢の鶴資料館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "古い酒蔵を復元し、江戸時代の酒造りの道具や工程を展示する重要文化財。",
+    "latitude": 34.7061,
+    "longitude": 135.2194,
+    "address": "兵庫県神戸市灘区大石南町1-29-1",
+    "websiteUrl": "https://www.sawanotsuru.co.jp/site/resource/",
+    "tags": []
+  },
+  {
+    "name": "造幣博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "明治期のレンガ造り建築。貨幣の歴史や製造工程、世界各国のコインを展示。",
+    "latitude": 34.6961,
+    "longitude": 135.5189,
+    "address": "大阪府大阪市北区天満1-1-79",
+    "websiteUrl": "https://www.mint.go.jp/enjoy/museum",
+    "tags": ["明治期"]
+  },
+  {
+    "name": "いすゞプラザ",
+    "category": "CORPORATE_MUSEUM",
+    "description": "働く車の役割や、いすゞのものづくりの歴史、プロセスを体験型で紹介。",
+    "latitude": 35.3761,
+    "longitude": 139.4636,
+    "address": "神奈川県藤沢市土棚8",
+    "websiteUrl": "https://www.isuzu.co.jp/plaza/",
+    "tags": ["体験型"]
+  },
+  {
+    "name": "三菱オートギャラリー",
+    "category": "CORPORATE_MUSEUM",
+    "description": "三菱自動車の原点から現代までの代表的な車両を一堂に集めて展示。",
+    "latitude": 34.9561,
+    "longitude": 137.1758,
+    "address": "愛知県岡崎市橋目町字中新切1",
+    "websiteUrl": "https://www.mitsubishi-motors.com/jp/company/facilities/autogallery/",
+    "tags": []
+  },
+  {
+    "name": "大阪歴史博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "古代の難波宮から近現代の都市大阪までを、実物大模型で体験的に紹介。",
+    "latitude": 34.6872,
+    "longitude": 135.5239,
+    "address": "大阪府大阪市中央区大手前4-1-32",
+    "websiteUrl": "https://www.osakamushis.jp/",
+    "tags": []
+  },
+  {
+    "name": "大阪くらしの今昔館",
+    "category": "HISTORY_MUSEUM",
+    "description": "江戸から昭和の大阪の町並みを実物大で再現し、暮らしの変遷を展示。",
+    "latitude": 34.7072,
+    "longitude": 135.5136,
+    "address": "大阪府大阪市北区天神橋6-4-20",
+    "websiteUrl": "https://www.osaka-angenet.jp/konjyakukan/",
+    "tags": ["体験型"]
+  },
+  {
+    "name": "名古屋市博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "名古屋の歴史を総合的に紹介し、尾張の文化から近代工業への歩みを展示。",
+    "latitude": 35.1342,
+    "longitude": 136.9431,
+    "address": "愛知県名古屋市瑞穂区瑞穂通1-27-1",
+    "websiteUrl": "https://www.museum.city.nagoya.jp/",
+    "tags": []
+  },
+  {
+    "name": "名古屋市市政資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "重要文化財の旧裁判所建築を活用。法と政治、名古屋の都市発展を記録。",
+    "latitude": 35.1786,
+    "longitude": 136.9156,
+    "address": "愛知県名古屋市東区白壁1-3",
+    "websiteUrl": "http://www.city.nagoya.jp/shisei/category/52-7-4-0-0-0-0-0-0-0.html",
+    "tags": ["明治期"]
+  },
+  {
+    "name": "北名古屋市歴史民俗資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "「昭和日常博物館」として親しまれ、戦後の生活用品を膨大にコレクション。",
+    "latitude": 35.2467,
+    "longitude": 136.8717,
+    "address": "愛知県北名古屋市熊之庄御榊53",
+    "websiteUrl": "https://www.city.kitanagoya.lg.jp/rekimin/",
+    "tags": []
+  },
+  {
+    "name": "北九州市立自然史・歴史博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "自然史と歴史を融合。恐竜から八幡製鐵所の歴史、現在の環境問題まで。",
+    "latitude": 33.8733,
+    "longitude": 130.8244,
+    "address": "福岡県北九州市八幡東区東田2-4-1",
+    "websiteUrl": "https://www.kmnh.jp/",
+    "tags": []
+  },
+  {
+    "name": "北九州市立長崎街道木屋瀬宿記念館",
+    "category": "HISTORY_MUSEUM",
+    "description": "江戸時代の宿場町としての賑わいと、地域の伝統文化を多角的に展示。",
+    "latitude": 33.8536,
+    "longitude": 130.7528,
+    "address": "福岡県北九州市八幡西区木屋瀬3-16-26",
+    "websiteUrl": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0006.html",
+    "tags": []
+  },
+  {
+    "name": "ピースおおさか",
+    "category": "HISTORY_MUSEUM",
+    "description": "大阪大空襲の体験を伝え、平和の尊さを考えるための国際平和センター。",
+    "latitude": 34.6878,
+    "longitude": 135.5261,
+    "address": "大阪府大阪市中央区大阪城2-1",
+    "websiteUrl": "http://www.peace-osaka.or.jp/",
+    "tags": []
+  },
+  {
+    "name": "大阪府立狭山池博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "1400年の歴史を持つ日本最古のため池を軸に、土木技術の歴史を展示。",
+    "latitude": 34.5022,
+    "longitude": 135.5894,
+    "address": "大阪府大阪狭山市池尻中2丁目",
+    "websiteUrl": "http://www.sayamaikehaku.osakasayama.osaka.jp/",
+    "tags": []
+  },
+  {
+    "name": "昭和館",
+    "category": "HISTORY_MUSEUM",
+    "description": "戦中・戦後の国民生活の労苦を伝え、当時の実物資料を多数展示する。",
+    "latitude": 35.6947,
+    "longitude": 139.7494,
+    "address": "東京都千代田区九段南1-6-1",
+    "websiteUrl": "https://www.showakan.go.jp/",
+    "tags": []
+  },
+  {
+    "name": "新潟市江南区郷土資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "地域の農耕や生活の歴史を伝え、地域文化の交流拠点として機能する。",
+    "latitude": 37.8814,
+    "longitude": 139.1358,
+    "address": "新潟市江南区茅野山3-1-14",
+    "websiteUrl": "http://www.city.niigata.lg.jp/konan/shisetsu/yoka/bunka/kounankyodo.html",
+    "tags": []
+  },
+  {
+    "name": "北九州市立小倉城庭園",
+    "category": "HISTORY_MUSEUM",
+    "description": "小倉城跡にあり、小笠原流の礼法や江戸時代の武家文化、地域の伝統を展示。",
+    "latitude": 33.8839,
+    "longitude": 130.8742,
+    "address": "福岡県北九州市小倉北区城内1-2",
+    "websiteUrl": "https://www.kokura-castle.jp/",
+    "tags": []
+  },
+  {
+    "name": "江東区立深川江戸資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "江戸時代末期の深川の町並みを実物大で再現し、下町の生活を展示。",
+    "latitude": 35.6831,
+    "longitude": 139.7969,
+    "address": "東京都江東区白河1-3-28",
+    "websiteUrl": "https://www.kcf.or.jp/fukagawa/",
+    "tags": ["体験型"]
+  },
+  {
+    "name": "アド・ミュージアム東京",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本で唯一の広告の総合博物館。江戸時代から現代までの広告文化を展示。",
+    "latitude": 35.6656,
+    "longitude": 139.7614,
+    "address": "東京都港区東新橋1-8-2",
+    "websiteUrl": "https://www.admt.jp/",
+    "tags": []
+  },
+  {
+    "name": "伊勢半本店 紅ミュージアム",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本伝統の紅の歴史と化粧文化を、貴重な資料や製造工程と共に紹介。",
+    "latitude": 35.6597,
+    "longitude": 139.7172,
+    "address": "東京都港区南青山6-6-20",
+    "websiteUrl": "https://www.isehanhonten.co.jp/museum/",
+    "tags": []
+  },
+  {
+    "name": "印刷博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "印刷の歴史、技術、表現の変遷を、実物資料と体験コーナーで多角的に展示。",
+    "latitude": 35.7078,
+    "longitude": 139.7458,
+    "address": "東京都文京区水道1-3-3",
+    "websiteUrl": "https://www.printing-museum.org/",
+    "tags": ["体験型"]
+  },
+  {
+    "name": "ガスの科学館（がすてなーに）",
+    "category": "CORPORATE_MUSEUM",
+    "description": "エネルギーとしてのガスの役割や歴史、環境問題を体験型で学べる施設。",
+    "latitude": 35.6503,
+    "longitude": 139.7856,
+    "address": "東京都江東区豊洲6-1-1",
+    "websiteUrl": "https://www.gastena-ni.jp/",
+    "tags": ["体験型"]
+  },
+  {
+    "name": "GAS MUSEUM がす資料館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "明治期のレンガ建築を利用し、日本のガス事業の歩みと文明開化を展示。",
+    "latitude": 35.7272,
+    "longitude": 139.4753,
+    "address": "東京都小平市大沼町4-31-25",
+    "websiteUrl": "https://www.gasmuseum.jp/",
+    "tags": ["明治期"]
+  },
+  {
+    "name": "貨幣博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本銀行が運営。貨幣の歴史、貴重な古銭や世界の通貨を体系的に展示。",
+    "latitude": 35.6856,
+    "longitude": 139.7731,
+    "address": "東京都中央区日本橋本石町1-3-1",
+    "websiteUrl": "https://www.imes.boj.or.jp/cm/",
+    "tags": []
+  },
+  {
+    "name": "たばこと塩の博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "たばこと塩という専売品を通じ、生活文化の変遷を独自の視点で紹介。",
+    "latitude": 35.7053,
+    "longitude": 139.8086,
+    "address": "東京都墨田区横川1-16-3",
+    "websiteUrl": "https://www.jti.co.jp/common/museum/",
+    "tags": []
+  },
+  {
+    "name": "地下鉄博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本の地下鉄の歴史、技術、安全への取り組みを、実物車両と共に展示。",
+    "latitude": 35.6658,
+    "longitude": 139.8742,
+    "address": "東京都江戸川区東葛西6-3-1",
+    "websiteUrl": "http://www.chikahaku.jp/",
+    "tags": ["体験型"]
   }
 ]

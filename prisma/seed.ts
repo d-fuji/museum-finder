@@ -8,7 +8,8 @@ const adapter = new PrismaPg({ connectionString });
 const prisma = new PrismaClient({ adapter });
 
 async function main() {
-  await prisma.$transaction(async (tx) => {
+  await prisma.$transaction(
+    async (tx) => {
     // Clear existing data (order matters for FK constraints)
     await tx.review.deleteMany();
     await tx.museum.deleteMany();
@@ -42,7 +43,9 @@ async function main() {
       });
     }
 
-  });
+    },
+    { timeout: 30000 }
+  );
 
   console.log("Seed completed");
 }
