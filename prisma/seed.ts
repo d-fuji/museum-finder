@@ -1,7 +1,6 @@
 import { PrismaClient, Category } from "@/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import museumsData from "@/data/museums.json" with { type: "json" };
-import reviewsData from "@/data/reviews.json" with { type: "json" };
 import tagsData from "@/data/tags.json" with { type: "json" };
 
 const connectionString = process.env.DATABASE_URL_UNPOOLED || process.env.DATABASE_URL!;
@@ -43,22 +42,6 @@ async function main() {
       });
     }
 
-    // Create reviews
-    const allMuseums = await tx.museum.findMany();
-    const museumNameToId = new Map(allMuseums.map((m) => [m.name, m.id]));
-
-    await tx.review.createMany({
-      data: reviewsData
-        .map((r) => ({
-          rating: r.rating,
-          comment: r.comment,
-          userId: r.userId,
-          museumId: museumNameToId.get(r.museumName)!,
-          userName: r.userName,
-          createdAt: new Date(r.createdAt),
-        }))
-        .filter((r) => r.museumId != null),
-    });
   });
 
   console.log("Seed completed");
