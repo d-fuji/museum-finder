@@ -44,10 +44,13 @@ API レスポンス形式は OpenAPI 仕様（`docs/openapi.yaml`）に準拠す
 
 ## 3. 環境変数
 
-| 変数         | 説明                         | 必須 |
-| ------------ | ---------------------------- | ---- |
-| DATABASE_URL | PostgreSQL 接続文字列        | yes  |
-| AUTH_SECRET  | Auth.js セッション暗号化キー | yes  |
+`.env.sample` を参照。`cp .env.sample .env` で作成し、値を設定する。
+
+| 変数                  | 説明                                      | 必須       |
+| --------------------- | ----------------------------------------- | ---------- |
+| DATABASE_URL          | PostgreSQL 接続文字列                     | yes        |
+| DATABASE_URL_UNPOOLED | PostgreSQL 直接接続（マイグレーション用） | 本番のみ   |
+| AUTH_SECRET           | Auth.js セッション暗号化キー              | yes        |
 
 ## 4. 環境構成
 
@@ -55,12 +58,15 @@ API レスポンス形式は OpenAPI 仕様（`docs/openapi.yaml`）に準拠す
 
 - Docker Compose で PostgreSQL を起動（`docker-compose.yml`）
 - `.env` に環境変数を設定
+- DB アダプター: `@prisma/adapter-pg`（標準 PostgreSQL ドライバー）
 
 ### Vercel 本番
 
 - Vercel Postgres（Neon）をプロジェクトに接続
-- `DATABASE_URL` は Vercel が自動設定
+- `DATABASE_URL`（プール）、`DATABASE_URL_UNPOOLED`（ダイレクト）は Vercel が自動設定
 - `AUTH_SECRET` は手動で設定
+- DB アダプター: `@prisma/adapter-neon`（Neon サーバレスドライバー）
+- ランタイムは `DATABASE_URL`（pgbouncer 経由）、マイグレーションは `DATABASE_URL_UNPOOLED`（直接接続）を使用
 
 ### テスト
 
@@ -93,12 +99,24 @@ API レスポンス形式は OpenAPI 仕様（`docs/openapi.yaml`）に準拠す
 
 ## 6. npm scripts
 
-| コマンド          | 実行内容                              | 用途             |
-| ----------------- | ------------------------------------- | ---------------- |
-| `npm run build`   | `prisma generate && prisma migrate deploy && next build` | ビルド（本番マイグレーション含む） |
-| `npm run db:migrate` | `prisma migrate dev`               | マイグレーション作成・適用（ローカル） |
-| `npm run db:seed` | `prisma db seed`                      | シードデータ投入 |
-| `npm run db:reset` | `prisma migrate reset`               | DB 初期化        |
+### ローカル開発用
+
+| コマンド                    | 実行内容                           | 用途                                 |
+| --------------------------- | ---------------------------------- | ------------------------------------ |
+| `npm run db:setup`          | `prisma migrate dev && prisma db seed` | 初回セットアップ（マイグレーション + シード） |
+| `npm run db:migrate`        | `prisma migrate dev`               | マイグレーション作成・適用           |
+| `npm run db:migrate:status` | `prisma migrate status`            | マイグレーション適用状況の確認       |
+| `npm run db:generate`       | `prisma generate`                  | Prisma Client 再生成                 |
+| `npm run db:seed`           | `prisma db seed`                   | シードデータ投入                     |
+| `npm run db:reset`          | `prisma migrate reset`             | DB 初期化（全テーブル削除 + 再作成 + シード） |
+
+### 本番（Vercel CI）
+
+| コマンド        | 実行内容                                                  | 用途                               |
+| --------------- | --------------------------------------------------------- | ---------------------------------- |
+| `npm run build` | `prisma generate && prisma migrate deploy && next build`  | クライアント生成 + マイグレーション適用 + ビルド |
+
+`prisma migrate deploy` は未適用のマイグレーションのみを適用する。新規作成はしない。
 
 ## 7. 実装ファイル
 

@@ -17,6 +17,7 @@
 | データフェッチ | SWR                            | stale-while-revalidate       |
 | ORM            | Prisma                         | 型安全、マイグレーション管理 |
 | DB             | PostgreSQL (Neon)              | Vercel Postgres              |
+| DB ドライバー  | @prisma/adapter-pg / adapter-neon | ローカル: pg、本番: Neon サーバレス |
 | 認証           | Auth.js v5                     | Credentials 認証             |
 | API 仕様       | OpenAPI 3.0                    | `docs/openapi.yaml`          |
 | テスト         | Vitest + Testing Library + MSW | MSW で API モック            |
