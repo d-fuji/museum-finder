@@ -1,33 +1,39 @@
 import { NextRequest, NextResponse } from "next/server";
-import museumsData from "@/data/museums.json";
-import reviewsData from "@/data/reviews.json";
+import { prisma } from "@/lib/prisma";
 import type { Category, MuseumSummary } from "@/types/api";
-
-function buildSummary(
-  museum: (typeof museumsData)[number],
-  reviews: typeof reviewsData
-): MuseumSummary {
-  const museumReviews = reviews.filter((r) => r.museumId === museum.id);
-  const averageRating =
-    museumReviews.length > 0
-      ? museumReviews.reduce((sum, r) => sum + r.rating, 0) / museumReviews.length
-      : 0;
-  return {
-    ...museum,
-    category: museum.category as Category,
-    averageRating: Math.round(averageRating * 10) / 10,
-    reviewCount: museumReviews.length,
-  };
-}
 
 export async function GET(request: NextRequest) {
   const category = request.nextUrl.searchParams.get("category") as Category | null;
 
-  let museums = museumsData;
-  if (category) {
-    museums = museums.filter((m) => m.category === category);
-  }
+  const museums = await prisma.museum.findMany({
+    where: category ? { category } : undefined,
+    include: {
+      reviews: {
+        select: { rating: true },
+      },
+    },
+  });
 
-  const summaries = museums.map((m) => buildSummary(m, reviewsData));
+  const summaries: MuseumSummary[] = museums.map((museum) => {
+    const reviewCount = museum.reviews.length;
+    const averageRating =
+      reviewCount > 0
+        ? Math.round((museum.reviews.reduce((sum, r) => sum + r.rating, 0) / reviewCount) * 10) / 10
+        : 0;
+
+    return {
+      id: museum.id,
+      name: museum.name,
+      category: museum.category,
+      description: museum.description ?? undefined,
+      latitude: museum.latitude,
+      longitude: museum.longitude,
+      address: museum.address ?? undefined,
+      websiteUrl: museum.websiteUrl ?? undefined,
+      averageRating,
+      reviewCount,
+    };
+  });
+
   return NextResponse.json(summaries);
 }

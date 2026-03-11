@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Category {
+  CORPORATE
+  CITY_HISTORY
+}
+
+model Museum {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String   @db.VarChar(255)
+  category    Category
+  description String?  @db.Text
+  latitude    Float
+  longitude   Float
+  address     String?  @db.VarChar(500)
+  websiteUrl  String?  @db.VarChar(2048)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  reviews Review[]
+
+  @@index([category])
+}
+
+model Review {
+  id        String   @id @default(uuid()) @db.Uuid
+  rating    Int
+  comment   String?  @db.Text
+  userId    String   @db.VarChar(255)
+  museumId  String   @db.Uuid
+  userName  String   @db.VarChar(255)
+  createdAt DateTime @default(now())
+
+  museum Museum @relation(fields: [museumId], references: [id])
+
+  @@index([museumId])
+}
