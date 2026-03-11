@@ -31,20 +31,22 @@ vi.mock("react-map-gl/maplibre", () => ({
 
 const museums: MuseumSummary[] = [
   {
-    id: "1",
+    id: 1,
     name: "テスト企業博物館",
-    category: "CORPORATE",
+    category: "CORPORATE_MUSEUM",
     latitude: 35.0,
     longitude: 135.0,
+    tags: [],
     averageRating: 4.0,
     reviewCount: 2,
   },
   {
-    id: "2",
+    id: 2,
     name: "テスト歴史館",
-    category: "CITY_HISTORY",
+    category: "HISTORY_MUSEUM",
     latitude: 34.0,
     longitude: 134.0,
+    tags: [],
     averageRating: 3.5,
     reviewCount: 1,
   },
@@ -84,13 +86,13 @@ describe("HomePage", () => {
     renderHomePage();
     await screen.findByText("テスト企業博物館");
 
-    await userEvent.click(screen.getByRole("button", { name: "企業博物館" }));
+    await userEvent.click(screen.getByRole("button", { name: "企業ミュージアム" }));
 
-    expect(mockReplace).toHaveBeenCalledWith("/?category=CORPORATE", { scroll: false });
+    expect(mockReplace).toHaveBeenCalledWith("/?category=CORPORATE_MUSEUM", { scroll: false });
   });
 
   it("should filter museums based on category search param", async () => {
-    mockSearchParams = new URLSearchParams("category=CORPORATE");
+    mockSearchParams = new URLSearchParams("category=CORPORATE_MUSEUM");
     renderHomePage();
 
     await screen.findByText("テスト企業博物館");

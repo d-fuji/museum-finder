@@ -1,8 +1,12 @@
-import type { Category, MuseumSummary, Review } from "@/types/api";
+import type { Category, MuseumSummary, Review, Tag } from "@/types/api";
 
 export const CATEGORY_LABEL: Record<Category, string> = {
-  CORPORATE: "企業博物館",
-  CITY_HISTORY: "市の歴史館",
+  CORPORATE_MUSEUM: "企業ミュージアム",
+  HISTORY_MUSEUM: "歴史・郷土資料館",
+  SCIENCE_MUSEUM: "科学・技術館",
+  INDUSTRIAL_HERITAGE: "産業遺産",
+  FACTORY_TOUR: "工場見学",
+  CASTLE: "城・城郭",
 };
 
 export function calculateAverageRating(reviews: { rating: number }[]): number {
@@ -12,7 +16,7 @@ export function calculateAverageRating(reviews: { rating: number }[]): number {
 }
 
 type MuseumRow = {
-  id: string;
+  id: number;
   name: string;
   category: string;
   description: string | null;
@@ -21,6 +25,7 @@ type MuseumRow = {
   address: string | null;
   websiteUrl: string | null;
   reviews: { rating: number }[];
+  tags: { id: number; name: string }[];
 };
 
 export function toMuseumSummary(museum: MuseumRow): MuseumSummary {
@@ -33,17 +38,18 @@ export function toMuseumSummary(museum: MuseumRow): MuseumSummary {
     longitude: museum.longitude,
     address: museum.address ?? undefined,
     websiteUrl: museum.websiteUrl ?? undefined,
+    tags: museum.tags.map((t): Tag => ({ id: t.id, name: t.name })),
     averageRating: calculateAverageRating(museum.reviews),
     reviewCount: museum.reviews.length,
   };
 }
 
 type ReviewRow = {
-  id: string;
+  id: number;
   rating: number;
   comment: string | null;
   userId: string;
-  museumId: string;
+  museumId: number;
   userName: string;
   createdAt: Date;
 };

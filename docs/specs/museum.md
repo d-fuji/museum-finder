@@ -10,7 +10,7 @@
 
 | フィールド  | 型                | 必須 | 説明       |
 | ----------- | ----------------- | ---- | ---------- |
-| id          | string (UUID)     | yes  | 施設 ID    |
+| id          | number (int)      | yes  | 施設 ID    |
 | name        | string            | yes  | 施設名     |
 | category    | Category          | yes  | カテゴリ   |
 | description | string            | no   | 概要       |
@@ -18,8 +18,18 @@
 | longitude   | number            | yes  | 経度       |
 | address     | string            | no   | 住所       |
 | websiteUrl  | string            | no   | Web サイト |
+| tags        | Tag[]             | no   | タグ一覧   |
 | createdAt   | string (ISO 8601) | yes  | 登録日時   |
 | updatedAt   | string (ISO 8601) | yes  | 更新日時   |
+
+### Tag
+
+| フィールド | 型           | 必須 | 説明    |
+| ---------- | ------------ | ---- | ------- |
+| id         | number (int) | yes  | タグ ID |
+| name       | string       | yes  | タグ名  |
+
+Tag は Museum と多対多のリレーション。タグの例: 「港町」「明治期」「体験型」「無料」「世界遺産」「国宝」など。
 
 ## 3. 機能
 
@@ -58,6 +68,12 @@
 
 - `200` — `MuseumDetail`（レビュー含む）
 - `404` — 施設が見つからない
+
+### GET /api/tags
+
+全タグ一覧を取得する。
+
+**レスポンス:** `200` — `Tag[]`
 
 ## 5. 実装ファイル
 

@@ -1,49 +1,65 @@
-import { PrismaClient } from "@/generated/prisma/client";
+import { PrismaClient, Category } from "@/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import museumsData from "@/data/museums.json" with { type: "json" };
 import reviewsData from "@/data/reviews.json" with { type: "json" };
-
-type Category = "CORPORATE" | "CITY_HISTORY";
+import tagsData from "@/data/tags.json" with { type: "json" };
 
 const connectionString = process.env.DATABASE_URL_UNPOOLED || process.env.DATABASE_URL!;
 const adapter = new PrismaPg({ connectionString });
 const prisma = new PrismaClient({ adapter });
 
 async function main() {
-  for (const museum of museumsData) {
-    await prisma.museum.upsert({
-      where: { id: museum.id },
-      update: {},
-      create: {
-        id: museum.id,
-        name: museum.name,
-        category: museum.category as Category,
-        description: museum.description,
-        latitude: museum.latitude,
-        longitude: museum.longitude,
-        address: museum.address,
-        websiteUrl: museum.websiteUrl,
-        createdAt: new Date(museum.createdAt),
-        updatedAt: new Date(museum.updatedAt),
-      },
-    });
-  }
+  await prisma.$transaction(async (tx) => {
+    // Clear existing data (order matters for FK constraints)
+    await tx.review.deleteMany();
+    await tx.museum.deleteMany();
+    await tx.tag.deleteMany();
 
-  for (const review of reviewsData) {
-    await prisma.review.upsert({
-      where: { id: review.id },
-      update: {},
-      create: {
-        id: review.id,
-        rating: review.rating,
-        comment: review.comment,
-        userId: review.userId,
-        museumId: review.museumId,
-        userName: review.userName,
-        createdAt: new Date(review.createdAt),
-      },
+    // Create tags
+    await tx.tag.createMany({
+      data: tagsData.map((t) => ({ name: t.name })),
     });
-  }
+    const allTags = await tx.tag.findMany();
+    const tagNameToId = new Map(allTags.map((t) => [t.name, t.id]));
+
+    // Create museums with tag connections
+    for (const m of museumsData) {
+      await tx.museum.create({
+        data: {
+          name: m.name,
+          category: m.category as Category,
+          description: m.description,
+          latitude: m.latitude,
+          longitude: m.longitude,
+          address: m.address,
+          websiteUrl: m.websiteUrl,
+          tags: {
+            connect: m.tags
+              .map((name) => tagNameToId.get(name))
+              .filter((id): id is number => id !== undefined)
+              .map((id) => ({ id })),
+          },
+        },
+      });
+    }
+
+    // Create reviews
+    const allMuseums = await tx.museum.findMany();
+    const museumNameToId = new Map(allMuseums.map((m) => [m.name, m.id]));
+
+    await tx.review.createMany({
+      data: reviewsData
+        .map((r) => ({
+          rating: r.rating,
+          comment: r.comment,
+          userId: r.userId,
+          museumId: museumNameToId.get(r.museumName)!,
+          userName: r.userName,
+          createdAt: new Date(r.createdAt),
+        }))
+        .filter((r) => r.museumId != null),
+    });
+  });
 
   console.log("Seed completed");
 }

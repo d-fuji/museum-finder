@@ -20,20 +20,22 @@ vi.mock("react-map-gl/maplibre", () => ({
 
 const museums: MuseumSummary[] = [
   {
-    id: "1",
+    id: 1,
     name: "テスト博物館A",
-    category: "CORPORATE",
+    category: "CORPORATE_MUSEUM",
     latitude: 35.0,
     longitude: 135.0,
+    tags: [],
     averageRating: 4.0,
     reviewCount: 2,
   },
   {
-    id: "2",
+    id: 2,
     name: "テスト博物館B",
-    category: "CITY_HISTORY",
+    category: "HISTORY_MUSEUM",
     latitude: 34.0,
     longitude: 134.0,
+    tags: [],
     averageRating: 3.5,
     reviewCount: 1,
   },
@@ -77,7 +79,7 @@ describe("MuseumMap", () => {
 
     const detailLink = screen.getByRole("button", { name: "詳細を見る" });
     await userEvent.click(detailLink);
-    expect(handleClick).toHaveBeenCalledWith("1");
+    expect(handleClick).toHaveBeenCalledWith(1);
   });
 
   it("should close popup when another marker is clicked", async () => {

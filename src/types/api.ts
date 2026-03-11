@@ -1,7 +1,18 @@
-export type Category = "CORPORATE" | "CITY_HISTORY";
+export type Category =
+  | "CORPORATE_MUSEUM"
+  | "HISTORY_MUSEUM"
+  | "SCIENCE_MUSEUM"
+  | "INDUSTRIAL_HERITAGE"
+  | "FACTORY_TOUR"
+  | "CASTLE";
+
+export interface Tag {
+  id: number;
+  name: string;
+}
 
 export interface MuseumSummary {
-  id: string;
+  id: number;
   name: string;
   category: Category;
   description?: string;
@@ -9,16 +20,17 @@ export interface MuseumSummary {
   longitude: number;
   address?: string;
   websiteUrl?: string;
+  tags: Tag[];
   averageRating: number;
   reviewCount: number;
 }
 
 export interface Review {
-  id: string;
+  id: number;
   rating: number;
   comment?: string;
   userId: string;
-  museumId: string;
+  museumId: number;
   userName: string;
   createdAt: string;
 }

@@ -27,7 +27,11 @@
 
 ### Category（enum）
 
-| 値           | 説明       |
-| ------------ | ---------- |
-| CORPORATE    | 企業博物館 |
-| CITY_HISTORY | 市の歴史館 |
+| 値                  | 説明             |
+| ------------------- | ---------------- |
+| CORPORATE_MUSEUM    | 企業ミュージアム |
+| HISTORY_MUSEUM      | 歴史・郷土資料館 |
+| SCIENCE_MUSEUM      | 科学・技術館     |
+| INDUSTRIAL_HERITAGE | 産業遺産         |
+| FACTORY_TOUR        | 工場見学         |
+| CASTLE              | 城・城郭         |

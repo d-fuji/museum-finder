@@ -10,7 +10,7 @@ import { StarRating } from "@/components/StarRating";
 
 type Props = {
   museums: MuseumSummary[];
-  onMuseumClick?: (id: string) => void;
+  onMuseumClick?: (id: number) => void;
 };
 
 const JAPAN_CENTER = { latitude: 36.5, longitude: 137.0 };

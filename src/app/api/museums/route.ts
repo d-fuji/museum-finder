@@ -12,6 +12,7 @@ export async function GET(request: NextRequest) {
       reviews: {
         select: { rating: true },
       },
+      tags: true,
     },
   });
 

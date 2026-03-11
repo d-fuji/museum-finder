@@ -12,23 +12,24 @@ function renderDetailPage() {
 }
 
 const museumDetail: MuseumDetail = {
-  id: "detail-1",
+  id: 1,
   name: "テスト博物館詳細",
-  category: "CORPORATE",
+  category: "CORPORATE_MUSEUM",
   description: "詳細ページ用の説明文です",
   latitude: 35.0,
   longitude: 135.0,
   address: "東京都中央区1-2-3",
   websiteUrl: "https://example.com",
+  tags: [],
   averageRating: 4.0,
   reviewCount: 1,
   reviews: [
     {
-      id: "r1",
+      id: 1,
       rating: 4,
       comment: "素晴らしい博物館です",
       userId: "u1",
-      museumId: "detail-1",
+      museumId: 1,
       userName: "レビュワー太郎",
       createdAt: "2025-06-15T10:30:00Z",
     },
@@ -38,12 +39,16 @@ const museumDetail: MuseumDetail = {
 const mockBack = vi.fn();
 
 vi.mock("next/navigation", () => ({
-  useParams: () => ({ id: "detail-1" }),
+  useParams: () => ({ id: "1" }),
   useRouter: () => ({ back: mockBack }),
 }));
 
+vi.mock("next-auth/react", () => ({
+  useSession: () => ({ data: null, status: "unauthenticated" }),
+}));
+
 const server = setupServer(
-  http.get("/api/museums/detail-1", () => {
+  http.get("/api/museums/1", () => {
     return HttpResponse.json(museumDetail);
   })
 );
@@ -60,7 +65,7 @@ describe("MuseumDetailPage", () => {
 
   it("should display category label", async () => {
     renderDetailPage();
-    expect(await screen.findByText("企業博物館")).toBeInTheDocument();
+    expect(await screen.findByText("企業ミュージアム")).toBeInTheDocument();
   });
 
   it("should display address", async () => {
@@ -94,9 +99,18 @@ describe("MuseumDetailPage", () => {
     expect(mockBack).toHaveBeenCalled();
   });
 
+  it("should show login link when not authenticated", async () => {
+    renderDetailPage();
+    await screen.findByText("テスト博物館詳細");
+    expect(screen.getByRole("link", { name: "ログインしてレビューを書く" })).toHaveAttribute(
+      "href",
+      "/login"
+    );
+  });
+
   it("should show error state when museum not found", async () => {
     server.use(
-      http.get("/api/museums/detail-1", () => {
+      http.get("/api/museums/1", () => {
         return new HttpResponse(null, { status: 404 });
       })
     );

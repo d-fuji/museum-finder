@@ -16,31 +16,42 @@ API レスポンス形式は OpenAPI 仕様（`docs/openapi.yaml`）に準拠す
 | Prisma            | 型安全、マイグレーション管理、Next.js との親和性 |
 | PostgreSQL (Neon) | Vercel Postgres として統合可能、無料枠あり       |
 
+### ID 戦略
+
+| モデル              | ID 型            | 生成方式      | 理由                                         |
+| ------------------- | ---------------- | ------------- | -------------------------------------------- |
+| Museum, Review, Tag | INTEGER (SERIAL) | autoincrement | シンプル、URL が短い、インデックス効率が良い |
+| User, Account 等    | STRING (cuid)    | cuid()        | Auth.js の規約に準拠                         |
+
 ### DB 固有の制約
 
 | フィールド         | DB 型            | 制約                     |
 | ------------------ | ---------------- | ------------------------ |
-| Museum.id          | UUID             | PK, default uuid         |
+| Museum.id          | SERIAL (int)     | PK, autoincrement        |
 | Museum.name        | VARCHAR(255)     | NOT NULL                 |
 | Museum.description | TEXT             | -                        |
 | Museum.latitude    | DOUBLE PRECISION | NOT NULL                 |
 | Museum.longitude   | DOUBLE PRECISION | NOT NULL                 |
 | Museum.address     | VARCHAR(500)     | -                        |
 | Museum.websiteUrl  | VARCHAR(2048)    | -                        |
-| Review.id          | UUID             | PK, default uuid         |
+| Review.id          | SERIAL (int)     | PK, autoincrement        |
 | Review.rating      | INTEGER          | NOT NULL, CHECK 1-5      |
 | Review.comment     | TEXT             | -                        |
 | Review.userId      | VARCHAR(255)     | NOT NULL, FK → User.id   |
-| Review.museumId    | UUID             | NOT NULL, FK → Museum.id |
+| Review.museumId    | INTEGER          | NOT NULL, FK → Museum.id |
+| Tag.id             | SERIAL (int)     | PK, autoincrement        |
+| Tag.name           | VARCHAR(100)     | NOT NULL, UNIQUE         |
+| \_MuseumToTag      | -                | 暗黙的多対多結合テーブル |
 
 ### インデックス
 
 - `Review.museumId` — 施設ごとのレビュー取得高速化
 - `Museum.category` — カテゴリフィルタ高速化
+- `Tag.name` — UNIQUE 制約によるインデックス
 
 ### シードデータ
 
-`src/data/museums.json` と `src/data/reviews.json` を Prisma seed スクリプトで投入する。
+`src/data/museums.json`、`src/data/reviews.json`、`src/data/tags.json` を Prisma seed スクリプトで投入する。
 
 ## 3. 環境変数
 
@@ -91,7 +102,7 @@ API レスポンス形式は OpenAPI 仕様（`docs/openapi.yaml`）に準拠す
 
 1. `docker compose up -d` — PostgreSQL 起動
 2. `cp .env.sample .env` — 環境変数ファイル作成、`AUTH_SECRET` を設定
-3. `npm run db:setup` — マイグレーション適用 + シードデータ投入
+3. `npm run db:migrate` — マイグレーション適用 + Prisma Client 生成 + シードデータ投入
 4. `npm run dev` — 開発サーバー起動
 
 ### ローカル: スキーマ変更の手順
@@ -133,14 +144,13 @@ API レスポンス形式は OpenAPI 仕様（`docs/openapi.yaml`）に準拠す
 
 ### ローカル開発用
 
-| コマンド                    | 実行内容                               | 用途                                          |
-| --------------------------- | -------------------------------------- | --------------------------------------------- |
-| `npm run db:setup`          | `prisma migrate dev && prisma db seed` | 初回セットアップ（マイグレーション + シード） |
-| `npm run db:migrate`        | `prisma migrate dev`                   | マイグレーション作成・適用                    |
-| `npm run db:migrate:status` | `prisma migrate status`                | マイグレーション適用状況の確認                |
-| `npm run db:generate`       | `prisma generate`                      | Prisma Client 再生成                          |
-| `npm run db:seed`           | `prisma db seed`                       | シードデータ投入                              |
-| `npm run db:reset`          | `prisma migrate reset`                 | DB 初期化（全テーブル削除 + 再作成 + シード） |
+| コマンド                    | 実行内容                | 用途                                                         |
+| --------------------------- | ----------------------- | ------------------------------------------------------------ |
+| `npm run db:migrate`        | `prisma migrate dev`    | マイグレーション作成・適用（Client 生成 + シードも自動実行） |
+| `npm run db:migrate:status` | `prisma migrate status` | マイグレーション適用状況の確認                               |
+| `npm run db:generate`       | `prisma generate`       | Prisma Client 再生成（スキーマ変更後にビルドだけしたい場合） |
+| `npm run db:seed`           | `prisma db seed`        | シードデータのみ投入                                         |
+| `npm run db:reset`          | `prisma migrate reset`  | DB 初期化（全テーブル削除 + 再作成 + シード）                |
 
 ### 本番操作用（ローカルから実行）
 

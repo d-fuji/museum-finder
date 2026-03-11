@@ -8,16 +8,17 @@
 
 ### Review
 
-| フィールド | 型                | 必須 | 説明                    |
-| ---------- | ----------------- | ---- | ----------------------- |
-| id         | string (UUID)     | yes  | レビュー ID             |
-| rating     | integer (1-5)     | yes  | 評価                    |
-| comment    | string            | no   | コメント                |
-| userId     | string            | yes  | ユーザー ID (FK → User) |
-| museumId   | string (UUID)     | yes  | 施設 ID (FK → Museum)   |
-| createdAt  | string (ISO 8601) | yes  | 投稿日時                |
+| フィールド | 型                | 必須 | 説明                                   |
+| ---------- | ----------------- | ---- | -------------------------------------- |
+| id         | number (int)      | yes  | レビュー ID                            |
+| rating     | integer (1-5)     | yes  | 評価                                   |
+| comment    | string            | no   | コメント                               |
+| userId     | string            | yes  | ユーザー ID (FK → User)                |
+| museumId   | number (int)      | yes  | 施設 ID (FK → Museum)                  |
+| userName   | string            | yes  | 投稿者名（User.name から取得して保存） |
+| createdAt  | string (ISO 8601) | yes  | 投稿日時                               |
 
-- `userName` は DB に保存せず、`User.name` から取得して API レスポンスに含める
+- 投稿時に `User.name` を `userName` として保存する（JOIN 不要で高速表示）
 - 同一ユーザー × 同一施設の重複投稿は禁止（`@@unique([userId, museumId])`）
 
 ## 3. 機能

@@ -4,11 +4,11 @@ import { ReviewCard } from "../ReviewCard";
 import type { Review } from "@/types/api";
 
 const review: Review = {
-  id: "r-test-1",
+  id: 1,
   rating: 4,
   comment: "とても良い博物館でした",
   userId: "u001",
-  museumId: "m001",
+  museumId: 1,
   userName: "テストユーザー",
   createdAt: "2025-06-15T10:30:00Z",
 };

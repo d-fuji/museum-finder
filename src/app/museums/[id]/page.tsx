@@ -1,6 +1,8 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
+import Link from "next/link";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import useSWR from "swr";
 import type { MuseumDetail } from "@/types/api";
@@ -12,6 +14,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Separator } from "@/components/ui/separator";
 import { StarRating } from "@/components/StarRating";
 import { ReviewCard } from "@/components/ReviewCard";
+import { ReviewForm } from "@/components/ReviewForm";
 import { CATEGORY_LABEL } from "@/lib/museum-utils";
 
 function DetailSkeleton() {
@@ -34,6 +37,32 @@ function DetailSkeleton() {
   );
 }
 
+function ReviewSection({
+  museum,
+  onReviewPosted,
+}: {
+  museum: MuseumDetail;
+  onReviewPosted: () => void;
+}) {
+  const { data: session, status } = useSession();
+  const userId = session?.user?.id;
+  const hasReviewed = userId ? museum.reviews.some((r) => r.userId === userId) : false;
+
+  return (
+    <div className="mt-4">
+      {status === "loading" ? null : !session ? (
+        <Link href="/login" className="text-sm text-primary underline underline-offset-4">
+          ログインしてレビューを書く
+        </Link>
+      ) : hasReviewed ? (
+        <p className="text-sm text-muted-foreground">レビュー済みです</p>
+      ) : (
+        <ReviewForm museumId={museum.id} onSuccess={onReviewPosted} />
+      )}
+    </div>
+  );
+}
+
 export default function MuseumDetailPage() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
@@ -41,6 +70,7 @@ export default function MuseumDetailPage() {
     data: museum,
     isLoading,
     error,
+    mutate,
   } = useSWR<MuseumDetail>(`/api/museums/${id}`, () => getMuseumById(id));
 
   if (isLoading) {
@@ -117,6 +147,8 @@ export default function MuseumDetailPage() {
               ))}
             </div>
           )}
+
+          <ReviewSection museum={museum} onReviewPosted={() => mutate()} />
         </CardContent>
       </Card>
     </div>

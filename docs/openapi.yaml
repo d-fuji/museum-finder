@@ -39,8 +39,7 @@ paths:
           in: path
           required: true
           schema:
-            type: string
-            format: uuid
+            type: integer
       responses:
         "200":
           description: 施設詳細（レビュー含む）
@@ -51,13 +50,84 @@ paths:
         "404":
           description: 施設が見つからない
 
+  /museums/{id}/reviews:
+    post:
+      summary: レビュー投稿
+      operationId: postReview
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - rating
+              properties:
+                rating:
+                  type: integer
+                  minimum: 1
+                  maximum: 5
+                comment:
+                  type: string
+                  maxLength: 1000
+      responses:
+        "201":
+          description: レビュー作成成功
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Review"
+        "400":
+          description: バリデーションエラー
+        "401":
+          description: 未認証
+        "404":
+          description: 施設が見つからない
+        "409":
+          description: 重複レビュー
+
+  /tags:
+    get:
+      summary: タグ一覧取得
+      operationId: getTags
+      responses:
+        "200":
+          description: タグ一覧
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Tag"
+
 components:
   schemas:
     Category:
       type: string
       enum:
-        - CORPORATE
-        - CITY_HISTORY
+        - CORPORATE_MUSEUM
+        - HISTORY_MUSEUM
+        - SCIENCE_MUSEUM
+        - INDUSTRIAL_HERITAGE
+        - FACTORY_TOUR
+        - CASTLE
+
+    Tag:
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
 
     MuseumSummary:
       type: object
@@ -67,12 +137,12 @@ components:
         - category
         - latitude
         - longitude
+        - tags
         - averageRating
         - reviewCount
       properties:
         id:
-          type: string
-          format: uuid
+          type: integer
         name:
           type: string
         category:
@@ -90,6 +160,10 @@ components:
         websiteUrl:
           type: string
           format: uri
+        tags:
+          type: array
+          items:
+            $ref: "#/components/schemas/Tag"
         averageRating:
           type: number
           format: double
@@ -121,8 +195,7 @@ components:
         - createdAt
       properties:
         id:
-          type: string
-          format: uuid
+          type: integer
         rating:
           type: integer
           minimum: 1
@@ -132,8 +205,7 @@ components:
         userId:
           type: string
         museumId:
-          type: string
-          format: uuid
+          type: integer
         userName:
           type: string
         createdAt:

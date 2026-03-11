@@ -1,14 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { parseIntParam } from "@/lib/params";
 import { toMuseumSummary, toReview } from "@/lib/museum-utils";
 import type { MuseumDetail } from "@/types/api";
 
 export async function GET(_request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+  const parsed = parseIntParam((await params).id);
+  if (!parsed.ok) return parsed.response;
+  const id = parsed.value;
 
   const museum = await prisma.museum.findUnique({
     where: { id },
-    include: { reviews: true },
+    include: { reviews: true, tags: true },
   });
 
   if (!museum) {
