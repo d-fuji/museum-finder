@@ -3,7 +3,9 @@
 ## 開発スタイル
 
 - TDD・仕様駆動開発を基本とする。詳細は `/tdd` スキルに従う
+- 実装の手順: 仕様確認 → テスト作成(RED) → 最小実装(GREEN) → リファクタ。この順序は絶対に守る
 - テストを実装に合わせて修正することは禁止。テストが失敗したら実装を修正する。仕様変更が必要な場合はユーザーに確認する
+- DB ロジックはリポジトリパターンで分離し、テストではモックに差し替える
 
 ## 技術スタック
 
@@ -12,22 +14,37 @@
 - UIライブラリ: shadcn/ui (v4, Base UI ベース) + Lucide React アイコン
 - データフェッチ: SWR
 - 地図: react-map-gl + MapLibre GL JS
+- DB: Prisma (v7) + PostgreSQL (Neon / ローカル Docker)
+- 認証: Auth.js v5 (next-auth) + @auth/prisma-adapter
 - API仕様: OpenAPI 3.0 (`docs/openapi.yaml`)
 - モック: MSW (Mock Service Worker) でAPIをモック
 - 型定義: `src/types/api.ts`（OpenAPIスキーマと対応）
 - フィクスチャデータ: `src/data/*.json`
+
+## Prisma 運用ルール
+
+- マイグレーション後は必ず `npx prisma generate` を実行する
+- Prisma v7 では `PrismaClient` のインポートは `@/generated/prisma/client` から行う（`@prisma/client` は使わない）
+- Prisma v7 では `PrismaPg` アダプターが必須（`@prisma/adapter-pg`）
+- seed スクリプトでは `tsx --tsconfig tsconfig.json` で実行し `@/` パスエイリアスを使う
 
 ## ディレクトリ構成
 
 ```
 src/
   app/           # Next.js App Router ページ
+  auth.ts        # Auth.js 設定
   components/    # UIコンポーネント
     ui/          # shadcn/ui コンポーネント
+  generated/     # Prisma Client 生成コード（gitignore済み）
   types/         # 型定義
-  data/          # JSONフィクスチャ（MSWのモックデータ）
+  data/          # JSONフィクスチャ（MSWのモックデータ + シード元データ）
   mocks/         # MSWハンドラー・セットアップ
-  lib/           # ユーティリティ・APIクライアント
+  lib/           # ユーティリティ・APIクライアント・Prismaシングルトン
+prisma/
+  schema.prisma  # DBスキーマ定義（単一ソース）
+  seed.ts        # シードスクリプト
+  migrations/    # マイグレーションファイル
 docs/
   openapi.yaml   # API仕様
   specs/         # 機能仕様書

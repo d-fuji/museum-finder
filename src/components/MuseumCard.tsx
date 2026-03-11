@@ -3,14 +3,10 @@ import type { MuseumSummary } from "@/types/api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { StarRating } from "./StarRating";
+import { CATEGORY_LABEL } from "@/lib/museum-utils";
 
 type Props = {
   museum: MuseumSummary;
-};
-
-const CATEGORY_LABEL: Record<string, string> = {
-  CORPORATE: "企業博物館",
-  CITY_HISTORY: "市の歴史館",
 };
 
 export function MuseumCard({ museum }: Props) {

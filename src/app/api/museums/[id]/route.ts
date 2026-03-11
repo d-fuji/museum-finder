@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { calculateAverageRating } from "@/lib/museum-utils";
 import type { MuseumDetail } from "@/types/api";
 
 export async function GET(_request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
@@ -14,12 +15,6 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
 
-  const reviewCount = museum.reviews.length;
-  const averageRating =
-    reviewCount > 0
-      ? Math.round((museum.reviews.reduce((sum, r) => sum + r.rating, 0) / reviewCount) * 10) / 10
-      : 0;
-
   const detail: MuseumDetail = {
     id: museum.id,
     name: museum.name,
@@ -29,8 +24,8 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
     longitude: museum.longitude,
     address: museum.address ?? undefined,
     websiteUrl: museum.websiteUrl ?? undefined,
-    averageRating,
-    reviewCount,
+    averageRating: calculateAverageRating(museum.reviews),
+    reviewCount: museum.reviews.length,
     reviews: museum.reviews.map((r) => ({
       id: r.id,
       rating: r.rating,

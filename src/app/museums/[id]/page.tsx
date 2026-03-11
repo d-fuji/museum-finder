@@ -12,11 +12,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Separator } from "@/components/ui/separator";
 import { StarRating } from "@/components/StarRating";
 import { ReviewCard } from "@/components/ReviewCard";
-
-const CATEGORY_LABEL: Record<string, string> = {
-  CORPORATE: "企業博物館",
-  CITY_HISTORY: "市の歴史館",
-};
+import { CATEGORY_LABEL } from "@/lib/museum-utils";
 
 function DetailSkeleton() {
   return (

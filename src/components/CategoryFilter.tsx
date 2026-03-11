@@ -2,6 +2,7 @@
 
 import type { Category } from "@/types/api";
 import { Button } from "@/components/ui/button";
+import { CATEGORY_LABEL } from "@/lib/museum-utils";
 
 type FilterValue = Category | "ALL";
 
@@ -12,8 +13,7 @@ type Props = {
 
 const LABELS: Record<FilterValue, string> = {
   ALL: "すべて",
-  CORPORATE: "企業博物館",
-  CITY_HISTORY: "市の歴史館",
+  ...CATEGORY_LABEL,
 };
 
 export function CategoryFilter({ value, onChange }: Props) {

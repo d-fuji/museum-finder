@@ -1,6 +1,7 @@
 import { http, HttpResponse } from "msw";
 import museumsData from "@/data/museums.json";
 import reviewsData from "@/data/reviews.json";
+import { calculateAverageRating } from "@/lib/museum-utils";
 import type { Category, MuseumSummary, MuseumDetail, Review } from "@/types/api";
 
 function buildMuseumSummary(
@@ -8,14 +9,10 @@ function buildMuseumSummary(
   reviews: Review[]
 ): MuseumSummary {
   const museumReviews = reviews.filter((r) => r.museumId === museum.id);
-  const averageRating =
-    museumReviews.length > 0
-      ? museumReviews.reduce((sum, r) => sum + r.rating, 0) / museumReviews.length
-      : 0;
   return {
     ...museum,
     category: museum.category as Category,
-    averageRating: Math.round(averageRating * 10) / 10,
+    averageRating: calculateAverageRating(museumReviews),
     reviewCount: museumReviews.length,
   };
 }

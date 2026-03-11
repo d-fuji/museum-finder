@@ -2,7 +2,9 @@
 
 ## 機能
 
-- [ ] ユーザー認証（Firebase Authentication）
+- [x] ユーザー認証（Auth.js）
+- [ ] Google OAuth ログイン
+- [ ] メール認証（Resend連携）
 - [ ] レビュー投稿
 - [ ] お気に入り登録
 - [ ] 地図上での絞り込み・検索
