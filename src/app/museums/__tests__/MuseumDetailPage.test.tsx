@@ -20,9 +20,11 @@ const museumDetail: MuseumDetail = {
   longitude: 135.0,
   address: "東京都中央区1-2-3",
   websiteUrl: "https://example.com",
+  isClosed: false,
   tags: [],
   averageRating: 4.0,
   reviewCount: 1,
+  operatingHours: [],
   reviews: [
     {
       id: 1,
@@ -106,6 +108,74 @@ describe("MuseumDetailPage", () => {
       "href",
       "/login"
     );
+  });
+
+  it("should display admission fee when present", async () => {
+    server.use(
+      http.get("/api/museums/1", () => {
+        return HttpResponse.json({ ...museumDetail, admissionFee: 500 });
+      })
+    );
+    renderDetailPage();
+    expect(await screen.findByText(/500円/)).toBeInTheDocument();
+  });
+
+  it("should display free admission", async () => {
+    server.use(
+      http.get("/api/museums/1", () => {
+        return HttpResponse.json({ ...museumDetail, admissionFee: 0 });
+      })
+    );
+    renderDetailPage();
+    expect(await screen.findByText(/無料/)).toBeInTheDocument();
+  });
+
+  it("should display closed banner when museum is closed", async () => {
+    server.use(
+      http.get("/api/museums/1", () => {
+        return HttpResponse.json({
+          ...museumDetail,
+          isClosed: true,
+          closedMessage: "改装のため休館中",
+        });
+      })
+    );
+    renderDetailPage();
+    expect(await screen.findByText("現在閉館中")).toBeInTheDocument();
+    expect(screen.getByText("改装のため休館中")).toBeInTheDocument();
+  });
+
+  it("should display operating hours when present", async () => {
+    server.use(
+      http.get("/api/museums/1", () => {
+        return HttpResponse.json({
+          ...museumDetail,
+          operatingHours: [
+            {
+              id: 1,
+              museumId: 1,
+              dayOfWeek: 1,
+              openTime: "10:00",
+              closeTime: "17:00",
+              isClosed: true,
+            },
+            {
+              id: 2,
+              museumId: 1,
+              dayOfWeek: 2,
+              openTime: "10:00",
+              closeTime: "17:00",
+              isClosed: false,
+              note: "最終入館16:30",
+            },
+          ],
+        });
+      })
+    );
+    renderDetailPage();
+    await screen.findByText("テスト博物館詳細");
+    expect(screen.getByText("休館")).toBeInTheDocument();
+    expect(screen.getByText("10:00 - 17:00")).toBeInTheDocument();
   });
 
   it("should show error state when museum not found", async () => {

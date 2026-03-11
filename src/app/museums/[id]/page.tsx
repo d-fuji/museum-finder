@@ -3,7 +3,8 @@
 import { useParams, useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
-import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ArrowLeft, ExternalLink, AlertTriangle } from "lucide-react";
+import type { OperatingHours } from "@/types/api";
 import useSWR from "swr";
 import type { MuseumDetail } from "@/types/api";
 import { getMuseumById } from "@/lib/api";
@@ -16,6 +17,39 @@ import { StarRating } from "@/components/StarRating";
 import { ReviewCard } from "@/components/ReviewCard";
 import { ReviewForm } from "@/components/ReviewForm";
 import { CATEGORY_LABEL } from "@/lib/museum-utils";
+
+const DAY_LABELS = ["日", "月", "火", "水", "木", "金", "土"];
+
+function formatAdmissionFee(fee: number): string {
+  return fee === 0 ? "無料" : `${fee}円`;
+}
+
+function OperatingHoursTable({ hours }: { hours: OperatingHours[] }) {
+  if (hours.length === 0) return null;
+
+  const sorted = [...hours].sort((a, b) => a.dayOfWeek - b.dayOfWeek);
+
+  return (
+    <div className="mt-3">
+      <h3 className="mb-2 text-sm font-semibold">営業時間</h3>
+      <div className="space-y-1 text-sm">
+        {sorted.map((h) => (
+          <div key={h.dayOfWeek} className="flex gap-2">
+            <span className="w-6 font-medium">{DAY_LABELS[h.dayOfWeek]}</span>
+            {h.isClosed ? (
+              <span className="text-muted-foreground">休館</span>
+            ) : (
+              <span>
+                {h.openTime} - {h.closeTime}
+                {h.note && <span className="ml-2 text-muted-foreground">({h.note})</span>}
+              </span>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 function DetailSkeleton() {
   return (
@@ -112,7 +146,21 @@ export default function MuseumDetailPage() {
           </div>
         </CardHeader>
         <CardContent className="space-y-3">
+          {museum.isClosed && (
+            <div className="flex items-center gap-2 rounded-md bg-destructive/10 p-3 text-sm text-destructive">
+              <AlertTriangle className="h-4 w-4" />
+              <div>
+                <span className="font-semibold">現在閉館中</span>
+                {museum.closedMessage && <p className="mt-1">{museum.closedMessage}</p>}
+              </div>
+            </div>
+          )}
           {museum.address && <p className="text-sm text-muted-foreground">📍 {museum.address}</p>}
+          {museum.admissionFee != null && (
+            <p className="text-sm text-muted-foreground">
+              🎫 {formatAdmissionFee(museum.admissionFee)}
+            </p>
+          )}
           {museum.description && <p className="text-foreground">{museum.description}</p>}
           {museum.websiteUrl && (
             <Button
@@ -125,6 +173,7 @@ export default function MuseumDetailPage() {
               公式サイトを見る
             </Button>
           )}
+          <OperatingHoursTable hours={museum.operatingHours} />
         </CardContent>
       </Card>
 

@@ -11,6 +11,7 @@ const museum: MuseumSummary = {
   latitude: 35.0,
   longitude: 135.0,
   address: "東京都千代田区1-1-1",
+  isClosed: false,
   tags: [],
   averageRating: 4.5,
   reviewCount: 3,

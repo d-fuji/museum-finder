@@ -3,7 +3,14 @@ import museumsData from "@/data/museums.json";
 import reviewsData from "@/data/reviews.json";
 import tagsData from "@/data/tags.json";
 import { calculateAverageRating } from "@/lib/museum-utils";
-import type { Category, MuseumDetail, MuseumSummary, Review, Tag } from "@/types/api";
+import type {
+  Category,
+  MuseumDetail,
+  MuseumSummary,
+  OperatingHours,
+  Review,
+  Tag,
+} from "@/types/api";
 
 // Build lookup data with auto-incremented IDs
 const tags: Tag[] = tagsData.map((t, i) => ({ id: i + 1, name: t.name }));
@@ -38,10 +45,28 @@ function toSummary(museum: (typeof museums)[number]): MuseumSummary {
     longitude: museum.longitude,
     address: museum.address ?? undefined,
     websiteUrl: museum.websiteUrl ?? undefined,
+    admissionFee: museum.admissionFee ?? undefined,
+    isClosed: museum.isClosed,
+    closedMessage: undefined,
     tags: museum.tags,
     averageRating: calculateAverageRating(museumReviews),
     reviewCount: museumReviews.length,
   };
+}
+
+function buildOperatingHours(
+  museumId: number,
+  hours: (typeof museumsData)[number]["operatingHours"]
+): OperatingHours[] {
+  return hours.map((h, i) => ({
+    id: i + 1,
+    museumId,
+    dayOfWeek: h.dayOfWeek,
+    openTime: h.openTime,
+    closeTime: h.closeTime,
+    isClosed: h.isClosed,
+    note: "note" in h ? (h.note as string) : undefined,
+  }));
 }
 
 export const handlers = [
@@ -60,6 +85,7 @@ export const handlers = [
     const detail: MuseumDetail = {
       ...toSummary(museum),
       reviews: reviews.filter((r) => r.museumId === museum.id),
+      operatingHours: buildOperatingHours(museum.id, museum.operatingHours),
     };
     return HttpResponse.json(detail);
   }),

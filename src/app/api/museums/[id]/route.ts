@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { parseIntParam } from "@/lib/params";
-import { toMuseumSummary, toReview } from "@/lib/museum-utils";
+import { toMuseumSummary, toOperatingHours, toReview } from "@/lib/museum-utils";
 import type { MuseumDetail } from "@/types/api";
 
 export async function GET(_request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
@@ -11,7 +11,7 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
 
   const museum = await prisma.museum.findUnique({
     where: { id },
-    include: { reviews: true, tags: true },
+    include: { reviews: true, tags: true, operatingHours: true },
   });
 
   if (!museum) {
@@ -21,6 +21,7 @@ export async function GET(_request: NextRequest, { params }: { params: Promise<{
   const detail: MuseumDetail = {
     ...toMuseumSummary(museum),
     reviews: museum.reviews.map(toReview),
+    operatingHours: museum.operatingHours.map(toOperatingHours),
   };
 
   return NextResponse.json(detail);

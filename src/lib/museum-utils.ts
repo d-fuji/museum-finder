@@ -1,4 +1,4 @@
-import type { Category, MuseumSummary, Review, Tag } from "@/types/api";
+import type { Category, MuseumSummary, OperatingHours, Review, Tag } from "@/types/api";
 
 export const CATEGORY_LABEL: Record<Category, string> = {
   CORPORATE_MUSEUM: "企業ミュージアム",
@@ -24,6 +24,9 @@ type MuseumRow = {
   longitude: number;
   address: string | null;
   websiteUrl: string | null;
+  admissionFee: number | null;
+  isClosed: boolean;
+  closedMessage: string | null;
   reviews: { rating: number }[];
   tags: { id: number; name: string }[];
 };
@@ -38,9 +41,34 @@ export function toMuseumSummary(museum: MuseumRow): MuseumSummary {
     longitude: museum.longitude,
     address: museum.address ?? undefined,
     websiteUrl: museum.websiteUrl ?? undefined,
+    admissionFee: museum.admissionFee ?? undefined,
+    isClosed: museum.isClosed,
+    closedMessage: museum.closedMessage ?? undefined,
     tags: museum.tags.map((t): Tag => ({ id: t.id, name: t.name })),
     averageRating: calculateAverageRating(museum.reviews),
     reviewCount: museum.reviews.length,
+  };
+}
+
+type OperatingHoursRow = {
+  id: number;
+  museumId: number;
+  dayOfWeek: number;
+  openTime: string;
+  closeTime: string;
+  isClosed: boolean;
+  note: string | null;
+};
+
+export function toOperatingHours(row: OperatingHoursRow): OperatingHours {
+  return {
+    id: row.id,
+    museumId: row.museumId,
+    dayOfWeek: row.dayOfWeek,
+    openTime: row.openTime,
+    closeTime: row.closeTime,
+    isClosed: row.isClosed,
+    note: row.note ?? undefined,
   };
 }
 

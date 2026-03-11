@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { CATEGORY_LABEL, calculateAverageRating } from "@/lib/museum-utils";
+import {
+  CATEGORY_LABEL,
+  calculateAverageRating,
+  toMuseumSummary,
+  toOperatingHours,
+} from "@/lib/museum-utils";
 
 describe("CATEGORY_LABEL", () => {
   it("should have label for CORPORATE_MUSEUM", () => {
@@ -60,5 +65,92 @@ describe("calculateAverageRating", () => {
     const result = calculateAverageRating([{ rating: 5 }, { rating: 4 }, { rating: 4 }]);
 
     expect(result).toBe(4.3);
+  });
+});
+
+describe("toMuseumSummary", () => {
+  const baseMuseum = {
+    id: 1,
+    name: "テスト博物館",
+    category: "CORPORATE_MUSEUM",
+    description: "説明",
+    latitude: 35.0,
+    longitude: 135.0,
+    address: "東京都",
+    websiteUrl: "https://example.com",
+    admissionFee: null,
+    isClosed: false,
+    closedMessage: null,
+    reviews: [{ rating: 4 }],
+    tags: [{ id: 1, name: "港町" }],
+  };
+
+  it("should include admissionFee when present", () => {
+    const museum = { ...baseMuseum, admissionFee: 500 };
+    const result = toMuseumSummary(museum);
+    expect(result.admissionFee).toBe(500);
+  });
+
+  it("should set admissionFee to undefined when null", () => {
+    const result = toMuseumSummary(baseMuseum);
+    expect(result.admissionFee).toBeUndefined();
+  });
+
+  it("should include isClosed", () => {
+    const museum = { ...baseMuseum, isClosed: true };
+    const result = toMuseumSummary(museum);
+    expect(result.isClosed).toBe(true);
+  });
+
+  it("should include closedMessage when present", () => {
+    const museum = { ...baseMuseum, isClosed: true, closedMessage: "改装中" };
+    const result = toMuseumSummary(museum);
+    expect(result.closedMessage).toBe("改装中");
+  });
+
+  it("should set closedMessage to undefined when null", () => {
+    const result = toMuseumSummary(baseMuseum);
+    expect(result.closedMessage).toBeUndefined();
+  });
+});
+
+describe("toOperatingHours", () => {
+  it("should map operating hours row to API type", () => {
+    const row = {
+      id: 1,
+      museumId: 10,
+      dayOfWeek: 2,
+      openTime: "09:00",
+      closeTime: "17:00",
+      isClosed: false,
+      note: "最終入館16:30",
+    };
+
+    const result = toOperatingHours(row);
+
+    expect(result).toEqual({
+      id: 1,
+      museumId: 10,
+      dayOfWeek: 2,
+      openTime: "09:00",
+      closeTime: "17:00",
+      isClosed: false,
+      note: "最終入館16:30",
+    });
+  });
+
+  it("should set note to undefined when null", () => {
+    const row = {
+      id: 1,
+      museumId: 10,
+      dayOfWeek: 1,
+      openTime: "09:00",
+      closeTime: "17:00",
+      isClosed: true,
+      note: null,
+    };
+
+    const result = toOperatingHours(row);
+    expect(result.note).toBeUndefined();
   });
 });

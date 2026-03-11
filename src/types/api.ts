@@ -20,6 +20,9 @@ export interface MuseumSummary {
   longitude: number;
   address?: string;
   websiteUrl?: string;
+  admissionFee?: number;
+  isClosed: boolean;
+  closedMessage?: string;
   tags: Tag[];
   averageRating: number;
   reviewCount: number;
@@ -35,6 +38,17 @@ export interface Review {
   createdAt: string;
 }
 
+export interface OperatingHours {
+  id: number;
+  museumId: number;
+  dayOfWeek: number;
+  openTime: string;
+  closeTime: string;
+  isClosed: boolean;
+  note?: string;
+}
+
 export interface MuseumDetail extends MuseumSummary {
   reviews: Review[];
+  operatingHours: OperatingHours[];
 }

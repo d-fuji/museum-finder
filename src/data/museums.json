@@ -7,6 +7,17 @@
     "longitude": 139.6425,
     "address": "神奈川県横浜市中区海岸通3-9",
     "websiteUrl": "https://museum.nyk.com/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["港町", "明治期"]
   },
   {
@@ -17,6 +28,17 @@
     "longitude": 141.0059,
     "address": "北海道小樽市手宮1-3-6",
     "websiteUrl": "https://www.city.otaru.lg.jp/categories/bunya/shisetsu/museum/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["港町", "明治期"]
   },
   {
@@ -27,6 +49,17 @@
     "longitude": 135.1855,
     "address": "兵庫県神戸市中央区波止場町2-2",
     "websiteUrl": "https://kobe-maritime-museum.com/",
+    "admissionFee": 900,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "18:00", "isClosed": false }
+    ],
     "tags": ["港町"]
   },
   {
@@ -37,6 +70,17 @@
     "longitude": 130.9614,
     "address": "福岡県北九州市門司区清滝2-3-29",
     "websiteUrl": "https://www.k-rhm.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["港町", "明治期"]
   },
   {
@@ -47,6 +91,17 @@
     "longitude": 136.8726,
     "address": "愛知県名古屋市西区則武新町4-1-35",
     "websiteUrl": "https://www.tcmit.org/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -57,6 +112,9 @@
     "longitude": 130.5712,
     "address": "鹿児島県鹿児島市吉野町9698-1",
     "websiteUrl": "https://www.shuseikan.jp/",
+    "admissionFee": null,
+    "isClosed": true,
+    "operatingHours": [],
     "tags": []
   },
   {
@@ -67,6 +125,17 @@
     "longitude": 131.3997,
     "address": "山口県萩市大字堀内355番地",
     "websiteUrl": "https://hagimuseum.jp/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -77,6 +146,17 @@
     "longitude": 138.9197,
     "address": "静岡県伊豆の国市中260-1",
     "websiteUrl": "https://www.city.izunokuni.shizuoka.jp/bunka_bunkazai/manabi/bunkazai/hansyaro/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -87,6 +167,17 @@
     "longitude": 130.3747,
     "address": "佐賀県佐賀市川副町大字早津江津446-1",
     "websiteUrl": "https://sano-mietsu-historymuseum.city.saga.lg.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -97,6 +188,17 @@
     "longitude": 141.7789,
     "address": "岩手県釜石市橋野町2-6",
     "websiteUrl": "https://www.city.kamaishi.iwate.jp/docs/2020030600160/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -107,6 +209,17 @@
     "longitude": 130.5578,
     "address": "鹿児島県鹿児島市城山町7番2号",
     "websiteUrl": "https://www.pref.kagoshima.jp/reimeikan/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "18:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -117,6 +230,17 @@
     "longitude": 130.4936,
     "address": "鹿児島県鹿児島市下福元町3763-1",
     "websiteUrl": "http://www.k-kb.or.jp/koukokan/",
+    "admissionFee": 200,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -127,6 +251,17 @@
     "longitude": 130.5467,
     "address": "鹿児島県鹿児島市上竜尾町2-1",
     "websiteUrl": "https://www.saigou.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -137,6 +272,17 @@
     "longitude": 139.7195,
     "address": "東京都新宿区若松町19-1",
     "websiteUrl": "https://www.ihic.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "18:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -147,6 +293,17 @@
     "longitude": 139.6441,
     "address": "神奈川県横浜市中区日本大通3",
     "websiteUrl": "http://www.kaikou.city.yokohama.jp/",
+    "admissionFee": 200,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["港町"]
   },
   {
@@ -157,6 +314,17 @@
     "longitude": 129.8737,
     "address": "長崎県長崎市立山1-1-1",
     "websiteUrl": "https://www.nmhc.jp/",
+    "admissionFee": 630,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "08:30", "closeTime": "19:00", "isClosed": false, "note": "最終入館18:30" },
+      { "dayOfWeek": 3, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "08:30", "closeTime": "19:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "08:30", "closeTime": "19:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -167,6 +335,17 @@
     "longitude": 130.9619,
     "address": "福岡県北九州市門司区西海岸1-3-3",
     "websiteUrl": "https://mojiko-retoro9.jp/spot/kanmon_kaikyo_museum/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["港町"]
   },
   {
@@ -177,6 +356,17 @@
     "longitude": 140.7142,
     "address": "北海道函館市青柳町17-1",
     "websiteUrl": "http://hakohaku.com/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["港町"]
   },
   {
@@ -187,6 +377,17 @@
     "longitude": 140.7133,
     "address": "北海道函館市元町12-18",
     "websiteUrl": null,
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -197,6 +398,17 @@
     "longitude": 139.0397,
     "address": "新潟県新潟市中央区柳島町2-10",
     "websiteUrl": "http://www.nchm.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "18:00", "isClosed": false }
+    ],
     "tags": ["港町"]
   },
   {
@@ -207,6 +419,17 @@
     "longitude": 130.9786,
     "address": "山口県下関市長府川端2-2-27",
     "websiteUrl": "https://www.shimonoseki-rekihaku.jp/",
+    "admissionFee": 200,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -217,6 +440,17 @@
     "longitude": 135.1954,
     "address": "兵庫県神戸市中央区京町24",
     "websiteUrl": "https://www.kobecitymuseum.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["港町"]
   },
   {
@@ -227,6 +461,17 @@
     "longitude": 135.2011,
     "address": "兵庫県神戸市灘区王子町3-1-2",
     "websiteUrl": "http://www.kobebungakukan.jp/",
+    "admissionFee": 200,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["明治期"]
   },
   {
@@ -237,6 +482,17 @@
     "longitude": 139.5514,
     "address": "神奈川県横浜市都筑区中川中央1-18-1",
     "websiteUrl": "https://www.rekihaku.city.yokohama.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -247,6 +503,17 @@
     "longitude": 139.6503,
     "address": "神奈川県横浜市中区本牧元町76-1",
     "websiteUrl": "https://sites.google.com/view/hasseiden/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -257,6 +524,17 @@
     "longitude": 129.8814,
     "address": "長崎県長崎市平野町7-8",
     "websiteUrl": "https://www.city.nagasaki.lg.jp/page/2481.html",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -267,6 +545,17 @@
     "longitude": 135.5022,
     "address": "大阪府大阪市中央区本町1-4-5",
     "websiteUrl": "https://www.kigyoka.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:30", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:30", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:30", "isClosed": false, "note": "最終入館17:00" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:30", "isClosed": true }
+    ],
     "tags": []
   },
   {
@@ -277,6 +566,17 @@
     "longitude": 136.9414,
     "address": "愛知県名古屋市瑞穂区塩入町5-15",
     "websiteUrl": "https://global.brother/ja/museum",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": true }
+    ],
     "tags": []
   },
   {
@@ -287,6 +587,17 @@
     "longitude": 136.8808,
     "address": "愛知県名古屋市西区則武新町3-1-36",
     "websiteUrl": "https://www.noritake.co.jp/mori/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["明治期"]
   },
   {
@@ -297,6 +608,17 @@
     "longitude": 136.9328,
     "address": "愛知県半田市中村町2-6",
     "websiteUrl": "https://www.mizkan.co.jp/mim/",
+    "admissionFee": 600,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "完全予約制" },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -307,6 +629,17 @@
     "longitude": 137.7342,
     "address": "静岡県浜松市中央区増楽町1301",
     "websiteUrl": "https://suzuki-rekishikan.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "要予約" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": true }
+    ],
     "tags": []
   },
   {
@@ -317,6 +650,17 @@
     "longitude": 130.8758,
     "address": "福岡県北九州市小倉北区中島2-1-1",
     "websiteUrl": "https://jp.toto.com/knowledge/visit/museum/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -327,6 +671,17 @@
     "longitude": 129.8589,
     "address": "長崎県長崎市飽の浦町1-1",
     "websiteUrl": "https://www.mhi.com/jp/company/location/nagasakiw/museum/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": true }
+    ],
     "tags": ["明治期"]
   },
   {
@@ -337,6 +692,17 @@
     "longitude": 139.6319,
     "address": "神奈川県横浜市西区みなとみらい3-3-1",
     "websiteUrl": "https://www.mhi.com/jp/museum/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:30", "isClosed": false, "note": "最終入館17:00" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:30", "isClosed": false }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -347,6 +713,17 @@
     "longitude": 130.9633,
     "address": "福岡県北九州市門司区浜町4-1",
     "websiteUrl": "https://www.ntt-west.co.jp/kyushu/moji/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["港町"]
   },
   {
@@ -357,6 +734,17 @@
     "longitude": 135.1997,
     "address": "兵庫県神戸市中央区熊内町7-5-1",
     "websiteUrl": "https://www.dougukan.jp/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": false, "note": "最終入館16:00" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -367,6 +755,17 @@
     "longitude": 135.4317,
     "address": "大阪府池田市満寿美町8-25",
     "websiteUrl": "https://www.cupnoodles-museum.jp/ja/osaka_ikeda/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": true },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false, "note": "最終入館15:30" },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": false }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -377,6 +776,17 @@
     "longitude": 135.5858,
     "address": "大阪府門真市大字門真1006",
     "websiteUrl": "https://holdings.panasonic/jp/corporate/museum.html",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "要事前予約" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": true }
+    ],
     "tags": []
   },
   {
@@ -387,6 +797,17 @@
     "longitude": 135.6614,
     "address": "大阪府三島郡島本町山崎5-2-1",
     "websiteUrl": "https://www.suntory.co.jp/factory/yamazaki/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -397,6 +818,9 @@
     "longitude": 135.5058,
     "address": "大阪府大阪市浪速区日本橋3-5-25",
     "websiteUrl": "https://www.takashimaya.co.jp/shiryokan/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [],
     "tags": []
   },
   {
@@ -407,6 +831,17 @@
     "longitude": 135.2578,
     "address": "兵庫県神戸市東灘区住吉南町4-5-5",
     "websiteUrl": "http://www.hakutsuru.co.jp/community/shiryo/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -417,6 +852,17 @@
     "longitude": 135.2683,
     "address": "兵庫県神戸市東灘区魚崎西町1-9-1",
     "websiteUrl": "https://www.kikumasa.co.jp/kinenkan/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "16:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "16:30", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "16:30", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -427,6 +873,17 @@
     "longitude": 135.2194,
     "address": "兵庫県神戸市灘区大石南町1-29-1",
     "websiteUrl": "https://www.sawanotsuru.co.jp/site/resource/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "16:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "16:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "16:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -437,6 +894,17 @@
     "longitude": 135.5189,
     "address": "大阪府大阪市北区天満1-1-79",
     "websiteUrl": "https://www.mint.go.jp/enjoy/museum",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": true }
+    ],
     "tags": ["明治期"]
   },
   {
@@ -447,6 +915,17 @@
     "longitude": 139.4636,
     "address": "神奈川県藤沢市土棚8",
     "websiteUrl": "https://www.isuzu.co.jp/plaza/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "要事前予約" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": true }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -457,6 +936,17 @@
     "longitude": 137.1758,
     "address": "愛知県岡崎市橋目町字中新切1",
     "websiteUrl": "https://www.mitsubishi-motors.com/jp/company/facilities/autogallery/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": true }
+    ],
     "tags": []
   },
   {
@@ -467,6 +957,17 @@
     "longitude": 135.5239,
     "address": "大阪府大阪市中央区大手前4-1-32",
     "websiteUrl": "https://www.osakamushis.jp/",
+    "admissionFee": 600,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -477,6 +978,17 @@
     "longitude": 135.5136,
     "address": "大阪府大阪市北区天神橋6-4-20",
     "websiteUrl": "https://www.osaka-angenet.jp/konjyakukan/",
+    "admissionFee": 600,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -487,6 +999,17 @@
     "longitude": 136.9431,
     "address": "愛知県名古屋市瑞穂区瑞穂通1-27-1",
     "websiteUrl": "https://www.museum.city.nagoya.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -497,6 +1020,17 @@
     "longitude": 136.9156,
     "address": "愛知県名古屋市東区白壁1-3",
     "websiteUrl": "http://www.city.nagoya.jp/shisei/category/52-7-4-0-0-0-0-0-0-0.html",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["明治期"]
   },
   {
@@ -507,6 +1041,17 @@
     "longitude": 136.8717,
     "address": "愛知県北名古屋市熊之庄御榊53",
     "websiteUrl": "https://www.city.kitanagoya.lg.jp/rekimin/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -517,6 +1062,17 @@
     "longitude": 130.8244,
     "address": "福岡県北九州市八幡東区東田2-4-1",
     "websiteUrl": "https://www.kmnh.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -527,6 +1083,17 @@
     "longitude": 130.7528,
     "address": "福岡県北九州市八幡西区木屋瀬3-16-26",
     "websiteUrl": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0006.html",
+    "admissionFee": 150,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -537,6 +1104,17 @@
     "longitude": 135.5261,
     "address": "大阪府大阪市中央区大阪城2-1",
     "websiteUrl": "http://www.peace-osaka.or.jp/",
+    "admissionFee": 250,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -547,6 +1125,17 @@
     "longitude": 135.5894,
     "address": "大阪府大阪狭山市池尻中2丁目",
     "websiteUrl": "http://www.sayamaikehaku.osakasayama.osaka.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -557,6 +1146,17 @@
     "longitude": 139.7494,
     "address": "東京都千代田区九段南1-6-1",
     "websiteUrl": "https://www.showakan.go.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:30", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:30", "isClosed": false, "note": "最終入館17:00" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:30", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:30", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -567,6 +1167,17 @@
     "longitude": 139.1358,
     "address": "新潟市江南区茅野山3-1-14",
     "websiteUrl": "http://www.city.niigata.lg.jp/konan/shisetsu/yoka/bunka/kounankyodo.html",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -577,6 +1188,17 @@
     "longitude": 130.8742,
     "address": "福岡県北九州市小倉北区城内1-2",
     "websiteUrl": "https://www.kokura-castle.jp/",
+    "admissionFee": 350,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "09:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 4, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -587,6 +1209,17 @@
     "longitude": 139.7969,
     "address": "東京都江東区白河1-3-28",
     "websiteUrl": "https://www.kcf.or.jp/fukagawa/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -597,6 +1230,17 @@
     "longitude": 139.7614,
     "address": "東京都港区東新橋1-8-2",
     "websiteUrl": "https://www.admt.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "11:00", "closeTime": "18:00", "isClosed": true },
+      { "dayOfWeek": 1, "openTime": "11:00", "closeTime": "18:00", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "11:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "11:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "11:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "11:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "11:00", "closeTime": "18:00", "isClosed": true }
+    ],
     "tags": []
   },
   {
@@ -607,6 +1251,17 @@
     "longitude": 139.7172,
     "address": "東京都港区南青山6-6-20",
     "websiteUrl": "https://www.isehanhonten.co.jp/museum/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "11:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 3, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "11:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "11:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -617,6 +1272,17 @@
     "longitude": 139.7458,
     "address": "東京都文京区水道1-3-3",
     "websiteUrl": "https://www.printing-museum.org/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "18:00", "isClosed": false }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -627,6 +1293,17 @@
     "longitude": 139.7856,
     "address": "東京都江東区豊洲6-1-1",
     "websiteUrl": "https://www.gastena-ni.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["体験型"]
   },
   {
@@ -637,6 +1314,17 @@
     "longitude": 139.4753,
     "address": "東京都小平市大沼町4-31-25",
     "websiteUrl": "https://www.gasmuseum.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["明治期"]
   },
   {
@@ -647,6 +1335,17 @@
     "longitude": 139.7731,
     "address": "東京都中央区日本橋本石町1-3-1",
     "websiteUrl": "https://www.imes.boj.or.jp/cm/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "09:30", "closeTime": "17:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "09:30", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 3, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "09:30", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "09:30", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -657,6 +1356,17 @@
     "longitude": 139.8086,
     "address": "東京都墨田区横川1-16-3",
     "websiteUrl": "https://www.jti.co.jp/common/museum/",
+    "admissionFee": 100,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "18:00", "isClosed": true, "note": "祝日の場合は翌日休館" },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "18:00", "isClosed": false, "note": "最終入館17:30" },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "18:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "18:00", "isClosed": false }
+    ],
     "tags": []
   },
   {
@@ -667,6 +1377,17 @@
     "longitude": 139.8742,
     "address": "東京都江戸川区東葛西6-3-1",
     "websiteUrl": "http://www.chikahaku.jp/",
+    "admissionFee": 220,
+    "isClosed": false,
+    "operatingHours": [
+      { "dayOfWeek": 0, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 1, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 2, "openTime": "10:00", "closeTime": "17:00", "isClosed": true },
+      { "dayOfWeek": 3, "openTime": "10:00", "closeTime": "17:00", "isClosed": false, "note": "最終入館16:30" },
+      { "dayOfWeek": 4, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 5, "openTime": "10:00", "closeTime": "17:00", "isClosed": false },
+      { "dayOfWeek": 6, "openTime": "10:00", "closeTime": "17:00", "isClosed": false }
+    ],
     "tags": ["体験型"]
   }
 ]

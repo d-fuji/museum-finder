@@ -138,6 +138,7 @@ components:
         - latitude
         - longitude
         - tags
+        - isClosed
         - averageRating
         - reviewCount
       properties:
@@ -160,6 +161,16 @@ components:
         websiteUrl:
           type: string
           format: uri
+        admissionFee:
+          type: integer
+          nullable: true
+          description: 入場料（大人料金、円単位。0=無料、null=不明）
+        isClosed:
+          type: boolean
+          description: 閉館フラグ
+        closedMessage:
+          type: string
+          description: 閉館理由・補足
         tags:
           type: array
           items:
@@ -183,6 +194,44 @@ components:
               type: array
               items:
                 $ref: "#/components/schemas/Review"
+            operatingHours:
+              type: array
+              items:
+                $ref: "#/components/schemas/OperatingHours"
+
+    OperatingHours:
+      type: object
+      required:
+        - id
+        - museumId
+        - dayOfWeek
+        - openTime
+        - closeTime
+        - isClosed
+      properties:
+        id:
+          type: integer
+        museumId:
+          type: integer
+        dayOfWeek:
+          type: integer
+          minimum: 0
+          maximum: 6
+          description: 曜日（0=日, 1=月, ..., 6=土）
+        openTime:
+          type: string
+          pattern: '^\d{2}:\d{2}$'
+          description: 開館時刻（HH:mm）
+        closeTime:
+          type: string
+          pattern: '^\d{2}:\d{2}$'
+          description: 閉館時刻（HH:mm）
+        isClosed:
+          type: boolean
+          description: 当該曜日の休館フラグ
+        note:
+          type: string
+          description: 補足（最終入館時刻等）
 
     Review:
       type: object

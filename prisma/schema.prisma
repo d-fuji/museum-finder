@@ -17,19 +17,23 @@ enum Category {
 }
 
 model Museum {
-  id          Int      @id @default(autoincrement())
-  name        String   @db.VarChar(255)
-  category    Category
-  description String?  @db.Text
-  latitude    Float
-  longitude   Float
-  address     String?  @db.VarChar(500)
-  websiteUrl  String?  @db.VarChar(2048)
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  id            Int      @id @default(autoincrement())
+  name          String   @db.VarChar(255)
+  category      Category
+  description   String?  @db.Text
+  latitude      Float
+  longitude     Float
+  address       String?  @db.VarChar(500)
+  websiteUrl    String?  @db.VarChar(2048)
+  admissionFee  Int?
+  isClosed      Boolean  @default(false)
+  closedMessage String?  @db.Text
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
 
-  reviews Review[]
-  tags    Tag[]
+  reviews        Review[]
+  tags           Tag[]
+  operatingHours OperatingHours[]
 
   @@index([category])
 }
@@ -52,6 +56,21 @@ model Review {
   museum Museum @relation(fields: [museumId], references: [id])
 
   @@unique([userId, museumId])
+  @@index([museumId])
+}
+
+model OperatingHours {
+  id        Int     @id @default(autoincrement())
+  museumId  Int
+  dayOfWeek Int // 0=Sun, 1=Mon, ..., 6=Sat
+  openTime  String  @db.VarChar(5) // "HH:mm"
+  closeTime String  @db.VarChar(5) // "HH:mm"
+  isClosed  Boolean @default(false)
+  note      String? @db.VarChar(500)
+
+  museum Museum @relation(fields: [museumId], references: [id])
+
+  @@unique([museumId, dayOfWeek])
   @@index([museumId])
 }
 
