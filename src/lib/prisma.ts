@@ -11,6 +11,7 @@ async function createAdapter() {
   return new PrismaPg({ connectionString: process.env.DATABASE_URL! });
 }
 
-export const prisma = globalForPrisma.prisma ?? new PrismaClient({ adapter: await createAdapter() });
+export const prisma =
+  globalForPrisma.prisma ?? new PrismaClient({ adapter: await createAdapter() });
 
 if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;

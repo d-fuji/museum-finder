@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { calculateAverageRating } from "@/lib/museum-utils";
-import type { Category, MuseumSummary } from "@/types/api";
+import { toMuseumSummary } from "@/lib/museum-utils";
+import type { Category } from "@/types/api";
 
 export async function GET(request: NextRequest) {
   const category = request.nextUrl.searchParams.get("category") as Category | null;
@@ -15,18 +15,5 @@ export async function GET(request: NextRequest) {
     },
   });
 
-  const summaries: MuseumSummary[] = museums.map((museum) => ({
-    id: museum.id,
-    name: museum.name,
-    category: museum.category,
-    description: museum.description ?? undefined,
-    latitude: museum.latitude,
-    longitude: museum.longitude,
-    address: museum.address ?? undefined,
-    websiteUrl: museum.websiteUrl ?? undefined,
-    averageRating: calculateAverageRating(museum.reviews),
-    reviewCount: museum.reviews.length,
-  }));
-
-  return NextResponse.json(summaries);
+  return NextResponse.json(museums.map(toMuseumSummary));
 }

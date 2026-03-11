@@ -8,20 +8,20 @@
 
 ## 2. 技術スタック
 
-| レイヤー       | 技術                           | 備考                         |
-| -------------- | ------------------------------ | ---------------------------- |
-| フレームワーク | Next.js (App Router)           | フルスタック                 |
-| スタイリング   | Tailwind CSS                   | モバイルファースト           |
-| UI ライブラリ  | shadcn/ui (v4) + Lucide React  | Base UI ベース               |
-| 地図           | react-map-gl + MapLibre GL JS  | OSS、API キー不要            |
-| データフェッチ | SWR                            | stale-while-revalidate       |
-| ORM            | Prisma                         | 型安全、マイグレーション管理 |
-| DB             | PostgreSQL (Neon)              | Vercel Postgres              |
+| レイヤー       | 技術                              | 備考                                |
+| -------------- | --------------------------------- | ----------------------------------- |
+| フレームワーク | Next.js (App Router)              | フルスタック                        |
+| スタイリング   | Tailwind CSS                      | モバイルファースト                  |
+| UI ライブラリ  | shadcn/ui (v4) + Lucide React     | Base UI ベース                      |
+| 地図           | react-map-gl + MapLibre GL JS     | OSS、API キー不要                   |
+| データフェッチ | SWR                               | stale-while-revalidate              |
+| ORM            | Prisma                            | 型安全、マイグレーション管理        |
+| DB             | PostgreSQL (Neon)                 | Vercel Postgres                     |
 | DB ドライバー  | @prisma/adapter-pg / adapter-neon | ローカル: pg、本番: Neon サーバレス |
-| 認証           | Auth.js v5                     | Credentials 認証             |
-| API 仕様       | OpenAPI 3.0                    | `docs/openapi.yaml`          |
-| テスト         | Vitest + Testing Library + MSW | MSW で API モック            |
-| デプロイ       | Vercel                         | -                            |
+| 認証           | Auth.js v5                        | Credentials 認証                    |
+| API 仕様       | OpenAPI 3.0                       | `docs/openapi.yaml`                 |
+| テスト         | Vitest + Testing Library + MSW    | MSW で API モック                   |
+| デプロイ       | Vercel                            | -                                   |
 
 ## 3. 共通データモデル
 

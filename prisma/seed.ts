@@ -5,7 +5,8 @@ import reviewsData from "@/data/reviews.json" with { type: "json" };
 
 type Category = "CORPORATE" | "CITY_HISTORY";
 
-const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL! });
+const connectionString = process.env.DATABASE_URL_UNPOOLED || process.env.DATABASE_URL!;
+const adapter = new PrismaPg({ connectionString });
 const prisma = new PrismaClient({ adapter });
 
 async function main() {

@@ -116,5 +116,4 @@ Auth.js (NextAuth.js v5) を使い、メール+パスワード認証を提供す
 | `src/components/AuthButton.tsx`           | ログイン/ログアウトボタン                     |
 | `src/components/SessionProvider.tsx`      | NextAuth SessionProvider ラッパー             |
 | `src/app/login/page.tsx`                  | ログインページ                                |
-| `src/app/register/page.tsx`              | 新規登録ページ                                |
-
+| `src/app/register/page.tsx`               | 新規登録ページ                                |
