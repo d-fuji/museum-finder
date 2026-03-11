@@ -1,0 +1,111 @@
+# インフラ構成仕様
+
+## 1. 概要
+
+Prisma + PostgreSQL によるデータ永続化。Vercel でホスティング。
+API レスポンス形式は OpenAPI 仕様（`docs/openapi.yaml`）に準拠する。
+
+データモデルの定義は [museum.md](./museum.md)、[review.md](./review.md)、[auth.md](./auth.md) を参照。
+
+## 2. DB 構成
+
+### 技術選定
+
+| 技術              | 理由                                             |
+| ----------------- | ------------------------------------------------ |
+| Prisma            | 型安全、マイグレーション管理、Next.js との親和性 |
+| PostgreSQL (Neon) | Vercel Postgres として統合可能、無料枠あり       |
+
+### DB 固有の制約
+
+| フィールド         | DB 型            | 制約                     |
+| ------------------ | ---------------- | ------------------------ |
+| Museum.id          | UUID             | PK, default uuid         |
+| Museum.name        | VARCHAR(255)     | NOT NULL                 |
+| Museum.description | TEXT             | -                        |
+| Museum.latitude    | DOUBLE PRECISION | NOT NULL                 |
+| Museum.longitude   | DOUBLE PRECISION | NOT NULL                 |
+| Museum.address     | VARCHAR(500)     | -                        |
+| Museum.websiteUrl  | VARCHAR(2048)    | -                        |
+| Review.id          | UUID             | PK, default uuid         |
+| Review.rating      | INTEGER          | NOT NULL, CHECK 1-5      |
+| Review.comment     | TEXT             | -                        |
+| Review.userId      | VARCHAR(255)     | NOT NULL, FK → User.id   |
+| Review.museumId    | UUID             | NOT NULL, FK → Museum.id |
+
+### インデックス
+
+- `Review.museumId` — 施設ごとのレビュー取得高速化
+- `Museum.category` — カテゴリフィルタ高速化
+
+### シードデータ
+
+`src/data/museums.json` と `src/data/reviews.json` を Prisma seed スクリプトで投入する。
+
+## 3. 環境変数
+
+| 変数         | 説明                         | 必須 |
+| ------------ | ---------------------------- | ---- |
+| DATABASE_URL | PostgreSQL 接続文字列        | yes  |
+| AUTH_SECRET  | Auth.js セッション暗号化キー | yes  |
+
+## 4. 環境構成
+
+### ローカル開発
+
+- Docker Compose で PostgreSQL を起動（`docker-compose.yml`）
+- `.env` に環境変数を設定
+
+### Vercel 本番
+
+- Vercel Postgres（Neon）をプロジェクトに接続
+- `DATABASE_URL` は Vercel が自動設定
+- `AUTH_SECRET` は手動で設定
+
+### テスト
+
+- MSW モックを使用（DB 不要）
+
+## 5. マイグレーション運用
+
+### ローカル開発
+
+- `npm run db:migrate`（`prisma migrate dev`）でマイグレーション作成・適用
+- スキーマ変更時は必ずマイグレーションファイルを生成し、Git にコミットする
+- `npm run db:reset`（`prisma migrate reset`）でDB初期化+シード再投入
+
+### 本番デプロイ
+
+- ビルドコマンド: `prisma generate && prisma migrate deploy && next build`
+- `prisma generate` — クライアント生成のみ、DB に触れない
+- `prisma migrate deploy` — 未適用のマイグレーションのみを適用（新規作成はしない、安全）
+- Vercel のビルド時に自動でマイグレーションが適用される
+- 破壊的変更（カラム削除・型変更等）を含む場合は、段階的に行う:
+  1. 新カラム追加 → デプロイ
+  2. アプリを新カラム参照に切り替え → デプロイ
+  3. 旧カラム削除 → デプロイ
+
+### マイグレーションのルール
+
+- マイグレーションファイルは手動で編集しない
+- 本番適用済みのマイグレーションは削除・変更しない
+- ローカルでのみ `prisma migrate dev` を使用し、本番では `prisma migrate deploy` のみ
+
+## 6. npm scripts
+
+| コマンド          | 実行内容                              | 用途             |
+| ----------------- | ------------------------------------- | ---------------- |
+| `npm run build`   | `prisma generate && prisma migrate deploy && next build` | ビルド（本番マイグレーション含む） |
+| `npm run db:migrate` | `prisma migrate dev`               | マイグレーション作成・適用（ローカル） |
+| `npm run db:seed` | `prisma db seed`                      | シードデータ投入 |
+| `npm run db:reset` | `prisma migrate reset`               | DB 初期化        |
+
+## 7. 実装ファイル
+
+| ファイル               | 内容                      |
+| ---------------------- | ------------------------- |
+| `prisma/schema.prisma` | DB スキーマ定義           |
+| `prisma/seed.ts`       | シードスクリプト          |
+| `prisma.config.ts`     | Prisma 設定               |
+| `src/lib/prisma.ts`    | PrismaClient シングルトン |
+| `docker-compose.yml`   | ローカル PostgreSQL       |
