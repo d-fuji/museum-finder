@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Museum Compass
 
-## Getting Started
+企業博物館・産業遺産・歴史館への訪問を支援するWebアプリ。
 
-First, run the development server:
+- **地図 + リストで施設を探す** — カテゴリ絞り込み、リスト/地図の切替表示
+- **訪問前に詳細を確認する** — 入場料、営業時間（曜日別）、休館情報、公式サイトリンク
+- **レビューを読む・書く** — 星評価 + コメントで訪問体験を共有（要ログイン）
+
+## 技術スタック
+
+| レイヤー | 技術 |
+|---------|------|
+| フレームワーク | Next.js (App Router) |
+| スタイル | Tailwind CSS / shadcn/ui v4 |
+| データ取得 | SWR |
+| 地図 | react-map-gl + MapLibre GL JS |
+| DB | Prisma v7 + PostgreSQL (Neon) |
+| 認証 | Auth.js v5 |
+| テスト | Vitest + Testing Library + MSW |
+| デプロイ | Vercel |
+
+## セットアップ
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# PostgreSQL 起動
+docker compose up -d
+
+# 環境変数の設定
+cp .env.sample .env
+# .env を編集し AUTH_SECRET を設定
+
+# DB マイグレーション + シード
+npm run db:migrate
+
+# 開発サーバー起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000 で確認できます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## npm scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| コマンド | 用途 |
+|---------|------|
+| `npm run dev` | 開発サーバー起動 |
+| `npm run build` | プロダクションビルド |
+| `npm run lint` | ESLint |
+| `npm run format` | Prettier（修正） |
+| `npm run format:check` | Prettier（チェックのみ） |
+| `npx vitest run` | テスト実行 |
+| `npm run db:migrate` | マイグレーション作成・適用 |
+| `npm run db:seed` | シードデータ投入 |
+| `npm run db:reset` | DB 初期化 |
 
-## Learn More
+## 施設データについて
 
-To learn more about Next.js, take a look at the following resources:
+- 施設は随時追加・更新されます。追加方法は `src/data/museums.json` を編集して `npm run db:seed` を実行するだけです
+- 営業時間・入場料などの情報は実際と異なる場合があります。定期的に公式サイトと照合し、データの正確性を維持してください
+- 休館・閉館が判明した場合は `isClosed` フラグと `closedMessage` を更新してください
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ディレクトリ構成
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/
+  app/           # ページ + API routes
+  components/    # UI コンポーネント
+  lib/           # ユーティリティ・Prisma・マッパー
+  types/         # 型定義
+  data/          # JSON フィクスチャ
+  mocks/         # MSW ハンドラー
+prisma/          # schema / seed / migrations
+docs/
+  openapi.yaml   # API 仕様 (OpenAPI 3.0)
+  specs/         # 機能仕様書
+```

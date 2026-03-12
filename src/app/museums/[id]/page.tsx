@@ -95,6 +95,9 @@ function VisitInfoCard({ museum }: { museum: MuseumDetail }) {
           </div>
         )}
         <OperatingHoursTable hours={museum.operatingHours} />
+        <p className="text-xs text-muted-foreground">
+          ※ 料金・営業時間は変更される場合があります。最新情報は公式サイトをご確認ください。
+        </p>
         {museum.websiteUrl && (
           <Button
             variant="outline"
