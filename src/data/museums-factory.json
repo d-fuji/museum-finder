@@ -1,0 +1,1282 @@
+[
+  {
+    "code": "0e58d605-f6b9-4181-b598-1949ed14c9a6",
+    "name": "白い恋人パーク",
+    "category": "FACTORY_TOUR",
+    "description": "北海道銘菓「白い恋人」の製造工程を見学でき、お菓子作り体験も楽しめるテーマパーク。",
+    "latitude": 43.0889,
+    "longitude": 141.2717,
+    "address": "北海道札幌市⻄区宮の沢2-2-11-36",
+    "websiteUrl": "https://www.shiroikoibitopark.jp/",
+    "admissionFee": 800,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "56824ac5-6fab-45b5-845e-444f1526024d",
+    "name": "グリコピアイースト",
+    "category": "FACTORY_TOUR",
+    "description": "ポッキーやプリッツの製造工程の見学に加え、クイズ形式で楽しくお菓子の歴史を学べる施設。",
+    "latitude": 36.0264,
+    "longitude": 139.5555,
+    "address": "埼玉県北本市中丸9丁目55番地",
+    "websiteUrl": "https://www.glico.com/jp/enjoy/experience/glicopia/east/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "金曜休館"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "227b4096-9ba8-4f8c-8578-5aefaf36b0d8",
+    "name": "アサヒビール吹田工場",
+    "category": "FACTORY_TOUR",
+    "description": "アサヒビール発祥の地。ビールの仕込みから瓶詰めまでの工程見学と、できたてのビールの試飲が可能。",
+    "latitude": 34.7627,
+    "longitude": 135.5197,
+    "address": "大阪府吹田市西の庄町1‐45",
+    "websiteUrl": "https://www.asahibeer-comm.jp/facility/suita",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "c6da6b3d-8dde-407b-ac5d-4794a777abae",
+    "name": "キリンビール 神戸工場",
+    "category": "FACTORY_TOUR",
+    "description": "「一番搾り」の麦汁飲み比べなど、ビールのこだわりを五感で体験できるブルワリーツアーを提供。",
+    "latitude": 34.8792,
+    "longitude": 135.1779,
+    "address": "兵庫県神戸市北区赤松台2-1-1",
+    "websiteUrl": "https://www.kirin.co.jp/experience/factory/kobe/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約。ツアー約60分+試飲20分"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "d2700e1a-b040-4466-963b-07419454b162",
+    "name": "サントリー京都ビール工場",
+    "category": "FACTORY_TOUR",
+    "description": "ザ・プレミアム・モルツの製造工程を見学し、天然水と厳選素材へのこだわりを学べる施設。",
+    "latitude": 34.9101,
+    "longitude": 135.6934,
+    "address": "京都府長岡京市調子3-1-1",
+    "websiteUrl": "http://www.suntory.co.jp/factory/kyoto/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "deaa6867-aa80-4b5b-b6de-639d353b28d9",
+    "name": "雪印メグミルク 阿見工場",
+    "category": "FACTORY_TOUR",
+    "description": "プロセスチーズの製造工程や、バターなどの乳製品が作られる様子を専用通路から見学できる。",
+    "latitude": 35.9981,
+    "longitude": 140.2476,
+    "address": "茨城県稲敷郡阿見町星の里22番地",
+    "websiteUrl": "http://www.meg-snow.com/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f0dc526e-c866-4ed0-9997-2664759bb6f7",
+    "name": "崎陽軒 横浜工場",
+    "category": "FACTORY_TOUR",
+    "description": "横浜名物「シウマイ」の歴史や製造工程を見学し、できたてのシウマイの試食が楽しめる。",
+    "latitude": 35.5177,
+    "longitude": 139.5941,
+    "address": "神奈川県横浜市都筑区川向町675番1号",
+    "websiteUrl": "https://kiyoken.com/factory/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "日月火休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "日月火休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "日月火休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "15:30",
+        "isClosed": false,
+        "note": "要予約。見学約90分（試食含む）"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "15:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "15:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "15:30",
+        "isClosed": false,
+        "note": "要予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7e8d2de9-1cdc-4d48-abc2-c1734dcc1844",
+    "name": "ロイズカカオ＆チョコレートタウン",
+    "category": "FACTORY_TOUR",
+    "description": "カカオ豆からチョコレートができるまでの旅を体験できる、工場見学と展示を組み合わせた施設。",
+    "latitude": 43.1828,
+    "longitude": 141.432,
+    "address": "北海道石狩郡当別町ビトエ640-15",
+    "websiteUrl": "https://www.royce.com/cct/",
+    "admissionFee": 1200,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7d7f20b7-eb1c-445c-b679-10582c47e035",
+    "name": "シャトレーゼ 白州工場",
+    "category": "FACTORY_TOUR",
+    "description": "南アルプスの天然水を使用したアイスクリームや菓子の製造工程を見学できる大自然の中の工場。",
+    "latitude": 35.8203,
+    "longitude": 138.3053,
+    "address": "山梨県北杜市白州町白須大原8383-1",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "e72587f8-2db9-4930-8ac3-4373d5794d56",
+    "name": "サッポロビール 北海道工場",
+    "category": "FACTORY_TOUR",
+    "description": "北海道の雄大な自然環境の中でビールの製造工程を見学し、サッポロクラシックなどの試飲が可能。",
+    "latitude": 42.8627,
+    "longitude": 141.6052,
+    "address": "北海道恵庭市戸磯542-1",
+    "websiteUrl": "https://www.sapporobeer.jp/brewery/hokkaido/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約。ガイドツアー60分"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "月火休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "月火休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "961e5bd7-6071-4239-8dd9-e55da3bf510c",
+    "name": "トヨタ自動車 元町工場",
+    "category": "FACTORY_TOUR",
+    "description": "溶接や組立ラインなど、最新の自動車製造技術と「トヨタ生産方式」の現場を間近で見学。",
+    "latitude": 35.0729,
+    "longitude": 137.1303,
+    "address": "愛知県豊田市元町1",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。見学約150分"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "9ba257eb-4964-4ab9-8cd8-38f7294dfdef",
+    "name": "うなぎパイファクトリー",
+    "category": "FACTORY_TOUR",
+    "description": "浜松銘菓「うなぎパイ」の製造工程をガラス越しに見学でき、焼き立ての香りを楽しめる。",
+    "latitude": 34.7149,
+    "longitude": 137.6565,
+    "address": "静岡県浜松市中央区大久保町748-51",
+    "websiteUrl": "https://www.unagipai-factory.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "自由見学無料"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "火水定休（変動あり）"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "火水定休（変動あり）"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "火水定休（変動あり）"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "自由見学無料"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "自由見学無料"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "自由見学無料"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "21a3032a-5142-44b4-89d6-22db0536aa15",
+    "name": "コカ･コーラ ボトラーズジャパン 多摩工場",
+    "category": "FACTORY_TOUR",
+    "description": "巨大なボトリングラインの見学や、コカ・コーラの歴史に関する展示を通じた体験型ツアー。",
+    "latitude": 35.7603,
+    "longitude": 139.513,
+    "address": "東京都東久留米市野火止1-2-9",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約。見学約60分"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "3a2d9bf2-3eba-4b36-bc52-5a6711f10e81",
+    "name": "マツダミュージアム",
+    "category": "FACTORY_TOUR",
+    "description": "マツダ本社の敷地内にあり、実際の車両組立ラインの見学と歴代の名車展示を楽しめる。",
+    "latitude": 34.361,
+    "longitude": 132.4834,
+    "address": "広島県安芸郡府中町新地3-1",
+    "websiteUrl": "https://www.mazda.com/ja/about/museum/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "日曜休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制。ツアー約2時間"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "原則第1土曜のみ開館。完全予約制"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "6af1ada9-9034-4753-97da-cb45b834b477",
+    "name": "アサヒ飲料 明石工場",
+    "category": "FACTORY_TOUR",
+    "description": "三ツ矢サイダーをはじめとする飲料の製造ラインを見学でき、環境への取り組みも紹介。",
+    "latitude": 34.6895,
+    "longitude": 134.8713,
+    "address": "兵庫県明石市二見町南二見1-33",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "d3cd20ba-cee1-4afc-95e2-aba456fbd79e",
+    "name": "キッコーマン もの知りしょうゆ館",
+    "category": "FACTORY_TOUR",
+    "description": "醤油の醸造工程からボトリングまでを見学し、醤油の歴史や発酵のメカニズムを学べる。",
+    "latitude": 35.9553,
+    "longitude": 139.8746,
+    "address": "千葉県野田市野田110",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "62c5875e-192a-4d58-97a2-8f9973687fee",
+    "name": "めんたいパークとこなめ",
+    "category": "FACTORY_TOUR",
+    "description": "明太子の老舗「かねふく」が運営し、製造工場の見学や明太子グルメを堪能できるテーマパーク。",
+    "latitude": 34.8901,
+    "longitude": 136.8261,
+    "address": "愛知県常滑市りんくう町1-25-4",
+    "websiteUrl": "https://mentai-park.com/tokoname/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7fa9bfa3-bb89-4f26-87f5-774882d23df9",
+    "name": "造幣局 埼玉支局",
+    "category": "FACTORY_TOUR",
+    "description": "硬貨や勲章の製造工程をガラス越しに見学でき、貨幣の歴史や偽造防止技術について展示。",
+    "latitude": 35.8939,
+    "longitude": 139.6405,
+    "address": "埼玉県さいたま市大宮区北袋町1-190-22",
+    "websiteUrl": "https://www.mint.go.jp/enjoy/plant-saitama",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約。第3水曜休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "1635cb60-b0bd-4374-a14d-05592dca8d29",
+    "name": "ヤクルト 湘南化粧品工場",
+    "category": "FACTORY_TOUR",
+    "description": "乳酸菌を活用した化粧品の製造工程を見学し、品質管理や美容に関する知識を深められる。",
+    "latitude": 35.339,
+    "longitude": 139.4698,
+    "address": "神奈川県藤沢市鵠沼神明7-1-6",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制。中学生以上対象"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "6315c72c-fcbf-46ae-9ab5-c21b4624a2ca",
+    "name": "おたべ本館",
+    "category": "FACTORY_TOUR",
+    "description": "京都銘菓「生八つ橋」の製造ラインを公開しており、手作り体験や試食も実施している。",
+    "latitude": 34.9736,
+    "longitude": 135.7447,
+    "address": "京都府京都市南区西九条高畠町35-2",
+    "websiteUrl": "https://www.otabe.kyoto.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      }
+    ],
+    "tags": []
+  }
+]

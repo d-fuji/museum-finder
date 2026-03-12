@@ -1,6 +1,9 @@
-import museums1 from "./museums-1.json";
-import museums2 from "./museums-2.json";
-import museums3 from "./museums-3.json";
+import corporate from "./museums-corporate.json";
+import history from "./museums-history.json";
+import science from "./museums-science.json";
+import industrial from "./museums-industrial.json";
+import factory from "./museums-factory.json";
+import castle from "./museums-castle.json";
 
-const museumsData = [...museums1, ...museums2, ...museums3];
+const museumsData = [...corporate, ...history, ...science, ...industrial, ...factory, ...castle];
 export default museumsData;

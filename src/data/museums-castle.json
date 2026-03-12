@@ -1,0 +1,1282 @@
+[
+  {
+    "code": "709af985-fa39-449d-a54c-2c7e45cda0bb",
+    "name": "熊本城",
+    "category": "CASTLE",
+    "description": "加藤清正が築城した日本三名城の一つ。武者返しと呼ばれる美しい石垣と復旧された天守閣が特徴。",
+    "latitude": 32.8061,
+    "longitude": 130.706,
+    "address": "熊本県熊本市中央区本丸1-1",
+    "websiteUrl": "https://castle.kumamoto-guide.jp/",
+    "admissionFee": 800,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "839fd7e0-8325-48ef-840d-d228650edb2a",
+    "name": "犬山城",
+    "category": "CASTLE",
+    "description": "現存12天守の一つであり国宝に指定。木曽川沿いの小高い山に建つ日本最古の様式の天守を持つ。",
+    "latitude": 35.3863,
+    "longitude": 136.9368,
+    "address": "愛知県犬山市犬山北古券65番地2",
+    "websiteUrl": "https://inuyama.gr.jp/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f0c93175-4e30-452b-b6df-1fed0105e665",
+    "name": "彦根城",
+    "category": "CASTLE",
+    "description": "国宝の天守をはじめ、櫓や庭園など江戸時代の城郭の姿を色濃く残す井伊家の居城。",
+    "latitude": 35.2764,
+    "longitude": 136.2517,
+    "address": "滋賀県彦根市元町4番2号",
+    "websiteUrl": "https://www.hikoneshi.com/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "0ebf9f19-3556-47ad-bb88-78fcd000bed2",
+    "name": "松江城",
+    "category": "CASTLE",
+    "description": "漆黒の雨覆い板が特徴の国宝天守。宍道湖の畔に築かれた水郷の都市・松江のシンボル。",
+    "latitude": 35.475,
+    "longitude": 133.0506,
+    "address": "島根県松江市殿町1-5",
+    "websiteUrl": "https://www.matsue-castle.jp/",
+    "admissionFee": 800,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "bec1bf26-1ce3-4bba-9a2d-6f95916db1d6",
+    "name": "名古屋城",
+    "category": "CASTLE",
+    "description": "徳川家康の命により築城。金の鯱で知られ、本丸御殿の復元など近世城郭の威容を誇る。",
+    "latitude": 35.1847,
+    "longitude": 136.8925,
+    "address": "愛知県名古屋市中区本丸1-1",
+    "websiteUrl": "https://www.nagoyajo.city.nagoya.jp/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "8dd192e7-71e7-4581-ba82-561458e5eb98",
+    "name": "岡山城",
+    "category": "CASTLE",
+    "description": "黒い下見板張りの外観から「烏城」と呼ばれる。宇喜多秀家が築き、後楽園に隣接する名城。",
+    "latitude": 34.6652,
+    "longitude": 133.9361,
+    "address": "岡山県岡山市北区丸の内2-3",
+    "websiteUrl": "https://okayama-castle.jp/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "69d2f3d0-747a-49ac-86b3-598f5d3faea0",
+    "name": "広島城",
+    "category": "CASTLE",
+    "description": "毛利輝元によって築かれた水堀に囲まれた平城。原爆で倒壊後、復元され歴史博物館となっている。",
+    "latitude": 34.4027,
+    "longitude": 132.459,
+    "address": "広島県広島市中区基町21-1",
+    "websiteUrl": "https://dive-hiroshima.com/explore/3318/",
+    "admissionFee": 370,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "1c8d6d36-e5b6-42e1-b38d-164f9887d4b3",
+    "name": "弘前城",
+    "category": "CASTLE",
+    "description": "東北地方で唯一の現存天守を持ち、春には桜の名所として全国的に知られる津軽藩の城。",
+    "latitude": 40.6081,
+    "longitude": 140.4639,
+    "address": "青森県弘前市大字下白銀町1",
+    "websiteUrl": "https://www.city.hirosaki.aomori.jp/gaiyou/shisetsu/2014-1206-1528-48.html",
+    "admissionFee": 320,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "cd2e193e-d2e0-4273-b76f-c0bb4acea048",
+    "name": "松本城",
+    "category": "CASTLE",
+    "description": "現存する五重六階の天守としては日本最古。北アルプスを背景に黒と白のコントラストが美しい国宝。",
+    "latitude": 36.2391,
+    "longitude": 137.9691,
+    "address": "長野県松本市丸の内4-1",
+    "websiteUrl": "https://www.matsumoto-castle.jp/",
+    "admissionFee": 1300,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "a3e6254b-876f-425b-b5bc-3ca279b00e50",
+    "name": "姫路城",
+    "category": "CASTLE",
+    "description": "白鷺城とも称される白亜の美しい連立式天守群。世界文化遺産および国宝に指定されている。",
+    "latitude": 34.8394,
+    "longitude": 134.6939,
+    "address": "兵庫県姫路市本町68",
+    "websiteUrl": "https://www.himejicastle.jp/",
+    "admissionFee": 2500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "2c50e92d-7a3a-4c7d-9ee5-972a1677f841",
+    "name": "大阪城",
+    "category": "CASTLE",
+    "description": "豊臣秀吉が築城し、徳川時代に再築された巨城。現在は巨大な石垣と復興天守が大阪の象徴となっている。",
+    "latitude": 34.6873,
+    "longitude": 135.5262,
+    "address": "大阪府大阪市中央区大阪城1-1",
+    "websiteUrl": "https://www.osakacastle.net/",
+    "admissionFee": 1200,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "04222494-b8dd-4604-bf5e-b057baee1e22",
+    "name": "和歌山城",
+    "category": "CASTLE",
+    "description": "紀州徳川家の居城として栄えた。虎伏山に建ち、連立式の白亜の天守が市街を見下ろす。",
+    "latitude": 34.2276,
+    "longitude": 135.1716,
+    "address": "和歌山県和歌山市一番丁3",
+    "websiteUrl": "http://wakayamajo.jp/",
+    "admissionFee": 410,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "3bc04605-9cec-49a4-8369-a8dde3c7af2f",
+    "name": "松前城",
+    "category": "CASTLE",
+    "description": "北海道で唯一の日本式城郭。幕末に北方警備の拠点として築かれ、桜の名所としても有名。",
+    "latitude": 41.4298,
+    "longitude": 140.1084,
+    "address": "北海道松前郡松前町松城144",
+    "websiteUrl": null,
+    "admissionFee": 360,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f85e1a57-0887-49c5-81ac-94402c09be85",
+    "name": "白石城",
+    "category": "CASTLE",
+    "description": "仙台藩の南の要衝として片倉氏が代々居住。木造で忠実に復元された大櫓（天守）が公開されている。",
+    "latitude": 38.0026,
+    "longitude": 140.6171,
+    "address": "宮城県白石市益岡町1-16",
+    "websiteUrl": null,
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "ada7a91e-27cd-4361-8a3b-7fde9f2f51ba",
+    "name": "会津若松城",
+    "category": "CASTLE",
+    "description": "鶴ヶ城の愛称で親しまれる会津藩の居城。幕末の戊辰戦争の舞台であり、赤瓦の天守が復元されている。",
+    "latitude": 37.486,
+    "longitude": 139.9245,
+    "address": "福島県会津若松市追手町1-1",
+    "websiteUrl": "https://www.tsurugajo.com/",
+    "admissionFee": 410,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "26eea3aa-fe89-4c3a-8142-663d433c6d0e",
+    "name": "小田原城",
+    "category": "CASTLE",
+    "description": "北条氏の拠点として関東支配の中心となった巨大な城郭。現在は本丸周辺が整備され天守閣がそびえる。",
+    "latitude": 35.2505,
+    "longitude": 139.1534,
+    "address": "神奈川県小田原市城内6-1",
+    "websiteUrl": "https://odawaracastle.com/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "e36704d1-9269-4151-843e-0500ec25ec27",
+    "name": "駿府城",
+    "category": "CASTLE",
+    "description": "徳川家康が大御所として晩年を過ごした城。巨大な平城であり、現在は巽櫓や東御門などが復元されている。",
+    "latitude": 34.9794,
+    "longitude": 138.3836,
+    "address": "静岡県静岡市葵区駿府城公園1-1",
+    "websiteUrl": null,
+    "admissionFee": 200,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00。天守閣は現存せず、東御門・巽櫓等を公開"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌日休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "5bc63e95-9c38-4658-9078-e58e849834f2",
+    "name": "掛川城",
+    "category": "CASTLE",
+    "description": "山内一豊が拡張した城。日本初の本格的な木造復元天守として再建され、江戸時代の御殿も現存する。",
+    "latitude": 34.7752,
+    "longitude": 138.0139,
+    "address": "静岡県掛川市掛川1138-24",
+    "websiteUrl": null,
+    "admissionFee": 410,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "ed58f743-2f61-4f62-8f55-f0399bce5cbf",
+    "name": "福山城",
+    "category": "CASTLE",
+    "description": "徳川譜代の水野勝成が西国鎮衛のために築城。天守の北側に鉄板張りが施されていたことで知られる。",
+    "latitude": 34.488,
+    "longitude": 133.3567,
+    "address": "広島県福山市丸之内1-8",
+    "websiteUrl": "https://fukuyamajo.jp/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f8b1cc97-0040-452e-85f2-6396c8270522",
+    "name": "高知城",
+    "category": "CASTLE",
+    "description": "山内一豊が築き、現存12天守の一つである天守と本丸御殿がセットで残る唯一の城郭。",
+    "latitude": 33.5567,
+    "longitude": 133.5255,
+    "address": "高知県高知市丸ノ内1-2-1",
+    "websiteUrl": "https://kochipark.jp/kochijyo/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  }
+]

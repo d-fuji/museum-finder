@@ -1,70 +1,5 @@
 [
   {
-    "code": "b32bcc41-62ca-438c-916b-db2ceebdb380",
-    "name": "日本郵船歴史博物館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "日本郵船の歴史と日本の海運の発展を紹介する博物館。明治期の豪華客船の模型や航海関連資料を展示。",
-    "latitude": 35.4488,
-    "longitude": 139.6425,
-    "address": "神奈川県横浜市中区海岸通3-9",
-    "websiteUrl": "https://museum.nyk.com/",
-    "admissionFee": 400,
-    "isClosed": true,
-    "closedMessage": "2027年春頃リニューアルオープン予定",
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true,
-        "note": "祝日の場合は翌平日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      }
-    ],
-    "tags": ["港町", "明治期"]
-  },
-  {
     "code": "a84a84c0-5e9a-48a8-a97a-5f61827999c3",
     "name": "小樽市総合博物館",
     "category": "HISTORY_MUSEUM",
@@ -121,7 +56,10 @@
         "isClosed": false
       }
     ],
-    "tags": ["港町", "明治期"]
+    "tags": [
+      "港町",
+      "明治期"
+    ]
   },
   {
     "code": "4d62905e-eac5-4cc3-926f-a68f6bd58980",
@@ -180,125 +118,9 @@
         "isClosed": false
       }
     ],
-    "tags": ["港町"]
-  },
-  {
-    "code": "250e8c7a-b6e7-4f65-984e-e2332aab2589",
-    "name": "九州鉄道記念館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "門司港にある九州の鉄道の歴史を紹介する記念館。明治期の赤レンガ造りの旧九州鉄道本社を活用。",
-    "latitude": 33.9463,
-    "longitude": 130.9614,
-    "address": "福岡県北九州市門司区清滝2-3-29",
-    "websiteUrl": "https://www.k-rhm.jp/",
-    "admissionFee": 300,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      }
-    ],
-    "tags": ["港町", "明治期"]
-  },
-  {
-    "code": "9bed5371-3eab-4a25-bfef-541012cf462a",
-    "name": "トヨタ産業技術記念館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "トヨタグループの発祥地に建つ産業技術の博物館。繊維機械から自動車技術までの変遷を展示。",
-    "latitude": 35.1815,
-    "longitude": 136.8726,
-    "address": "愛知県名古屋市西区則武新町4-1-35",
-    "websiteUrl": "https://www.tcmit.org/",
-    "admissionFee": 500,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:30",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:30",
-        "closeTime": "17:00",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:30",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:30",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:30",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:30",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:30",
-        "closeTime": "17:00",
-        "isClosed": false
-      }
-    ],
-    "tags": ["体験型"]
+    "tags": [
+      "港町"
+    ]
   },
   {
     "code": "c56e7eab-b38c-4db4-b7de-cd84fabca116",
@@ -842,7 +664,9 @@
         "isClosed": false
       }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
     "code": "90027d6e-dd6a-4191-8dd3-9f0bed134f66",
@@ -959,7 +783,9 @@
         "isClosed": false
       }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
     "code": "e610fb89-66bf-4a5d-a5a8-fc89cd35abd5",
@@ -1018,7 +844,9 @@
         "isClosed": false
       }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
     "code": "89fa3fa4-86b0-4207-a362-b26ae0ea5571",
@@ -1135,7 +963,9 @@
         "isClosed": false
       }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
     "code": "11c3739e-9b91-48fa-8c60-d8093979f80b",
@@ -1253,7 +1083,9 @@
         "isClosed": false
       }
     ],
-    "tags": ["港町"]
+    "tags": [
+      "港町"
+    ]
   },
   {
     "code": "b87216d7-501f-48a9-b482-73ce259e31b2",
@@ -1312,7 +1144,9 @@
         "isClosed": false
       }
     ],
-    "tags": ["明治期"]
+    "tags": [
+      "明治期"
+    ]
   },
   {
     "code": "24510444-b802-4587-9f8a-fd58e957284d",
@@ -1490,1121 +1324,6 @@
     "tags": []
   },
   {
-    "code": "d1f394f2-61eb-4da6-a161-800fc696dbb5",
-    "name": "大阪企業家ミュージアム",
-    "category": "CORPORATE_MUSEUM",
-    "description": "大阪を拠点に活躍した105名の企業家の挑戦と創意工夫の歴史を展示。",
-    "latitude": 34.6819,
-    "longitude": 135.5022,
-    "address": "大阪府大阪市中央区本町1-4-5",
-    "websiteUrl": "https://www.kigyoka.jp/",
-    "admissionFee": 500,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false,
-        "note": "最終入館17:00"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": true
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "339d220f-8e18-42af-8035-8a3916a4633d",
-    "name": "ブラザーミュージアム",
-    "category": "CORPORATE_MUSEUM",
-    "description": "ミシンの歴史から最新のプリンター、工作機械まで、ブラザーの技術を展示。",
-    "latitude": 35.1317,
-    "longitude": 136.9414,
-    "address": "愛知県名古屋市瑞穂区塩入町5-15",
-    "websiteUrl": "https://global.brother/ja/museum",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "a10cbd30-978d-4e03-a692-b2ae8f74b07c",
-    "name": "ノリタケの森",
-    "category": "CORPORATE_MUSEUM",
-    "description": "日本初の洋食器メーカーの歴史を伝えるミュージアム。赤レンガ建築も魅力。",
-    "latitude": 35.1722,
-    "longitude": 136.8808,
-    "address": "愛知県名古屋市西区則武新町3-1-36",
-    "websiteUrl": "https://www.noritake.co.jp/mori/",
-    "admissionFee": 500,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      }
-    ],
-    "tags": ["明治期"]
-  },
-  {
-    "code": "d3bf8f58-6c6a-4de0-9abe-930896694427",
-    "name": "MIZKAN MUSEUM",
-    "category": "CORPORATE_MUSEUM",
-    "description": "酢造りの歴史と食文化を、実物大の弁才船や体験型展示で学ぶ大型施設。",
-    "latitude": 34.8919,
-    "longitude": 136.9328,
-    "address": "愛知県半田市中村町2-6",
-    "websiteUrl": "https://www.mizkan.co.jp/mim/",
-    "admissionFee": 600,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "完全予約制"
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      }
-    ],
-    "tags": ["体験型"]
-  },
-  {
-    "code": "d2eba1e7-ce30-40db-909f-fffa43501116",
-    "name": "スズキ歴史館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "スズキの原点である織機から、歴代の自動車、バイク開発の歩みを展示。",
-    "latitude": 34.7014,
-    "longitude": 137.7342,
-    "address": "静岡県浜松市中央区増楽町1301",
-    "websiteUrl": "https://suzuki-rekishikan.jp/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "要予約"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "ca02e795-93fe-4a1c-841f-669253f8056f",
-    "name": "TOTOミュージアム",
-    "category": "CORPORATE_MUSEUM",
-    "description": "創立100周年を記念し、水まわり文化の変遷とTOTOの技術、製品を展示。",
-    "latitude": 33.8828,
-    "longitude": 130.8758,
-    "address": "福岡県北九州市小倉北区中島2-1-1",
-    "websiteUrl": "https://jp.toto.com/knowledge/visit/museum/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "80f016b7-7db3-4f1d-a9c6-656342c0c101",
-    "name": "三菱重工業長崎造船所史料館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "現存する最古の木型場を活用。造船、機械製作の近代化の歩みを伝える。",
-    "latitude": 32.7442,
-    "longitude": 129.8589,
-    "address": "長崎県長崎市飽の浦町1-1",
-    "websiteUrl": "https://www.mhi.com/jp/company/location/nagasakiw/museum/",
-    "admissionFee": 500,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": true
-      }
-    ],
-    "tags": ["明治期"]
-  },
-  {
-    "code": "02fea1f5-872c-414b-abcc-09e05a41db7c",
-    "name": "三菱みなとみらい技術館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "航空宇宙、海洋、環境・エネルギーなどの最先端技術を体験型で学べる。",
-    "latitude": 35.4561,
-    "longitude": 139.6319,
-    "address": "神奈川県横浜市西区みなとみらい3-3-1",
-    "websiteUrl": "https://www.mhi.com/jp/museum/",
-    "admissionFee": 500,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false,
-        "note": "最終入館17:00"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:30",
-        "isClosed": false
-      }
-    ],
-    "tags": ["体験型"]
-  },
-  {
-    "code": "04b0bf9a-21c9-4062-81a5-0864cd2edf62",
-    "name": "門司電気通信レトロ館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "大正期の電信局建築で、明治から現代までの電話、通信の歴史を展示。",
-    "latitude": 33.9408,
-    "longitude": 130.9633,
-    "address": "福岡県北九州市門司区浜町4-1",
-    "websiteUrl": "https://www.ntt-west.co.jp/kyushu/moji/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      }
-    ],
-    "tags": ["港町"]
-  },
-  {
-    "code": "0b9cc360-2de0-43c3-82d0-f15deaa96f8b",
-    "name": "竹中大工道具館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "大工道具の歴史と職人の技を伝える、日本で唯一の大工道具専門博物館。",
-    "latitude": 34.7044,
-    "longitude": 135.1997,
-    "address": "兵庫県神戸市中央区熊内町7-5-1",
-    "websiteUrl": "https://www.dougukan.jp/",
-    "admissionFee": 500,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false,
-        "note": "最終入館16:00"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "78b5685f-1557-48c3-ae8a-cb4530adb560",
-    "name": "カップヌードルミュージアム大阪池田",
-    "category": "CORPORATE_MUSEUM",
-    "description": "インスタントラーメン発明の歴史を展示し、創意工夫の大切さを伝える。",
-    "latitude": 34.8228,
-    "longitude": 135.4317,
-    "address": "大阪府池田市満寿美町8-25",
-    "websiteUrl": "https://www.cupnoodles-museum.jp/ja/osaka_ikeda/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false,
-        "note": "最終入館15:30"
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      }
-    ],
-    "tags": ["体験型"]
-  },
-  {
-    "code": "45064927-2731-4b19-a612-f1804b3662fe",
-    "name": "パナソニックミュージアム",
-    "category": "CORPORATE_MUSEUM",
-    "description": "松下幸之助の生涯、経営哲学、そして歴代製品を通じた暮らしの進化を展示。",
-    "latitude": 34.7342,
-    "longitude": 135.5858,
-    "address": "大阪府門真市大字門真1006",
-    "websiteUrl": "https://holdings.panasonic/jp/corporate/museum.html",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "要事前予約"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "e54b7e39-5e92-4392-b974-6c70e2bac2de",
-    "name": "サントリー山崎蒸溜所 山崎ウイスキー館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "日本のウイスキーづくりの歴史、貴重な原酒や創業時の資料を展示。",
-    "latitude": 34.8856,
-    "longitude": 135.6614,
-    "address": "大阪府三島郡島本町山崎5-2-1",
-    "websiteUrl": "https://www.suntory.co.jp/factory/yamazaki/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "eb968553-f79e-43f8-9a58-54ef4be43e70",
-    "name": "髙島屋史料館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "百貨店が所蔵する美術品や歴史資料を通じ、日本の商業文化の発展を展示。",
-    "latitude": 34.6628,
-    "longitude": 135.5058,
-    "address": "大阪府大阪市浪速区日本橋3-5-25",
-    "websiteUrl": "https://www.takashimaya.co.jp/shiryokan/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [],
-    "tags": []
-  },
-  {
-    "code": "58e7e6c7-413d-485e-a038-f17088775ab7",
-    "name": "白鶴酒造資料館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "大正初期の酒蔵を利用し、伝統的な日本酒造りの工程を等身大の人形で再現。",
-    "latitude": 34.7169,
-    "longitude": 135.2578,
-    "address": "兵庫県神戸市東灘区住吉南町4-5-5",
-    "websiteUrl": "http://www.hakutsuru.co.jp/community/shiryo/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "044401a5-3217-4b43-9d35-a43103a427f8",
-    "name": "菊正宗酒造記念館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "国指定の重要有形民俗文化財を所蔵。灘の酒造り文化を深く学べる。",
-    "latitude": 34.7119,
-    "longitude": 135.2683,
-    "address": "兵庫県神戸市東灘区魚崎西町1-9-1",
-    "websiteUrl": "https://www.kikumasa.co.jp/kinenkan/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:30",
-        "closeTime": "16:30",
-        "isClosed": false
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "69a75e5d-521c-4312-a94b-9c1a1208bebd",
-    "name": "沢の鶴資料館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "古い酒蔵を復元し、江戸時代の酒造りの道具や工程を展示する重要文化財。",
-    "latitude": 34.7061,
-    "longitude": 135.2194,
-    "address": "兵庫県神戸市灘区大石南町1-29-1",
-    "websiteUrl": "https://www.sawanotsuru.co.jp/site/resource/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "16:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "16:00",
-        "isClosed": true,
-        "note": "祝日の場合は翌日休館"
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "16:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "16:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "16:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "16:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "16:00",
-        "isClosed": false
-      }
-    ],
-    "tags": []
-  },
-  {
-    "code": "fa3a4efb-0e24-475e-a210-36c56e3cb19e",
-    "name": "造幣博物館",
-    "category": "CORPORATE_MUSEUM",
-    "description": "明治期のレンガ造り建築。貨幣の歴史や製造工程、世界各国のコインを展示。",
-    "latitude": 34.6961,
-    "longitude": 135.5189,
-    "address": "大阪府大阪市北区天満1-1-79",
-    "websiteUrl": "https://www.mint.go.jp/enjoy/museum",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "最終入館16:30"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "09:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      }
-    ],
-    "tags": ["明治期"]
-  },
-  {
-    "code": "1074b0f9-e7f4-42a7-aa57-311890249624",
-    "name": "いすゞプラザ",
-    "category": "CORPORATE_MUSEUM",
-    "description": "働く車の役割や、いすゞのものづくりの歴史、プロセスを体験型で紹介。",
-    "latitude": 35.3761,
-    "longitude": 139.4636,
-    "address": "神奈川県藤沢市土棚8",
-    "websiteUrl": "https://www.isuzu.co.jp/plaza/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false,
-        "note": "要事前予約"
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      }
-    ],
-    "tags": ["体験型"]
-  },
-  {
-    "code": "10f32a6f-2884-47a6-8c0a-21bcf33a7880",
-    "name": "三菱オートギャラリー",
-    "category": "CORPORATE_MUSEUM",
-    "description": "三菱自動車の原点から現代までの代表的な車両を一堂に集めて展示。",
-    "latitude": 34.9561,
-    "longitude": 137.1758,
-    "address": "愛知県岡崎市橋目町字中新切1",
-    "websiteUrl": "https://www.mitsubishi-motors.com/jp/company/facilities/autogallery/",
-    "admissionFee": 0,
-    "isClosed": false,
-    "operatingHours": [
-      {
-        "dayOfWeek": 0,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 1,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      },
-      {
-        "dayOfWeek": 2,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 3,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 4,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 5,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": false
-      },
-      {
-        "dayOfWeek": 6,
-        "openTime": "10:00",
-        "closeTime": "17:00",
-        "isClosed": true
-      }
-    ],
-    "tags": []
-  },
-  {
     "code": "be91ac64-67cd-45d8-8da4-56735d0eb2e1",
     "name": "大阪歴史博物館",
     "category": "HISTORY_MUSEUM",
@@ -2718,7 +1437,9 @@
         "isClosed": false
       }
     ],
-    "tags": ["体験型"]
+    "tags": [
+      "体験型"
+    ]
   },
   {
     "code": "2d754b75-a831-477c-b5fc-90bc611fc70d",
@@ -2836,6 +1557,539 @@
         "isClosed": false
       }
     ],
-    "tags": ["明治期"]
+    "tags": [
+      "明治期"
+    ]
+  },
+  {
+    "code": "6c28ed88-eeac-4240-9b3d-9c57b0763d7f",
+    "name": "北名古屋市歴史民俗資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "「昭和日常博物館」として親しまれ、戦後の生活用品を膨大にコレクション。",
+    "latitude": 35.2467,
+    "longitude": 136.8717,
+    "address": "愛知県北名古屋市熊之庄御榊53",
+    "websiteUrl": "https://www.city.kitanagoya.lg.jp/rekimin/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "cb5334e7-3c89-4ef6-ad58-b7d005663c10",
+    "name": "北九州市立自然史・歴史博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "自然史と歴史を融合。恐竜から八幡製鐵所の歴史、現在の環境問題まで。",
+    "latitude": 33.8733,
+    "longitude": 130.8244,
+    "address": "福岡県北九州市八幡東区東田2-4-1",
+    "websiteUrl": "https://www.kmnh.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "996da393-21d6-426d-ad72-52379a6d3a96",
+    "name": "北九州市立長崎街道木屋瀬宿記念館",
+    "category": "HISTORY_MUSEUM",
+    "description": "江戸時代の宿場町としての賑わいと、地域の伝統文化を多角的に展示。",
+    "latitude": 33.8536,
+    "longitude": 130.7528,
+    "address": "福岡県北九州市八幡西区木屋瀬3-16-26",
+    "websiteUrl": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0006.html",
+    "admissionFee": 150,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "966d3cc2-e592-40ff-a74c-cdc56a51968c",
+    "name": "ピースおおさか",
+    "category": "HISTORY_MUSEUM",
+    "description": "大阪大空襲の体験を伝え、平和の尊さを考えるための国際平和センター。",
+    "latitude": 34.6878,
+    "longitude": 135.5261,
+    "address": "大阪府大阪市中央区大阪城2-1",
+    "websiteUrl": "http://www.peace-osaka.or.jp/",
+    "admissionFee": 250,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "5636b362-05bc-4481-b298-41d7d4cbc1cb",
+    "name": "大阪府立狭山池博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "1400年の歴史を持つ日本最古のため池を軸に、土木技術の歴史を展示。",
+    "latitude": 34.5022,
+    "longitude": 135.5894,
+    "address": "大阪府大阪狭山市池尻中2丁目",
+    "websiteUrl": "http://www.sayamaikehaku.osakasayama.osaka.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "85de334f-ceef-4311-86de-a43973157752",
+    "name": "昭和館",
+    "category": "HISTORY_MUSEUM",
+    "description": "戦中・戦後の国民生活の労苦を伝え、当時の実物資料を多数展示する。",
+    "latitude": 35.6947,
+    "longitude": 139.7494,
+    "address": "東京都千代田区九段南1-6-1",
+    "websiteUrl": "https://www.showakan.go.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "75dab2c0-1660-463c-929a-154a677b66cb",
+    "name": "新潟市江南区郷土資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "地域の農耕や生活の歴史を伝え、地域文化の交流拠点として機能する。",
+    "latitude": 37.8814,
+    "longitude": 139.1358,
+    "address": "新潟市江南区茅野山3-1-14",
+    "websiteUrl": "http://www.city.niigata.lg.jp/konan/shisetsu/yoka/bunka/kounankyodo.html",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "c096f263-63b5-4858-9200-dff012ef5b01",
+    "name": "北九州市立小倉城庭園",
+    "category": "HISTORY_MUSEUM",
+    "description": "小倉城跡にあり、小笠原流の礼法や江戸時代の武家文化、地域の伝統を展示。",
+    "latitude": 33.8839,
+    "longitude": 130.8742,
+    "address": "福岡県北九州市小倉北区城内1-2",
+    "websiteUrl": "https://www.kokura-castle.jp/",
+    "admissionFee": 350,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "0b8ea1dc-e21d-4549-898c-a8756e2664d6",
+    "name": "江東区立深川江戸資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "江戸時代末期の深川の町並みを実物大で再現し、下町の生活を展示。",
+    "latitude": 35.6831,
+    "longitude": 139.7969,
+    "address": "東京都江東区白河1-3-28",
+    "websiteUrl": "https://www.kcf.or.jp/fukagawa/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": [
+      "体験型"
+    ]
   }
 ]
