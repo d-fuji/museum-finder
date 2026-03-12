@@ -48,7 +48,7 @@ model Tag {
 model Review {
   id        Int      @id @default(autoincrement())
   rating    Int
-  comment   String?  @db.Text
+  comment   String?  @db.VarChar(1000)
   userId    String   @db.VarChar(255)
   museumId  Int
   userName  String   @db.VarChar(255)

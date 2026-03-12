@@ -92,6 +92,37 @@ paths:
         "409":
           description: 重複レビュー
 
+  /auth/register:
+    post:
+      summary: ユーザー登録
+      operationId: registerUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+                - email
+                - password
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+                  format: email
+                password:
+                  type: string
+                  minLength: 8
+      responses:
+        "201":
+          description: 登録成功
+        "400":
+          description: バリデーションエラー
+        "409":
+          description: メールアドレス重複
+
   /tags:
     get:
       summary: タグ一覧取得
@@ -133,6 +164,7 @@ components:
       type: object
       required:
         - id
+        - code
         - name
         - category
         - latitude
@@ -141,9 +173,14 @@ components:
         - isClosed
         - averageRating
         - reviewCount
+        - createdAt
+        - updatedAt
       properties:
         id:
           type: integer
+        code:
+          type: string
+          description: 公開用コード（cuid）
         name:
           type: string
         category:
@@ -182,6 +219,14 @@ components:
         reviewCount:
           type: integer
           description: レビュー数
+        createdAt:
+          type: string
+          format: date-time
+          description: 登録日時
+        updatedAt:
+          type: string
+          format: date-time
+          description: 更新日時
 
     MuseumDetail:
       allOf:

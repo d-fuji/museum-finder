@@ -13,15 +13,36 @@
 | id         | number (int)      | yes  | レビュー ID                            |
 | rating     | integer (1-5)     | yes  | 評価                                   |
 | comment    | string            | no   | コメント                               |
-| userId     | string            | yes  | ユーザー ID (FK → User)                |
+| userId     | string            | yes  | ユーザー ID（User.id と同値だが FK 制約なし） |
 | museumId   | number (int)      | yes  | 施設 ID (FK → Museum)                  |
 | userName   | string            | yes  | 投稿者名（User.name から取得して保存） |
 | createdAt  | string (ISO 8601) | yes  | 投稿日時                               |
 
-- 投稿時に `User.name` を `userName` として保存する（JOIN 不要で高速表示）
 - 同一ユーザー × 同一施設の重複投稿は禁止（`@@unique([userId, museumId])`）
 
-## 3. 機能
+## 3. 設計方針
+
+### userName の非正規化
+
+- 投稿時に `User.name` を `userName` として保存する
+- レビュー表示時に User テーブルへの JOIN が不要になり高速表示できる
+- ユーザーが名前を変更しても過去レビューの投稿者名は変わらない（投稿時点の名前を保持）
+
+### userId と User の関係
+
+- Review.userId は User.id と同じ値を持つが、Prisma 上の FK リレーションは設定しない
+- User 削除時にレビューを残す設計（非正規化の一環）
+
+### 重複投稿の防止
+
+- 同一ユーザーが同一施設に複数レビューを投稿することを DB 制約で防止する
+- UI 側でもレビュー済みの場合はフォームを非表示にする
+
+## 4. DB スキーマ
+
+`prisma/schema.prisma` の `Review` モデルを参照。
+
+## 5. 機能
 
 ### レビュー閲覧
 
@@ -41,40 +62,26 @@
 - 「投稿する」ボタン
 - 投稿成功後、レビュー一覧を更新（SWR の mutate）
 
-## 4. API
+## 6. API
 
-### POST /api/museums/{id}/reviews
+`docs/openapi.yaml` を参照。この機能に関連するエンドポイント:
 
-レビューを投稿する。認証必須。
+- `POST /api/museums/{id}/reviews` — レビュー投稿（認証必須）
 
-**リクエスト:**
+## 7. UI 検討事項（未決定）
 
-```json
-{
-  "rating": 4,
-  "comment": "とても勉強になりました"
-}
-```
+以下は実装フェーズで検討・決定する。
 
-| フィールド | 型      | 必須 | バリデーション |
-| ---------- | ------- | ---- | -------------- |
-| rating     | integer | yes  | 1〜5           |
-| comment    | string  | no   | 最大 1000 文字 |
+- レビュー一覧の並び順（新しい順? 評価順?）
+- レビューの編集・削除機能
+- レビューのページネーション（件数が増えた場合）
 
-**レスポンス:**
-
-- `201`: 作成されたレビュー（Review 型）
-- `400`: バリデーションエラー
-- `401`: 未認証
-- `404`: 施設が存在しない
-- `409`: 同一ユーザーによる重複レビュー
-
-## 5. 実装ファイル
+## 8. 実装ファイル
 
 | ファイル                                    | 内容                     |
 | ------------------------------------------- | ------------------------ |
 | `src/app/api/museums/[id]/reviews/route.ts` | レビュー投稿 API         |
 | `src/lib/review.ts`                         | レビュー投稿ロジック     |
-| `src/components/ReviewForm.tsx`             | レビュー投稿フォーム     |
-| `src/components/ReviewCard.tsx`             | レビュー表示カード       |
-| `src/app/museums/[id]/page.tsx`             | 詳細ページにフォーム統合 |
+| `src/components/ReviewForm.tsx`              | レビュー投稿フォーム     |
+| `src/components/ReviewCard.tsx`              | レビュー表示カード       |
+| `src/app/museums/[id]/page.tsx`              | 詳細ページにフォーム統合 |

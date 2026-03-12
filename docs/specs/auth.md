@@ -9,54 +9,75 @@ Auth.js (NextAuth.js v5) を使い、メール+パスワード認証を提供す
 
 ### User
 
-| カラム        | 型        | 制約             | 説明                                   |
-| ------------- | --------- | ---------------- | -------------------------------------- |
-| id            | String    | PK, default cuid | ユーザー ID                            |
-| name          | String?   | -                | 表示名                                 |
-| email         | String?   | UNIQUE           | メールアドレス                         |
-| emailVerified | DateTime? | -                | メール確認日時                         |
-| image         | String?   | -                | アバター URL                           |
-| password      | String?   | -                | ハッシュ化パスワード（Credentials 用） |
+| フィールド    | 型        | 必須 | 説明                                   |
+| ------------- | --------- | ---- | -------------------------------------- |
+| id            | String    | yes  | ユーザー ID（cuid）                    |
+| name          | String    | no   | 表示名                                 |
+| email         | String    | no   | メールアドレス（UNIQUE）               |
+| emailVerified | DateTime  | no   | メール確認日時                         |
+| image         | String    | no   | アバター URL                           |
+| password      | String    | no   | ハッシュ化パスワード（Credentials 用） |
 
 ### Account
 
-| カラム            | 型      | 制約             | 説明                 |
-| ----------------- | ------- | ---------------- | -------------------- |
-| id                | String  | PK, default cuid | アカウント ID        |
-| userId            | String  | FK → User.id     | ユーザー ID          |
-| type              | String  | NOT NULL         | アカウント種別       |
-| provider          | String  | NOT NULL         | プロバイダー名       |
-| providerAccountId | String  | NOT NULL         | プロバイダー側 ID    |
-| refresh_token     | String? | -                | リフレッシュトークン |
-| access_token      | String? | -                | アクセストークン     |
-| expires_at        | Int?    | -                | トークン有効期限     |
-| token_type        | String? | -                | トークン種別         |
-| scope             | String? | -                | スコープ             |
-| id_token          | String? | -                | ID トークン          |
-| session_state     | String? | -                | セッション状態       |
+| フィールド        | 型     | 必須 | 説明                 |
+| ----------------- | ------ | ---- | -------------------- |
+| id                | String | yes  | アカウント ID（cuid）|
+| userId            | String | yes  | ユーザー ID（FK → User） |
+| type              | String | yes  | アカウント種別       |
+| provider          | String | yes  | プロバイダー名       |
+| providerAccountId | String | yes  | プロバイダー側 ID    |
+| refresh_token     | String | no   | リフレッシュトークン |
+| access_token      | String | no   | アクセストークン     |
+| expires_at        | Int    | no   | トークン有効期限     |
+| token_type        | String | no   | トークン種別         |
+| scope             | String | no   | スコープ             |
+| id_token          | String | no   | ID トークン          |
+| session_state     | String | no   | セッション状態       |
 
-@@unique([provider, providerAccountId])
+- `@@unique([provider, providerAccountId])`
 
 ### Session
 
-| カラム       | 型       | 制約             | 説明               |
-| ------------ | -------- | ---------------- | ------------------ |
-| id           | String   | PK, default cuid | セッション ID      |
-| sessionToken | String   | UNIQUE           | セッショントークン |
-| userId       | String   | FK → User.id     | ユーザー ID        |
-| expires      | DateTime | NOT NULL         | 有効期限           |
+| フィールド   | 型       | 必須 | 説明               |
+| ------------ | -------- | ---- | ------------------ |
+| id           | String   | yes  | セッション ID（cuid）|
+| sessionToken | String   | yes  | セッショントークン（UNIQUE） |
+| userId       | String   | yes  | ユーザー ID（FK → User） |
+| expires      | DateTime | yes  | 有効期限           |
 
 ### VerificationToken
 
-| カラム     | 型       | 制約     | 説明     |
-| ---------- | -------- | -------- | -------- |
-| identifier | String   | NOT NULL | 識別子   |
-| token      | String   | NOT NULL | トークン |
-| expires    | DateTime | NOT NULL | 有効期限 |
+| フィールド | 型       | 必須 | 説明     |
+| ---------- | -------- | ---- | -------- |
+| identifier | String   | yes  | 識別子   |
+| token      | String   | yes  | トークン |
+| expires    | DateTime | yes  | 有効期限 |
 
-@@unique([identifier, token])
+- `@@unique([identifier, token])`
 
-## 3. 機能
+## 3. 設計方針
+
+### セッション戦略
+
+- JWT 戦略を採用（DB セッションテーブルは Auth.js の規約上存在するが、実際のセッション管理は JWT で行う）
+- サーバーサイドでは `auth()` でセッションを取得
+
+### パスワード管理
+
+- bcrypt でハッシュ化して保存
+- Credentials プロバイダーを使用（OAuth プロバイダーは将来拡張可能）
+
+### Prisma Adapter
+
+- `@auth/prisma-adapter` を使用し、Auth.js のモデルを Prisma で管理
+- Account / Session / VerificationToken は Auth.js の規約に準拠した構造
+
+## 4. DB スキーマ
+
+`prisma/schema.prisma` の `User`・`Account`・`Session`・`VerificationToken` モデルを参照。
+
+## 5. 機能
 
 ### ヘッダー
 
@@ -77,33 +98,27 @@ Auth.js (NextAuth.js v5) を使い、メール+パスワード認証を提供す
 
 - 認証成功後、元のページにリダイレクト
 
-## 4. API
+## 6. API
 
-### POST /api/auth/register
+`docs/openapi.yaml` を参照。この機能に関連するエンドポイント:
 
-ユーザー登録。
+- `POST /api/auth/register` — ユーザー登録
 
-**リクエスト:**
-
-| フィールド | 型     | 必須 | バリデーション |
-| ---------- | ------ | ---- | -------------- |
-| name       | string | yes  | 必須           |
-| email      | string | yes  | 必須           |
-| password   | string | yes  | 8 文字以上     |
-
-**レスポンス:**
-
-- `201`: 登録成功
-- `400`: バリデーションエラー
-- `409`: メールアドレス重複
-
-### Auth.js 提供エンドポイント
+Auth.js が自動提供するエンドポイント:
 
 - `POST /api/auth/callback/credentials` — ログイン
 - `POST /api/auth/signout` — ログアウト
 - `GET /api/auth/session` — セッション取得
 
-## 5. 実装ファイル
+## 7. UI 検討事項（未決定）
+
+以下は実装フェーズで検討・決定する。
+
+- OAuth プロバイダー（Google, GitHub 等）の追加
+- パスワードリセット機能
+- メール確認フロー
+
+## 8. 実装ファイル
 
 | ファイル                                  | 内容                                          |
 | ----------------------------------------- | --------------------------------------------- |

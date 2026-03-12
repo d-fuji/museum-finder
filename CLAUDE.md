@@ -1,86 +1,75 @@
 # Project Instructions
 
-## 開発スタイル
+## このファイルについて
 
-- TDD・仕様駆動開発を基本とする
-- **機能実装・バグ修正・コード追加を行う際は、必ず `/tdd` スキルを実行してから作業を開始すること**
-- 実装の手順: 仕様確認(`docs/specs/`) → テスト作成(RED) → 最小実装(GREEN) → リファクタ。この順序は絶対に守る
-- テストを実装に合わせて修正することは禁止。テストが失敗したら実装を修正する。仕様変更が必要な場合はユーザーに確認する
-- DB ロジックはリポジトリパターンで分離し、テストではモックに差し替える
+CLAUDE.md は継続的に改善するドキュメントである。
+
+- **同じミスを繰り返したら**: 原因となるルールや注意事項をこのファイルに追記する。2度目の間違いは仕組みで防ぐ
+- **肥大化したら**: セクションの内容を `.claude/rules/`（常時参照すべきルール）や `.claude/skills/`（手順的ワークフロー）に分離し、ここには参照だけ残す
+
+## プロダクト概要
+
+企業博物館・歴史館の地図検索 + ユーザーレビューアプリ。初期データは「明治期の産業遺産」「歴史的港町（小樽・神戸・門司等）」に絞って世界観を構築する。
+
+Category enum: `CORPORATE_MUSEUM` / `HISTORY_MUSEUM` / `SCIENCE_MUSEUM` / `INDUSTRIAL_HERITAGE` / `FACTORY_TOUR` / `CASTLE`
+
+フィクスチャの開館状況・料金は陳腐化する。`websiteUrl` で公式サイトを参照可能にし、`isClosed` + `closedMessage` で休館情報を管理する。
+
+## 開発フロー
+
+### 仕様駆動開発（spec-first）
+
+`docs/specs/` が最上位の真実。すべての実装はここから始まる。
+
+**権威構造**: spec (`docs/specs/`) → openapi (`docs/openapi.yaml`) / prisma (`prisma/schema.prisma`) → 実装コード。矛盾があれば上位を正とする。
+
+- spec に書かれていない機能を勝手に追加しない。仕様変更はユーザーに確認
+- 新規仕様は `docs/specs/_template.md` の構成に従う
+
+### テスト駆動開発（TDD）
+
+機能実装・バグ修正・コード追加時は `/tdd` スキルを実行してから開始する。フィールド追加時は `/add-field` スキルに従う。
 
 ## 技術スタック
 
-- Next.js (App Router) / Vercel
-- Tailwind CSS（モバイルファースト）
-- UIライブラリ: shadcn/ui (v4, Base UI ベース) + Lucide React アイコン
-- データフェッチ: SWR
-- 地図: react-map-gl + MapLibre GL JS
-- DB: Prisma (v7) + PostgreSQL (Neon / ローカル Docker)
-- 認証: Auth.js v5 (next-auth) + @auth/prisma-adapter
-- API仕様: OpenAPI 3.0 (`docs/openapi.yaml`)
-- モック: MSW (Mock Service Worker) でAPIをモック
-- 型定義: `src/types/api.ts`（OpenAPIスキーマと対応）
-- フィクスチャデータ: `src/data/*.json`
+| レイヤー | 技術 |
+|---------|------|
+| フレームワーク | Next.js (App Router) / Vercel |
+| スタイル | Tailwind CSS（モバイルファースト）/ shadcn/ui v4 + Lucide React |
+| データ | SWR / Prisma v7 + PostgreSQL (Neon) / Auth.js v5 |
+| 地図 | react-map-gl + MapLibre GL JS |
+| テスト | Vitest + Testing Library + jsdom / MSW |
+| 型・仕様 | `src/types/api.ts`（← `docs/openapi.yaml`）/ `src/data/*.json`（フィクスチャ） |
 
-## Prisma 運用ルール
+## Prisma・DB
 
-- Prisma v7 では `PrismaClient` のインポートは `@/generated/prisma/client` から行う（`@prisma/client` は使わない）
-- DB アダプター: ローカルは `@prisma/adapter-pg`、本番は `@prisma/adapter-neon`（`src/lib/prisma.ts` で自動切替）
-- `prisma migrate dev` は generate も自動実行する。ローカルでは `npm run db:migrate` だけでOK
-- seed スクリプトでは `tsx --tsconfig tsconfig.json` で実行し `@/` パスエイリアスを使う
-- マイグレーション運用の詳細は `docs/specs/infrastructure.md` を参照
+運用ルール → `.claude/rules/prisma.md` / マイグレーション・環境構築 → `/db-migrate` スキル
+
+## コーディング規約
+
+- テスト実行: `npx vitest run`（全体）/ `npx vitest run <path>`（個別）
+- テスト配置: `__tests__/` ディレクトリ（対象モジュールの隣）
+- テストの MSW: `src/mocks/server.ts` / SWR: `SWRTestProvider`（`src/lib/test-utils.tsx`）でキャッシュ分離
+- コミット前: `npm run lint && npm run format:check`
+- Prettier: ダブルクォート、セミコロンあり、trailing comma es5、printWidth 100（`.prettierrc`）
+- 型変換: マッパー関数（`toMuseumSummary` 等）を `lib/` に集約。null → undefined 変換もマッパー内で一元管理
+- 共通化: 2箇所以上で同じ変換・計算が現れたら `lib/` に切り出す
+- DB 依存の分離: DB 依存関数と非依存関数を同じファイルに混ぜない
 
 ## ディレクトリ構成
 
 ```
 src/
-  app/           # Next.js App Router ページ
+  app/           # ページ + API routes
   auth.ts        # Auth.js 設定
-  components/    # UIコンポーネント
-    ui/          # shadcn/ui コンポーネント
-  generated/     # Prisma Client 生成コード（gitignore済み）
+  components/    # UI（ui/ = shadcn/ui）
+  generated/     # Prisma Client（gitignore済み）
   types/         # 型定義
-  data/          # JSONフィクスチャ（MSWのモックデータ + シード元データ）
-  mocks/         # MSWハンドラー・セットアップ
-  lib/           # ユーティリティ・APIクライアント・Prismaシングルトン
-prisma/
-  schema.prisma  # DBスキーマ定義（単一ソース）
-  seed.ts        # シードスクリプト
-  migrations/    # マイグレーションファイル
+  data/          # JSON フィクスチャ
+  mocks/         # MSW ハンドラー
+  lib/           # ユーティリティ・Prisma・マッパー
+prisma/          # schema / seed / migrations
 docs/
-  openapi.yaml   # API仕様
-  specs/         # 機能仕様書
+  openapi.yaml   # API 仕様
+  specs/         # 機能仕様書（_template.md = テンプレート）
 ```
-
-## テスト
-
-- フレームワーク: Vitest + @testing-library/react + jsdom
-- 実行: `npx vitest run`（全テスト）、`npx vitest run <path>`（個別）
-- テストファイル: `__tests__/` ディレクトリに配置（対象モジュールの隣）
-- MSW: テスト時は `src/mocks/server.ts` を使用
-- SWR: テスト時は `SWRTestProvider`（`src/lib/test-utils.tsx`）でラップしてキャッシュを分離する
-
-## Lint & フォーマット
-
-- ESLint: `npm run lint`
-  - `eslint-config-next/core-web-vitals` + `eslint-config-next/typescript`
-  - `eslint-config-prettier` でフォーマットルールの競合を回避
-- Prettier: `npm run format`（修正）/ `npm run format:check`（チェックのみ）
-  - ダブルクォート、セミコロンあり、trailing comma es5、printWidth 100
-  - 設定: `.prettierrc`
-- コミット前に `npm run lint && npm run format:check` が通ることを確認する
-
-## リファクタ方針
-
-- **Prisma → API 型の変換**: マッパー関数（`toMuseumSummary` 等）を `lib/` に集約する。API ルートで直接マッピングしない
-- **null → undefined 変換**: マッパー関数内で一元管理する。各所で `?? undefined` を書かない
-- **共通ロジックの抽出**: 2箇所以上で同じ変換・計算が現れたら `lib/` にユーティリティとして切り出す
-- **DB 依存の分離**: DB に依存しない関数と依存する関数を同じファイルに混ぜない。テストで不要な DB 接続が発生する原因になる
-- **仕様の同期**: リファクタで構造が変わった場合は `docs/specs/` と `CLAUDE.md` も更新する
-
-## 仕様書
-
-- 仕様は `docs/specs/` に機能ごとに配置する
-- API仕様は `docs/openapi.yaml` を単一ソースとする
-- 実装前に必ず対象機能の仕様を確認する
-- 仕様変更が必要な場合はユーザーに確認してから更新する
