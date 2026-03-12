@@ -4,6 +4,8 @@ import {
   calculateAverageRating,
   toMuseumSummary,
   toOperatingHours,
+  toBookmark,
+  toBookmarkWithMuseum,
 } from "@/lib/museum-utils";
 
 describe("CATEGORY_LABEL", () => {
@@ -152,5 +154,84 @@ describe("toOperatingHours", () => {
 
     const result = toOperatingHours(row);
     expect(result.note).toBeUndefined();
+  });
+});
+
+describe("toBookmark", () => {
+  it("should map bookmark row to API type", () => {
+    const row = {
+      id: 1,
+      userId: "user-1",
+      museumId: 10,
+      status: "WANT_TO_GO" as const,
+      visitedAt: null,
+      createdAt: new Date("2025-03-01T00:00:00Z"),
+      updatedAt: new Date("2025-03-01T00:00:00Z"),
+    };
+
+    const result = toBookmark(row);
+
+    expect(result).toEqual({
+      id: 1,
+      userId: "user-1",
+      museumId: 10,
+      status: "WANT_TO_GO",
+      visitedAt: undefined,
+      createdAt: "2025-03-01T00:00:00.000Z",
+      updatedAt: "2025-03-01T00:00:00.000Z",
+    });
+  });
+
+  it("should include visitedAt when present", () => {
+    const row = {
+      id: 2,
+      userId: "user-1",
+      museumId: 10,
+      status: "VISITED" as const,
+      visitedAt: new Date("2025-02-15"),
+      createdAt: new Date("2025-03-01T00:00:00Z"),
+      updatedAt: new Date("2025-03-01T00:00:00Z"),
+    };
+
+    const result = toBookmark(row);
+    expect(result.visitedAt).toBe("2025-02-15");
+  });
+});
+
+describe("toBookmarkWithMuseum", () => {
+  const baseMuseum = {
+    id: 10,
+    name: "テスト博物館",
+    category: "CORPORATE_MUSEUM" as const,
+    description: null,
+    latitude: 35.0,
+    longitude: 135.0,
+    address: null,
+    websiteUrl: null,
+    admissionFee: null,
+    isClosed: false,
+    closedMessage: null,
+    reviews: [{ rating: 4 }],
+    tags: [{ id: 1, name: "港町" }],
+  };
+
+  it("should include museum summary with bookmark", () => {
+    const row = {
+      id: 1,
+      userId: "user-1",
+      museumId: 10,
+      status: "WANT_TO_GO" as const,
+      visitedAt: null,
+      createdAt: new Date("2025-03-01T00:00:00Z"),
+      updatedAt: new Date("2025-03-01T00:00:00Z"),
+      museum: baseMuseum,
+    };
+
+    const result = toBookmarkWithMuseum(row);
+
+    expect(result.museum.id).toBe(10);
+    expect(result.museum.name).toBe("テスト博物館");
+    expect(result.museum.averageRating).toBe(4);
+    expect(result.status).toBe("WANT_TO_GO");
   });
 });

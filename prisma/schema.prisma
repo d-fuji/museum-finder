@@ -35,6 +35,7 @@ model Museum {
   reviews        Review[]
   tags           Tag[]
   operatingHours OperatingHours[]
+  bookmarks      Bookmark[]
 
   @@index([category])
 }
@@ -75,6 +76,28 @@ model OperatingHours {
   @@index([museumId])
 }
 
+enum BookmarkStatus {
+  WANT_TO_GO
+  VISITED
+}
+
+model Bookmark {
+  id        Int            @id @default(autoincrement())
+  userId    String         @db.VarChar(255)
+  museumId  Int
+  status    BookmarkStatus
+  visitedAt DateTime?      @db.Date
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  museum Museum @relation(fields: [museumId], references: [id])
+
+  @@unique([userId, museumId])
+  @@index([userId])
+  @@index([museumId])
+}
+
 // Auth.js models
 
 model User {
@@ -85,8 +108,9 @@ model User {
   image         String?
   password      String?
 
-  accounts Account[]
-  sessions Session[]
+  accounts  Account[]
+  sessions  Session[]
+  bookmarks Bookmark[]
 }
 
 model Account {

@@ -8,26 +8,26 @@
 
 ### Museum
 
-| フィールド    | 型                | 必須 | 説明                                        |
-| ------------- | ----------------- | ---- | ------------------------------------------- |
-| id            | number (int)      | yes  | 施設 ID                                     |
-| code          | string            | yes  | 公開用コード（cuid、UNIQUE、自動生成）      |
-| name          | string            | yes  | 施設名                                      |
-| category      | Category          | yes  | カテゴリ                                    |
-| description   | string            | no   | 概要                                        |
-| latitude      | number            | yes  | 緯度                                        |
-| longitude     | number            | yes  | 経度                                        |
-| address       | string            | no   | 住所                                        |
-| websiteUrl    | string            | no   | Web サイト                                  |
-| admissionFee  | number (int)      | no   | 入場料（大人料金、円単位。0=無料）          |
-| isClosed      | boolean           | yes  | 閉館フラグ（default: false）                |
-| closedMessage | string            | no   | 閉館理由・補足（例: "2025年3月より改装中"） |
-| tags          | Tag[]             | no   | タグ一覧                                    |
-| operatingHours | OperatingHours[] | no   | 営業時間一覧                                |
-| averageRating | number (double)   | yes  | 平均評価（1-5、レビューなしは 0）※算出値   |
-| reviewCount   | number (int)      | yes  | レビュー数 ※算出値                          |
-| createdAt     | string (ISO 8601) | yes  | 登録日時                                    |
-| updatedAt     | string (ISO 8601) | yes  | 更新日時                                    |
+| フィールド     | 型                | 必須 | 説明                                        |
+| -------------- | ----------------- | ---- | ------------------------------------------- |
+| id             | number (int)      | yes  | 施設 ID                                     |
+| code           | string            | yes  | 公開用コード（cuid、UNIQUE、自動生成）      |
+| name           | string            | yes  | 施設名                                      |
+| category       | Category          | yes  | カテゴリ                                    |
+| description    | string            | no   | 概要                                        |
+| latitude       | number            | yes  | 緯度                                        |
+| longitude      | number            | yes  | 経度                                        |
+| address        | string            | no   | 住所                                        |
+| websiteUrl     | string            | no   | Web サイト                                  |
+| admissionFee   | number (int)      | no   | 入場料（大人料金、円単位。0=無料）          |
+| isClosed       | boolean           | yes  | 閉館フラグ（default: false）                |
+| closedMessage  | string            | no   | 閉館理由・補足（例: "2025年3月より改装中"） |
+| tags           | Tag[]             | no   | タグ一覧                                    |
+| operatingHours | OperatingHours[]  | no   | 営業時間一覧                                |
+| averageRating  | number (double)   | yes  | 平均評価（1-5、レビューなしは 0）※算出値    |
+| reviewCount    | number (int)      | yes  | レビュー数 ※算出値                          |
+| createdAt      | string (ISO 8601) | yes  | 登録日時                                    |
+| updatedAt      | string (ISO 8601) | yes  | 更新日時                                    |
 
 ### Tag
 

@@ -62,10 +62,7 @@
         "note": "最終入館16:30"
       }
     ],
-    "tags": [
-      "港町",
-      "明治期"
-    ]
+    "tags": ["港町", "明治期"]
   },
   {
     "code": "a84a84c0-5e9a-48a8-a97a-5f61827999c3",
@@ -124,10 +121,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町",
-      "明治期"
-    ]
+    "tags": ["港町", "明治期"]
   },
   {
     "code": "4d62905e-eac5-4cc3-926f-a68f6bd58980",
@@ -186,9 +180,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町"
-    ]
+    "tags": ["港町"]
   },
   {
     "code": "250e8c7a-b6e7-4f65-984e-e2332aab2589",
@@ -247,10 +239,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町",
-      "明治期"
-    ]
+    "tags": ["港町", "明治期"]
   },
   {
     "code": "9bed5371-3eab-4a25-bfef-541012cf462a",
@@ -309,9 +298,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "体験型"
-    ]
+    "tags": ["体験型"]
   },
   {
     "code": "c56e7eab-b38c-4db4-b7de-cd84fabca116",
@@ -855,9 +842,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町"
-    ]
+    "tags": ["港町"]
   },
   {
     "code": "90027d6e-dd6a-4191-8dd3-9f0bed134f66",
@@ -974,9 +959,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町"
-    ]
+    "tags": ["港町"]
   },
   {
     "code": "e610fb89-66bf-4a5d-a5a8-fc89cd35abd5",
@@ -1035,9 +1018,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町"
-    ]
+    "tags": ["港町"]
   },
   {
     "code": "89fa3fa4-86b0-4207-a362-b26ae0ea5571",
@@ -1154,9 +1135,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町"
-    ]
+    "tags": ["港町"]
   },
   {
     "code": "11c3739e-9b91-48fa-8c60-d8093979f80b",
@@ -1274,9 +1253,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町"
-    ]
+    "tags": ["港町"]
   },
   {
     "code": "b87216d7-501f-48a9-b482-73ce259e31b2",
@@ -1335,9 +1312,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "明治期"
-    ]
+    "tags": ["明治期"]
   },
   {
     "code": "24510444-b802-4587-9f8a-fd58e957284d",
@@ -1686,9 +1661,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "明治期"
-    ]
+    "tags": ["明治期"]
   },
   {
     "code": "d3bf8f58-6c6a-4de0-9abe-930896694427",
@@ -1746,9 +1719,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "体験型"
-    ]
+    "tags": ["体験型"]
   },
   {
     "code": "d2eba1e7-ce30-40db-909f-fffa43501116",
@@ -1922,9 +1893,7 @@
         "isClosed": true
       }
     ],
-    "tags": [
-      "明治期"
-    ]
+    "tags": ["明治期"]
   },
   {
     "code": "02fea1f5-872c-414b-abcc-09e05a41db7c",
@@ -1983,9 +1952,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "体験型"
-    ]
+    "tags": ["体験型"]
   },
   {
     "code": "04b0bf9a-21c9-4062-81a5-0864cd2edf62",
@@ -2042,9 +2009,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "港町"
-    ]
+    "tags": ["港町"]
   },
   {
     "code": "0b9cc360-2de0-43c3-82d0-f15deaa96f8b",
@@ -2161,9 +2126,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "体験型"
-    ]
+    "tags": ["体験型"]
   },
   {
     "code": "45064927-2731-4b19-a612-f1804b3662fe",
@@ -2524,9 +2487,7 @@
         "isClosed": true
       }
     ],
-    "tags": [
-      "明治期"
-    ]
+    "tags": ["明治期"]
   },
   {
     "code": "1074b0f9-e7f4-42a7-aa57-311890249624",
@@ -2584,9 +2545,7 @@
         "isClosed": true
       }
     ],
-    "tags": [
-      "体験型"
-    ]
+    "tags": ["体験型"]
   },
   {
     "code": "10f32a6f-2884-47a6-8c0a-21bcf33a7880",
@@ -2759,9 +2718,7 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "体験型"
-    ]
+    "tags": ["体験型"]
   },
   {
     "code": "2d754b75-a831-477c-b5fc-90bc611fc70d",
@@ -2879,8 +2836,6 @@
         "isClosed": false
       }
     ],
-    "tags": [
-      "明治期"
-    ]
+    "tags": ["明治期"]
   }
 ]

@@ -3,7 +3,7 @@
 import { useSession, signOut } from "next-auth/react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { LogIn, LogOut } from "lucide-react";
+import { LogIn, LogOut, Heart } from "lucide-react";
 
 export function AuthButton() {
   const { data: session, status } = useSession();
@@ -22,7 +22,14 @@ export function AuthButton() {
   }
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-3">
+      <Link
+        href="/mylist"
+        className="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
+      >
+        <Heart className="size-4" />
+        マイリスト
+      </Link>
       <span className="text-sm text-muted-foreground">{session.user?.name}</span>
       <Button variant="ghost" size="sm" onClick={() => signOut()}>
         <LogOut className="size-4" />

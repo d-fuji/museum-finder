@@ -32,14 +32,14 @@ CLAUDE.md は継続的に改善するドキュメントである。
 
 ## 技術スタック
 
-| レイヤー | 技術 |
-|---------|------|
-| フレームワーク | Next.js (App Router) / Vercel |
-| スタイル | Tailwind CSS（モバイルファースト）/ shadcn/ui v4 + Lucide React |
-| データ | SWR / Prisma v7 + PostgreSQL (Neon) / Auth.js v5 |
-| 地図 | react-map-gl + MapLibre GL JS |
-| テスト | Vitest + Testing Library + jsdom / MSW |
-| 型・仕様 | `src/types/api.ts`（← `docs/openapi.yaml`）/ `src/data/*.json`（フィクスチャ） |
+| レイヤー       | 技術                                                                           |
+| -------------- | ------------------------------------------------------------------------------ |
+| フレームワーク | Next.js (App Router) / Vercel                                                  |
+| スタイル       | Tailwind CSS（モバイルファースト）/ shadcn/ui v4 + Lucide React                |
+| データ         | SWR / Prisma v7 + PostgreSQL (Neon) / Auth.js v5                               |
+| 地図           | react-map-gl + MapLibre GL JS                                                  |
+| テスト         | Vitest + Testing Library + jsdom / MSW                                         |
+| 型・仕様       | `src/types/api.ts`（← `docs/openapi.yaml`）/ `src/data/*.json`（フィクスチャ） |
 
 ## Prisma・DB
 

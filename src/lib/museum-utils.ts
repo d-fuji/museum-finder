@@ -1,4 +1,13 @@
-import type { Category, MuseumSummary, OperatingHours, Review, Tag } from "@/types/api";
+import type {
+  Bookmark,
+  BookmarkStatus,
+  BookmarkWithMuseum,
+  Category,
+  MuseumSummary,
+  OperatingHours,
+  Review,
+  Tag,
+} from "@/types/api";
 
 export const CATEGORY_LABEL: Record<Category, string> = {
   CORPORATE_MUSEUM: "企業ミュージアム",
@@ -91,5 +100,42 @@ export function toReview(review: ReviewRow): Review {
     museumId: review.museumId,
     userName: review.userName,
     createdAt: review.createdAt.toISOString(),
+  };
+}
+
+type BookmarkRow = {
+  id: number;
+  userId: string;
+  museumId: number;
+  status: BookmarkStatus;
+  visitedAt: Date | null;
+  createdAt: Date;
+  updatedAt: Date;
+};
+
+function formatDateOnly(date: Date): string {
+  return date.toISOString().slice(0, 10);
+}
+
+export function toBookmark(row: BookmarkRow): Bookmark {
+  return {
+    id: row.id,
+    userId: row.userId,
+    museumId: row.museumId,
+    status: row.status,
+    visitedAt: row.visitedAt ? formatDateOnly(row.visitedAt) : undefined,
+    createdAt: row.createdAt.toISOString(),
+    updatedAt: row.updatedAt.toISOString(),
+  };
+}
+
+type BookmarkWithMuseumRow = BookmarkRow & {
+  museum: MuseumRow;
+};
+
+export function toBookmarkWithMuseum(row: BookmarkWithMuseumRow): BookmarkWithMuseum {
+  return {
+    ...toBookmark(row),
+    museum: toMuseumSummary(row.museum),
   };
 }

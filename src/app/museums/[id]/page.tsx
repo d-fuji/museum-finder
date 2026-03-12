@@ -13,10 +13,9 @@ import {
   ChevronUp,
   Ticket,
 } from "lucide-react";
-import type { OperatingHours } from "@/types/api";
+import type { Bookmark, MuseumDetail, OperatingHours } from "@/types/api";
 import useSWR from "swr";
-import type { MuseumDetail } from "@/types/api";
-import { getMuseumById } from "@/lib/api";
+import { getMuseumById, getBookmarkStatus } from "@/lib/api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -25,6 +24,7 @@ import { Separator } from "@/components/ui/separator";
 import { StarRating } from "@/components/StarRating";
 import { ReviewCard } from "@/components/ReviewCard";
 import { ReviewForm } from "@/components/ReviewForm";
+import { BookmarkButtons } from "@/components/BookmarkButtons";
 import { CATEGORY_LABEL } from "@/lib/museum-utils";
 
 const DAY_LABELS = ["日", "月", "火", "水", "木", "金", "土"];
@@ -164,12 +164,17 @@ function ReviewSection({
 export default function MuseumDetailPage() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
+  const { data: session } = useSession();
   const {
     data: museum,
     isLoading,
     error,
     mutate,
   } = useSWR<MuseumDetail>(`/api/museums/${id}`, () => getMuseumById(id));
+  const { data: bookmark, mutate: mutateBookmark } = useSWR<Bookmark | null>(
+    session?.user ? `/api/bookmarks?museumId=${id}` : null,
+    () => getBookmarkStatus(Number(id))
+  );
 
   if (isLoading) {
     return <DetailSkeleton />;
@@ -211,6 +216,15 @@ export default function MuseumDetailPage() {
                   {museum.averageRating.toFixed(1)} ({museum.reviewCount}件のレビュー)
                 </span>
               </div>
+              {session?.user && (
+                <div className="mt-3">
+                  <BookmarkButtons
+                    museumId={museum.id}
+                    currentStatus={bookmark?.status ?? null}
+                    onUpdate={() => mutateBookmark()}
+                  />
+                </div>
+              )}
             </CardHeader>
             <CardContent className="space-y-3">
               {museum.isClosed && (

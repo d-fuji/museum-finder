@@ -123,6 +123,90 @@ paths:
         "409":
           description: メールアドレス重複
 
+  /bookmarks:
+    get:
+      summary: 自分のブックマーク一覧取得
+      operationId: getBookmarks
+      parameters:
+        - name: status
+          in: query
+          required: false
+          schema:
+            $ref: "#/components/schemas/BookmarkStatus"
+          description: ステータスで絞り込み（museumId との併用不可）
+        - name: museumId
+          in: query
+          required: false
+          schema:
+            type: integer
+          description: 指定施設のブックマーク1件取得（Bookmark | null で返却）
+      responses:
+        "200":
+          description: |
+            - status 指定時: BookmarkWithMuseum の配列
+            - museumId 指定時: Bookmark | null（施設情報なし）
+            - パラメータなし: 全ブックマーク（BookmarkWithMuseum の配列）
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/BookmarkWithMuseum"
+        "401":
+          description: 未認証
+    put:
+      summary: ブックマーク作成・更新（upsert）
+      operationId: upsertBookmark
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - museumId
+                - status
+              properties:
+                museumId:
+                  type: integer
+                status:
+                  $ref: "#/components/schemas/BookmarkStatus"
+                visitedAt:
+                  type: string
+                  format: date
+                  description: 訪問日（VISITED のとき任意）
+      responses:
+        "200":
+          description: ブックマーク作成・更新成功
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Bookmark"
+        "400":
+          description: バリデーションエラー
+        "401":
+          description: 未認証
+        "404":
+          description: 施設が見つからない
+
+  /bookmarks/{museumId}:
+    delete:
+      summary: ブックマーク削除
+      operationId: deleteBookmark
+      parameters:
+        - name: museumId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: 削除成功
+        "401":
+          description: 未認証
+        "404":
+          description: ブックマークが見つからない
+
   /tags:
     get:
       summary: タグ一覧取得
@@ -277,6 +361,52 @@ components:
         note:
           type: string
           description: 補足（最終入館時刻等）
+
+    BookmarkStatus:
+      type: string
+      enum:
+        - WANT_TO_GO
+        - VISITED
+
+    Bookmark:
+      type: object
+      required:
+        - id
+        - userId
+        - museumId
+        - status
+        - createdAt
+        - updatedAt
+      properties:
+        id:
+          type: integer
+        userId:
+          type: string
+        museumId:
+          type: integer
+        status:
+          $ref: "#/components/schemas/BookmarkStatus"
+        visitedAt:
+          type: string
+          format: date
+          nullable: true
+          description: 訪問日（VISITED のとき任意）
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+
+    BookmarkWithMuseum:
+      allOf:
+        - $ref: "#/components/schemas/Bookmark"
+        - type: object
+          required:
+            - museum
+          properties:
+            museum:
+              $ref: "#/components/schemas/MuseumSummary"
 
     Review:
       type: object

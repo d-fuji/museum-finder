@@ -52,3 +52,19 @@ export interface MuseumDetail extends MuseumSummary {
   reviews: Review[];
   operatingHours: OperatingHours[];
 }
+
+export type BookmarkStatus = "WANT_TO_GO" | "VISITED";
+
+export interface Bookmark {
+  id: number;
+  userId: string;
+  museumId: number;
+  status: BookmarkStatus;
+  visitedAt?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface BookmarkWithMuseum extends Bookmark {
+  museum: MuseumSummary;
+}

@@ -35,13 +35,13 @@ globs:
 
 ## npm scripts
 
-| コマンド | 用途 |
-|---------|------|
-| `npm run db:migrate` | マイグレーション作成・適用（generate + seed 含む） |
-| `npm run db:migrate:status` | 適用状況確認 |
-| `npm run db:generate` | Prisma Client 再生成のみ |
-| `npm run db:seed` | シードデータのみ投入 |
-| `npm run db:reset` | DB 初期化（全削除 + 再作成 + seed） |
-| `npm run db:migrate:deploy:prod` | 本番マイグレーション適用 |
-| `npm run db:migrate:status:prod` | 本番マイグレーション状況確認 |
-| `npm run db:seed:prod` | 本番シードデータ投入 |
+| コマンド                         | 用途                                               |
+| -------------------------------- | -------------------------------------------------- |
+| `npm run db:migrate`             | マイグレーション作成・適用（generate + seed 含む） |
+| `npm run db:migrate:status`      | 適用状況確認                                       |
+| `npm run db:generate`            | Prisma Client 再生成のみ                           |
+| `npm run db:seed`                | シードデータのみ投入                               |
+| `npm run db:reset`               | DB 初期化（全削除 + 再作成 + seed）                |
+| `npm run db:migrate:deploy:prod` | 本番マイグレーション適用                           |
+| `npm run db:migrate:status:prod` | 本番マイグレーション状況確認                       |
+| `npm run db:seed:prod`           | 本番シードデータ投入                               |

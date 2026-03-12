@@ -9,42 +9,42 @@ Auth.js (NextAuth.js v5) を使い、メール+パスワード認証を提供す
 
 ### User
 
-| フィールド    | 型        | 必須 | 説明                                   |
-| ------------- | --------- | ---- | -------------------------------------- |
-| id            | String    | yes  | ユーザー ID（cuid）                    |
-| name          | String    | no   | 表示名                                 |
-| email         | String    | no   | メールアドレス（UNIQUE）               |
-| emailVerified | DateTime  | no   | メール確認日時                         |
-| image         | String    | no   | アバター URL                           |
-| password      | String    | no   | ハッシュ化パスワード（Credentials 用） |
+| フィールド    | 型       | 必須 | 説明                                   |
+| ------------- | -------- | ---- | -------------------------------------- |
+| id            | String   | yes  | ユーザー ID（cuid）                    |
+| name          | String   | no   | 表示名                                 |
+| email         | String   | no   | メールアドレス（UNIQUE）               |
+| emailVerified | DateTime | no   | メール確認日時                         |
+| image         | String   | no   | アバター URL                           |
+| password      | String   | no   | ハッシュ化パスワード（Credentials 用） |
 
 ### Account
 
-| フィールド        | 型     | 必須 | 説明                 |
-| ----------------- | ------ | ---- | -------------------- |
-| id                | String | yes  | アカウント ID（cuid）|
+| フィールド        | 型     | 必須 | 説明                     |
+| ----------------- | ------ | ---- | ------------------------ |
+| id                | String | yes  | アカウント ID（cuid）    |
 | userId            | String | yes  | ユーザー ID（FK → User） |
-| type              | String | yes  | アカウント種別       |
-| provider          | String | yes  | プロバイダー名       |
-| providerAccountId | String | yes  | プロバイダー側 ID    |
-| refresh_token     | String | no   | リフレッシュトークン |
-| access_token      | String | no   | アクセストークン     |
-| expires_at        | Int    | no   | トークン有効期限     |
-| token_type        | String | no   | トークン種別         |
-| scope             | String | no   | スコープ             |
-| id_token          | String | no   | ID トークン          |
-| session_state     | String | no   | セッション状態       |
+| type              | String | yes  | アカウント種別           |
+| provider          | String | yes  | プロバイダー名           |
+| providerAccountId | String | yes  | プロバイダー側 ID        |
+| refresh_token     | String | no   | リフレッシュトークン     |
+| access_token      | String | no   | アクセストークン         |
+| expires_at        | Int    | no   | トークン有効期限         |
+| token_type        | String | no   | トークン種別             |
+| scope             | String | no   | スコープ                 |
+| id_token          | String | no   | ID トークン              |
+| session_state     | String | no   | セッション状態           |
 
 - `@@unique([provider, providerAccountId])`
 
 ### Session
 
-| フィールド   | 型       | 必須 | 説明               |
-| ------------ | -------- | ---- | ------------------ |
-| id           | String   | yes  | セッション ID（cuid）|
+| フィールド   | 型       | 必須 | 説明                         |
+| ------------ | -------- | ---- | ---------------------------- |
+| id           | String   | yes  | セッション ID（cuid）        |
 | sessionToken | String   | yes  | セッショントークン（UNIQUE） |
-| userId       | String   | yes  | ユーザー ID（FK → User） |
-| expires      | DateTime | yes  | 有効期限           |
+| userId       | String   | yes  | ユーザー ID（FK → User）     |
+| expires      | DateTime | yes  | 有効期限                     |
 
 ### VerificationToken
 

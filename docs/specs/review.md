@@ -8,15 +8,15 @@
 
 ### Review
 
-| フィールド | 型                | 必須 | 説明                                   |
-| ---------- | ----------------- | ---- | -------------------------------------- |
-| id         | number (int)      | yes  | レビュー ID                            |
-| rating     | integer (1-5)     | yes  | 評価                                   |
-| comment    | string            | no   | コメント                               |
+| フィールド | 型                | 必須 | 説明                                          |
+| ---------- | ----------------- | ---- | --------------------------------------------- |
+| id         | number (int)      | yes  | レビュー ID                                   |
+| rating     | integer (1-5)     | yes  | 評価                                          |
+| comment    | string            | no   | コメント                                      |
 | userId     | string            | yes  | ユーザー ID（User.id と同値だが FK 制約なし） |
-| museumId   | number (int)      | yes  | 施設 ID (FK → Museum)                  |
-| userName   | string            | yes  | 投稿者名（User.name から取得して保存） |
-| createdAt  | string (ISO 8601) | yes  | 投稿日時                               |
+| museumId   | number (int)      | yes  | 施設 ID (FK → Museum)                         |
+| userName   | string            | yes  | 投稿者名（User.name から取得して保存）        |
+| createdAt  | string (ISO 8601) | yes  | 投稿日時                                      |
 
 - 同一ユーザー × 同一施設の重複投稿は禁止（`@@unique([userId, museumId])`）
 
@@ -82,6 +82,6 @@
 | ------------------------------------------- | ------------------------ |
 | `src/app/api/museums/[id]/reviews/route.ts` | レビュー投稿 API         |
 | `src/lib/review.ts`                         | レビュー投稿ロジック     |
-| `src/components/ReviewForm.tsx`              | レビュー投稿フォーム     |
-| `src/components/ReviewCard.tsx`              | レビュー表示カード       |
-| `src/app/museums/[id]/page.tsx`              | 詳細ページにフォーム統合 |
+| `src/components/ReviewForm.tsx`             | レビュー投稿フォーム     |
+| `src/components/ReviewCard.tsx`             | レビュー表示カード       |
+| `src/app/museums/[id]/page.tsx`             | 詳細ページにフォーム統合 |

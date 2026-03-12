@@ -4,6 +4,9 @@ import reviewsData from "@/data/reviews.json";
 import tagsData from "@/data/tags.json";
 import { calculateAverageRating } from "@/lib/museum-utils";
 import type {
+  Bookmark,
+  BookmarkStatus,
+  BookmarkWithMuseum,
   Category,
   MuseumDetail,
   MuseumSummary,
@@ -69,6 +72,15 @@ function buildOperatingHours(
   }));
 }
 
+// In-memory bookmark store for MSW
+let bookmarks: Bookmark[] = [];
+let bookmarkIdSeq = 1;
+
+export function resetBookmarks() {
+  bookmarks = [];
+  bookmarkIdSeq = 1;
+}
+
 export const handlers = [
   http.get("/api/museums", ({ request }) => {
     const url = new URL(request.url);
@@ -92,5 +104,72 @@ export const handlers = [
 
   http.get("/api/tags", () => {
     return HttpResponse.json(tags);
+  }),
+
+  // Bookmark handlers
+  http.get("/api/bookmarks", ({ request }) => {
+    const url = new URL(request.url);
+    const userId = "mock-user-id";
+
+    // museumId 指定時は単一ブックマーク（Bookmark | null）を返す
+    const museumIdParam = url.searchParams.get("museumId");
+    if (museumIdParam) {
+      const bookmark = bookmarks.find(
+        (b) => b.userId === userId && b.museumId === Number(museumIdParam)
+      );
+      return HttpResponse.json(bookmark ?? null);
+    }
+
+    const statusParam = url.searchParams.get("status") as BookmarkStatus | null;
+    const filtered = bookmarks.filter(
+      (b) => b.userId === userId && (!statusParam || b.status === statusParam)
+    );
+    const result: BookmarkWithMuseum[] = filtered.map((b) => {
+      const museum = museumsById.get(b.museumId);
+      if (!museum) return { ...b, museum: toSummary(museums[0]) };
+      return { ...b, museum: toSummary(museum) };
+    });
+    return HttpResponse.json(result);
+  }),
+
+  http.put("/api/bookmarks", async ({ request }) => {
+    const body = (await request.json()) as {
+      museumId: number;
+      status: BookmarkStatus;
+      visitedAt?: string;
+    };
+    const userId = "mock-user-id";
+    const now = new Date().toISOString();
+
+    const existing = bookmarks.find((b) => b.userId === userId && b.museumId === body.museumId);
+    if (existing) {
+      existing.status = body.status;
+      existing.visitedAt = body.visitedAt;
+      existing.updatedAt = now;
+      return HttpResponse.json(existing);
+    }
+
+    const bookmark: Bookmark = {
+      id: bookmarkIdSeq++,
+      userId,
+      museumId: body.museumId,
+      status: body.status,
+      visitedAt: body.visitedAt,
+      createdAt: now,
+      updatedAt: now,
+    };
+    bookmarks.push(bookmark);
+    return HttpResponse.json(bookmark);
+  }),
+
+  http.delete("/api/bookmarks/:museumId", ({ params }) => {
+    const museumId = Number(params.museumId);
+    const userId = "mock-user-id";
+
+    const idx = bookmarks.findIndex((b) => b.userId === userId && b.museumId === museumId);
+    if (idx === -1) return new HttpResponse(null, { status: 404 });
+
+    bookmarks.splice(idx, 1);
+    return new HttpResponse(null, { status: 204 });
   }),
 ];

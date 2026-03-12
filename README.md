@@ -8,16 +8,16 @@
 
 ## 技術スタック
 
-| レイヤー | 技術 |
-|---------|------|
-| フレームワーク | Next.js (App Router) |
-| スタイル | Tailwind CSS / shadcn/ui v4 |
-| データ取得 | SWR |
-| 地図 | react-map-gl + MapLibre GL JS |
-| DB | Prisma v7 + PostgreSQL (Neon) |
-| 認証 | Auth.js v5 |
-| テスト | Vitest + Testing Library + MSW |
-| デプロイ | Vercel |
+| レイヤー       | 技術                           |
+| -------------- | ------------------------------ |
+| フレームワーク | Next.js (App Router)           |
+| スタイル       | Tailwind CSS / shadcn/ui v4    |
+| データ取得     | SWR                            |
+| 地図           | react-map-gl + MapLibre GL JS  |
+| DB             | Prisma v7 + PostgreSQL (Neon)  |
+| 認証           | Auth.js v5                     |
+| テスト         | Vitest + Testing Library + MSW |
+| デプロイ       | Vercel                         |
 
 ## セットアップ
 
@@ -43,17 +43,17 @@ http://localhost:3000 で確認できます。
 
 ## npm scripts
 
-| コマンド | 用途 |
-|---------|------|
-| `npm run dev` | 開発サーバー起動 |
-| `npm run build` | プロダクションビルド |
-| `npm run lint` | ESLint |
-| `npm run format` | Prettier（修正） |
-| `npm run format:check` | Prettier（チェックのみ） |
-| `npx vitest run` | テスト実行 |
-| `npm run db:migrate` | マイグレーション作成・適用 |
-| `npm run db:seed` | シードデータ投入 |
-| `npm run db:reset` | DB 初期化 |
+| コマンド               | 用途                       |
+| ---------------------- | -------------------------- |
+| `npm run dev`          | 開発サーバー起動           |
+| `npm run build`        | プロダクションビルド       |
+| `npm run lint`         | ESLint                     |
+| `npm run format`       | Prettier（修正）           |
+| `npm run format:check` | Prettier（チェックのみ）   |
+| `npx vitest run`       | テスト実行                 |
+| `npm run db:migrate`   | マイグレーション作成・適用 |
+| `npm run db:seed`      | シードデータ投入           |
+| `npm run db:reset`     | DB 初期化                  |
 
 ## 施設データについて
 
