@@ -1,5 +1,5 @@
 import { http, HttpResponse } from "msw";
-import museumsData from "@/data/museums.json";
+import museumsData from "@/data/museums";
 import reviewsData from "@/data/reviews.json";
 import tagsData from "@/data/tags.json";
 import { calculateAverageRating } from "@/lib/museum-utils";

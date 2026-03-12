@@ -1,0 +1,3120 @@
+[
+  {
+    "code": "6c28ed88-eeac-4240-9b3d-9c57b0763d7f",
+    "name": "北名古屋市歴史民俗資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "「昭和日常博物館」として親しまれ、戦後の生活用品を膨大にコレクション。",
+    "latitude": 35.2467,
+    "longitude": 136.8717,
+    "address": "愛知県北名古屋市熊之庄御榊53",
+    "websiteUrl": "https://www.city.kitanagoya.lg.jp/rekimin/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "cb5334e7-3c89-4ef6-ad58-b7d005663c10",
+    "name": "北九州市立自然史・歴史博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "自然史と歴史を融合。恐竜から八幡製鐵所の歴史、現在の環境問題まで。",
+    "latitude": 33.8733,
+    "longitude": 130.8244,
+    "address": "福岡県北九州市八幡東区東田2-4-1",
+    "websiteUrl": "https://www.kmnh.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "996da393-21d6-426d-ad72-52379a6d3a96",
+    "name": "北九州市立長崎街道木屋瀬宿記念館",
+    "category": "HISTORY_MUSEUM",
+    "description": "江戸時代の宿場町としての賑わいと、地域の伝統文化を多角的に展示。",
+    "latitude": 33.8536,
+    "longitude": 130.7528,
+    "address": "福岡県北九州市八幡西区木屋瀬3-16-26",
+    "websiteUrl": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0006.html",
+    "admissionFee": 150,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "966d3cc2-e592-40ff-a74c-cdc56a51968c",
+    "name": "ピースおおさか",
+    "category": "HISTORY_MUSEUM",
+    "description": "大阪大空襲の体験を伝え、平和の尊さを考えるための国際平和センター。",
+    "latitude": 34.6878,
+    "longitude": 135.5261,
+    "address": "大阪府大阪市中央区大阪城2-1",
+    "websiteUrl": "http://www.peace-osaka.or.jp/",
+    "admissionFee": 250,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "5636b362-05bc-4481-b298-41d7d4cbc1cb",
+    "name": "大阪府立狭山池博物館",
+    "category": "HISTORY_MUSEUM",
+    "description": "1400年の歴史を持つ日本最古のため池を軸に、土木技術の歴史を展示。",
+    "latitude": 34.5022,
+    "longitude": 135.5894,
+    "address": "大阪府大阪狭山市池尻中2丁目",
+    "websiteUrl": "http://www.sayamaikehaku.osakasayama.osaka.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "85de334f-ceef-4311-86de-a43973157752",
+    "name": "昭和館",
+    "category": "HISTORY_MUSEUM",
+    "description": "戦中・戦後の国民生活の労苦を伝え、当時の実物資料を多数展示する。",
+    "latitude": 35.6947,
+    "longitude": 139.7494,
+    "address": "東京都千代田区九段南1-6-1",
+    "websiteUrl": "https://www.showakan.go.jp/",
+    "admissionFee": 300,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "75dab2c0-1660-463c-929a-154a677b66cb",
+    "name": "新潟市江南区郷土資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "地域の農耕や生活の歴史を伝え、地域文化の交流拠点として機能する。",
+    "latitude": 37.8814,
+    "longitude": 139.1358,
+    "address": "新潟市江南区茅野山3-1-14",
+    "websiteUrl": "http://www.city.niigata.lg.jp/konan/shisetsu/yoka/bunka/kounankyodo.html",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "c096f263-63b5-4858-9200-dff012ef5b01",
+    "name": "北九州市立小倉城庭園",
+    "category": "HISTORY_MUSEUM",
+    "description": "小倉城跡にあり、小笠原流の礼法や江戸時代の武家文化、地域の伝統を展示。",
+    "latitude": 33.8839,
+    "longitude": 130.8742,
+    "address": "福岡県北九州市小倉北区城内1-2",
+    "websiteUrl": "https://www.kokura-castle.jp/",
+    "admissionFee": 350,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "0b8ea1dc-e21d-4549-898c-a8756e2664d6",
+    "name": "江東区立深川江戸資料館",
+    "category": "HISTORY_MUSEUM",
+    "description": "江戸時代末期の深川の町並みを実物大で再現し、下町の生活を展示。",
+    "latitude": 35.6831,
+    "longitude": 139.7969,
+    "address": "東京都江東区白河1-3-28",
+    "websiteUrl": "https://www.kcf.or.jp/fukagawa/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": [
+      "体験型"
+    ]
+  },
+  {
+    "code": "683796f9-89c1-4f16-952e-4c501d54b590",
+    "name": "アド・ミュージアム東京",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本で唯一の広告の総合博物館。江戸時代から現代までの広告文化を展示。",
+    "latitude": 35.6656,
+    "longitude": 139.7614,
+    "address": "東京都港区東新橋1-8-2",
+    "websiteUrl": "https://www.admt.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "11:00",
+        "closeTime": "18:00",
+        "isClosed": true
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7d8054b2-2cea-44c1-810c-3442227e35cc",
+    "name": "伊勢半本店 紅ミュージアム",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本伝統の紅の歴史と化粧文化を、貴重な資料や製造工程と共に紹介。",
+    "latitude": 35.6597,
+    "longitude": 139.7172,
+    "address": "東京都港区南青山6-6-20",
+    "websiteUrl": "https://www.isehanhonten.co.jp/museum/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "11:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7da57acb-6ffc-4070-9996-524dad1f7b84",
+    "name": "印刷博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "印刷の歴史、技術、表現の変遷を、実物資料と体験コーナーで多角的に展示。",
+    "latitude": 35.7078,
+    "longitude": 139.7458,
+    "address": "東京都文京区水道1-3-3",
+    "websiteUrl": "https://www.printing-museum.org/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
+    ],
+    "tags": [
+      "体験型"
+    ]
+  },
+  {
+    "code": "2a43cfc3-04dd-42ff-9e79-456a58ce7c14",
+    "name": "ガスの科学館（がすてなーに）",
+    "category": "CORPORATE_MUSEUM",
+    "description": "エネルギーとしてのガスの役割や歴史、環境問題を体験型で学べる施設。",
+    "latitude": 35.6503,
+    "longitude": 139.7856,
+    "address": "東京都江東区豊洲6-1-1",
+    "websiteUrl": "https://www.gastena-ni.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": [
+      "体験型"
+    ]
+  },
+  {
+    "code": "72641997-3274-4318-addf-438a25220f3e",
+    "name": "GAS MUSEUM がす資料館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "明治期のレンガ建築を利用し、日本のガス事業の歩みと文明開化を展示。",
+    "latitude": 35.7272,
+    "longitude": 139.4753,
+    "address": "東京都小平市大沼町4-31-25",
+    "websiteUrl": "https://www.gasmuseum.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": [
+      "明治期"
+    ]
+  },
+  {
+    "code": "5d8948c6-83b7-4139-8a0e-4b4283aefffd",
+    "name": "貨幣博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本銀行が運営。貨幣の歴史、貴重な古銭や世界の通貨を体系的に展示。",
+    "latitude": 35.6856,
+    "longitude": 139.7731,
+    "address": "東京都中央区日本橋本石町1-3-1",
+    "websiteUrl": "https://www.imes.boj.or.jp/cm/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "2538e665-3372-4604-8892-6307b0dcb5f2",
+    "name": "たばこと塩の博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "たばこと塩という専売品を通じ、生活文化の変遷を独自の視点で紹介。",
+    "latitude": 35.7053,
+    "longitude": 139.8086,
+    "address": "東京都墨田区横川1-16-3",
+    "websiteUrl": "https://www.jti.co.jp/common/museum/",
+    "admissionFee": 100,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "e3541d7b-497d-4ef9-840f-168634e53e28",
+    "name": "地下鉄博物館",
+    "category": "CORPORATE_MUSEUM",
+    "description": "日本の地下鉄の歴史、技術、安全への取り組みを、実物車両と共に展示。",
+    "latitude": 35.6658,
+    "longitude": 139.8742,
+    "address": "東京都江戸川区東葛西6-3-1",
+    "websiteUrl": "http://www.chikahaku.jp/",
+    "admissionFee": 220,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": true
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false
+      }
+    ],
+    "tags": [
+      "体験型"
+    ]
+  },
+  {
+    "code": "8228c111-4280-4916-b556-a32ab7847618",
+    "name": "日本科学未来館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "最新の科学技術を体験型展示で学ぶことができる国立の科学博物館。",
+    "latitude": 35.6192,
+    "longitude": 139.7767,
+    "address": "東京都江東区青海2-3-6",
+    "websiteUrl": "https://www.miraikan.jst.go.jp/",
+    "admissionFee": 630,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌平日休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "3e090d87-2a31-4dcb-88ba-2fcc41567a16",
+    "name": "多摩六都科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "世界最大級のプラネタリウムドームと、地域の自然や科学を学べる展示を備える。",
+    "latitude": 35.7346,
+    "longitude": 139.523,
+    "address": "東京都西東京市芝久保町五丁目10番64号",
+    "websiteUrl": null,
+    "admissionFee": 520,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "2111a865-ea1d-4d53-8caf-d0cb88b9cbc2",
+    "name": "航空科学博物館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "成田空港に隣接し、航空機の歴史や実物大の機体展示、フライトシミュレーターを体験できる。",
+    "latitude": 35.7402,
+    "longitude": 140.398,
+    "address": "千葉県山武郡芝山町岩山111-3",
+    "websiteUrl": null,
+    "admissionFee": 900,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "3517d22f-a1b7-46b5-a2c1-2f11ed661b36",
+    "name": "札幌市青少年科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "雪や低温に関する展示や、人工降雪装置など北海道ならではの科学技術を紹介。",
+    "latitude": 43.0362,
+    "longitude": 141.4722,
+    "address": "北海道札幌市厚別区厚別中央1条5丁目",
+    "websiteUrl": "https://www.ssc.slp.or.jp/",
+    "admissionFee": 700,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "5〜9月の時間。10〜4月は9:30〜16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "5〜9月の時間。10〜4月は9:30〜16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "0b7a4138-bf4a-4c34-9cff-f3c717f53cb7",
+    "name": "科学技術館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "身近な科学から最新の産業技術まで、体験を通じて学べる参加型科学館。",
+    "latitude": 35.6916,
+    "longitude": 139.7531,
+    "address": "東京都千代田区北の丸公園2-1",
+    "websiteUrl": null,
+    "admissionFee": 950,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "不定休"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "9c54c4aa-2ff5-4b88-ada2-5c138daae4c0",
+    "name": "国立科学博物館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "日本を代表する総合科学博物館。自然史および科学技術史に関する膨大な標本を展示。",
+    "latitude": 35.7163,
+    "longitude": 139.7764,
+    "address": "東京都台東区上野公園7-20",
+    "websiteUrl": "https://www.kahaku.go.jp/",
+    "admissionFee": 630,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌火曜休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "20:00",
+        "isClosed": false,
+        "note": "最終入館19:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "20:00",
+        "isClosed": false,
+        "note": "最終入館19:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "6df085e7-ce31-4a22-86ee-a5c196d178d8",
+    "name": "名古屋市科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "世界最大級のプラネタリウム「ブラザーアース」や、極寒体験室を備える。",
+    "latitude": 35.1651,
+    "longitude": 136.8997,
+    "address": "愛知県名古屋市中区栄2-17-1",
+    "websiteUrl": "http://www.ncsm.city.nagoya.jp/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "262dc811-94f8-47bd-bf94-d16bfe51098a",
+    "name": "大阪市立科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "「宇宙とエネルギー」をテーマに、日本初のプラネタリウム導入館としての歴史を持つ。",
+    "latitude": 34.6912,
+    "longitude": 135.4915,
+    "address": "大阪府大阪市北区中之島4-2-1",
+    "websiteUrl": "https://www.sci-museum.jp/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "d75ec007-955f-4f77-a7e3-9cfbe7b1dad7",
+    "name": "京都市青少年科学センター",
+    "category": "SCIENCE_MUSEUM",
+    "description": "恐竜の動態模型や京都の自然環境を再現したジオラマなど、体験型展示が充実。",
+    "latitude": 34.956,
+    "longitude": 135.7662,
+    "address": "京都府京都市伏見区深草池ノ内町13",
+    "websiteUrl": "http://www.edu.city.kyoto.jp/science/",
+    "admissionFee": 520,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "58ed5a60-b648-4db7-aab8-5e7cc56004a1",
+    "name": "神戸市立青少年科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "プラネタリウムや天体観測室を備え、科学技術の基礎から宇宙まで幅広く学べる。",
+    "latitude": 34.666,
+    "longitude": 135.2185,
+    "address": "兵庫県神戸市中央区港島中町7-7-6",
+    "websiteUrl": "https://www.kobe-kagakukan.jp/",
+    "admissionFee": 600,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "最終入館18:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌木曜休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "最終入館18:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "最終入館18:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f9d73ab6-5946-4a28-8801-5f3b1fd5975e",
+    "name": "福岡市科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "九州最大級のプラネタリウムを擁し、宇宙や環境に関する先端的な展示を提供。",
+    "latitude": 33.5775,
+    "longitude": 130.3782,
+    "address": "福岡県福岡市中央区六本松4-2-1",
+    "websiteUrl": "https://www.fukuokacity-kagakukan.jp/",
+    "admissionFee": 510,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入場17:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入場17:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌平日休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入場17:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入場17:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入場17:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入場17:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "228b79d6-f143-44ce-a398-1a86aea2ab89",
+    "name": "仙台市科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "東北地方の自然系展示や、科学の不思議を体験できる理工系展示を併設。",
+    "latitude": 38.2988,
+    "longitude": 140.8832,
+    "address": "宮城県仙台市青葉区台原森林公園4-1",
+    "websiteUrl": "http://www.kagakukan.sendai-c.ed.jp/",
+    "admissionFee": 550,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "16:45",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:45",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:45",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:45",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:45",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "16:45",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "9dabada4-8015-4d8f-b8e0-0060767adde9",
+    "name": "広島市こども文化科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "日本初のこども向けの科学館。プラネタリウムやサイエンスショーを定期開催。",
+    "latitude": 34.3985,
+    "longitude": 132.4537,
+    "address": "広島県広島市中区基町5-83",
+    "websiteUrl": "http://www.pyonta.city.hiroshima.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "0c849fff-fe45-43c3-9237-caacbb1b946a",
+    "name": "新潟県立自然科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "「自然の科学」「生活の科学」など、多岐にわたるテーマを体験を通じて学ぶ施設。",
+    "latitude": 37.8907,
+    "longitude": 139.0498,
+    "address": "新潟県新潟市中央区女池南3-1-1",
+    "websiteUrl": "https://www.sciencemuseum.jp/",
+    "admissionFee": 580,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "c2422ec4-30fc-4f62-a527-1028b93aa8d7",
+    "name": "愛媛県総合科学博物館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "宇宙から生命、地球の歴史までを網羅し、巨大な恐竜ロボットの展示が人気。",
+    "latitude": 33.9101,
+    "longitude": 133.2449,
+    "address": "愛媛県新居浜市大生院2133-2",
+    "websiteUrl": "https://www.i-kahaku.jp/",
+    "admissionFee": 540,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入館17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "d3dc0fe9-1dab-4b06-a9d0-e4450b89fb0e",
+    "name": "佐賀県立宇宙科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "「ゆめぎんが」の愛称で親しまれ、宇宙発見ゾーンなど多彩な展示を提供。",
+    "latitude": 33.1791,
+    "longitude": 130.0354,
+    "address": "佐賀県武雄市武雄町永島16351",
+    "websiteUrl": "https://www.yumeginga.jp/",
+    "admissionFee": 520,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:15",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:15",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:15",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:15",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:15",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:15",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "e5fd3389-dd00-4fef-a23a-a97960c4f37c",
+    "name": "長崎市科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "星空ひろばや長崎の自然を紹介する展示など、地域の特色を活かした科学館。",
+    "latitude": 32.7788,
+    "longitude": 129.8534,
+    "address": "長崎県長崎市油木町7-2",
+    "websiteUrl": "https://www.nagasaki-kagakukan.jp/",
+    "admissionFee": 410,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "9474fdc7-82a7-4cab-a36e-3b3e04285470",
+    "name": "鹿児島市立科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "宇宙や科学技術について学べる展示や、桜島をはじめとする郷土の自然に関する展示がある。",
+    "latitude": 31.5633,
+    "longitude": 130.5544,
+    "address": "鹿児島県鹿児島市鴨池2-31-18",
+    "websiteUrl": "https://www.k-kagaku.jp/",
+    "admissionFee": 800,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "c97240f2-cf33-4b98-b0b4-6900f9cef654",
+    "name": "浜松科学館",
+    "category": "SCIENCE_MUSEUM",
+    "description": "光や音、力学に関する体験型展示とプラネタリウムを備え、地元企業の技術も紹介。",
+    "latitude": 34.7051,
+    "longitude": 137.7398,
+    "address": "静岡県浜松市中央区北寺島町256-3",
+    "websiteUrl": "https://www.mirai-ra.jp/",
+    "admissionFee": 600,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "791a457e-fb26-4f0d-9a8b-c4ba6fd64410",
+    "name": "倉敷科学センター",
+    "category": "SCIENCE_MUSEUM",
+    "description": "プラネタリウムや全天周映画、体験型の科学展示を通じて、科学への探求心を育む施設。",
+    "latitude": 34.5359,
+    "longitude": 133.7691,
+    "address": "岡山県倉敷市福田町古新田940",
+    "websiteUrl": "https://kurakagaku.jp/",
+    "admissionFee": 410,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": "最終入館16:45"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": "最終入館16:45"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": "最終入館16:45"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": "最終入館16:45"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": "最終入館16:45"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:15",
+        "isClosed": false,
+        "note": "最終入館16:45"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7eb955d8-ce68-4d5c-ab3a-3776c3739258",
+    "name": "富岡製糸場",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "日本初の本格的な器械製糸工場。世界遺産に登録され、日本の近代化を象徴する。",
+    "latitude": 36.2555,
+    "longitude": 138.888,
+    "address": "群馬県富岡市富岡1-1",
+    "websiteUrl": "https://www.city.tomioka.lg.jp/www/contents/1000000000332/index.html",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f1d251b8-d17f-4d61-89db-49a8a6d05a2a",
+    "name": "端島炭坑",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "通称「軍艦島」。日本最古の鉄筋コンクリート造アパート群が残る海底炭鉱跡。",
+    "latitude": 32.6233,
+    "longitude": 129.7363,
+    "address": "長崎県長崎市高島町端島",
+    "websiteUrl": null,
+    "admissionFee": 310,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "ツアー船会社により出航時間が異なる。別途乗船料が必要"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "ツアー船会社により出航時間が異なる。別途乗船料が必要"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "ツアー船会社により出航時間が異なる。別途乗船料が必要"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "ツアー船会社により出航時間が異なる。別途乗船料が必要"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "ツアー船会社により出航時間が異なる。別途乗船料が必要"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "ツアー船会社により出航時間が異なる。別途乗船料が必要"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "ツアー船会社により出航時間が異なる。別途乗船料が必要"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "813c212e-7f9c-4f49-93ed-c36609a5792a",
+    "name": "史跡 生野銀山",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "室町時代から近代にかけて採掘された大銀山。坑道内を見学でき当時の採掘技術を学べる。",
+    "latitude": 35.1711,
+    "longitude": 134.8247,
+    "address": "兵庫県朝来市生野町小野33-5",
+    "websiteUrl": "http://www.ikuno-ginzan.co.jp",
+    "admissionFee": 1200,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:10",
+        "closeTime": "17:20",
+        "isClosed": false,
+        "note": "最終入場16:40。4〜10月の時間"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:10",
+        "closeTime": "17:20",
+        "isClosed": false,
+        "note": "最終入場16:40。12〜2月は火曜休業"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:10",
+        "closeTime": "17:20",
+        "isClosed": false,
+        "note": "最終入場16:40。12〜2月は休業"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:10",
+        "closeTime": "17:20",
+        "isClosed": false,
+        "note": "最終入場16:40"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:10",
+        "closeTime": "17:20",
+        "isClosed": false,
+        "note": "最終入場16:40"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:10",
+        "closeTime": "17:20",
+        "isClosed": false,
+        "note": "最終入場16:40"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:10",
+        "closeTime": "17:20",
+        "isClosed": false,
+        "note": "最終入場16:40"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "0cac60f5-0b12-4e8b-906f-f588a74dd35b",
+    "name": "石見銀山世界遺産センター",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "世界遺産「石見銀山遺跡」の価値や歴史を、出土品や模型で紹介する拠点施設。",
+    "latitude": 35.1054,
+    "longitude": 132.4517,
+    "address": "島根県大田市大田町大田ロ1111番地",
+    "websiteUrl": null,
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00。3〜11月の時間"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00。毎月最終火曜は休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7a7ee6a1-4d9c-4aee-a7ec-6f85efdda99b",
+    "name": "史跡 佐渡金山",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "江戸時代から平成まで操業を続けた日本最大の金銀山。採掘跡や産業施設が公開されている。",
+    "latitude": 38.0428,
+    "longitude": 138.2545,
+    "address": "新潟県佐渡市下相川1305番地",
+    "websiteUrl": "http://sado-kinzan.com",
+    "admissionFee": 1500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場16:00。4〜10月の時間。11〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場16:00。4〜10月の時間。11〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場16:00。4〜10月の時間。11〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場16:00。4〜10月の時間。11〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場16:00。4〜10月の時間。11〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場16:00。4〜10月の時間。11〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場16:00。4〜10月の時間。11〜3月は8:30〜17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "e852f3b9-f702-4bb4-b7f4-763fb6c0051f",
+    "name": "琵琶湖疏水記念館",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "明治期の大土木事業である琵琶湖疏水の意義と、水力発電による京都の近代化の歩みを展示。",
+    "latitude": 35.0119,
+    "longitude": 135.7882,
+    "address": "京都府京都市左京区南禅寺草川町17",
+    "websiteUrl": "https://biwakososui-museum.city.kyoto.lg.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "9ee7be3b-2a1e-4e54-8380-a97340f7b108",
+    "name": "碓氷峠鉄道文化むら",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "交通の難所・碓氷峠を越えた旧信越本線の歴史と、アプト式鉄道の技術や多数の車両を展示。",
+    "latitude": 36.3364,
+    "longitude": 138.7337,
+    "address": "群馬県安中市松井田町横川407-16",
+    "websiteUrl": "https://www.city.annaka.lg.jp/page/9077.html",
+    "admissionFee": 900,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:30。3〜10月の時間"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休園。8月は無休"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "14431e90-96b4-4e84-9675-be2c674e324c",
+    "name": "足尾銅山記念館",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "日本最大の銅山として栄えた足尾銅山の歴史と、公害の教訓を伝える展示施設。",
+    "latitude": 36.6417,
+    "longitude": 139.4499,
+    "address": "栃木県日光市足尾町2281番1",
+    "websiteUrl": "https://www.ashiomine.or.jp",
+    "admissionFee": 830,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:15"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:15"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:15"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:15"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:15"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:15"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:15"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "5209d44d-b0c1-4df2-977b-5fefd8b31d1a",
+    "name": "官営八幡製鐵所旧本事務所",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "日本の近代鉄鋼業の幕開けを象徴する明治期レンガ造りの事務所建築。",
+    "latitude": 33.8688,
+    "longitude": 130.8083,
+    "address": "福岡県北九州市八幡東区東田",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "建物内部は非公開。眺望スペースから外観を見学"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休場"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": ""
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "133cad29-699e-4a11-92ee-bd99c4f15a37",
+    "name": "遠賀川水源地ポンプ室",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "八幡製鐵所の拡張に伴い建設された送水施設。現在も稼働する近代化産業遺産。",
+    "latitude": 33.8111,
+    "longitude": 130.7069,
+    "address": "福岡県中間市土手ノ内",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "内部非公開。外観のみ見学可"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "インフォメーションセンター休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "08dab0c4-2699-4d5b-bf6f-657823d590c5",
+    "name": "宮原坑",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "三池炭鉱の主力坑口の一つ。現存する鋼鉄製の立坑櫓と巻揚機室が当時の技術を伝える。",
+    "latitude": 33.0138,
+    "longitude": 130.456,
+    "address": "福岡県大牟田市宮原町1-86-3",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休場"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "b8b6a2eb-ce93-4bb8-af36-d1dbab0c1458",
+    "name": "三池港",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "大型船による石炭の直接搬出を可能にした、三池炭鉱の物流拠点であり現在も稼働中の閘門式港湾。",
+    "latitude": 33.0192,
+    "longitude": 130.4185,
+    "address": "福岡県大牟田市新港町",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "展望所は終日見学可。土日祝はガイド対応あり"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "展望所は終日見学可。土日祝はガイド対応あり"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "展望所は終日見学可。土日祝はガイド対応あり"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "展望所は終日見学可。土日祝はガイド対応あり"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "展望所は終日見学可。土日祝はガイド対応あり"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "展望所は終日見学可。土日祝はガイド対応あり"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "展望所は終日見学可。土日祝はガイド対応あり"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "44c4f0ee-25b7-43ce-a7ae-dcffd528fc6b",
+    "name": "萩反射炉",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "幕末期に長州藩が海防強化のために建設を試みた西洋式大砲の鋳造施設跡。",
+    "latitude": 34.4281,
+    "longitude": 131.4183,
+    "address": "山口県萩市椿東",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      }
+    ],
+    "tags": []
+  }
+]

@@ -1,0 +1,3010 @@
+[
+  {
+    "code": "78a4e2e0-8357-46d2-ae50-569669e0464f",
+    "name": "恵美須ヶ鼻造船所跡",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "長州藩が洋式軍艦を建造した造船所跡。ロシアとオランダの技術が融合した貴重な遺構。",
+    "latitude": 34.4301,
+    "longitude": 131.4121,
+    "address": "山口県萩市椿東",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "98ce30fa-3170-4b4c-95c2-b33dd3b67675",
+    "name": "大板山たたら製鉄遺跡",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "砂鉄を原料とする日本の伝統的な製鉄法の跡地。恵美須ヶ鼻造船所の船釘の原料を供給。",
+    "latitude": 34.5057,
+    "longitude": 131.5384,
+    "address": "山口県萩市紫福",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外遺跡は散策自由。1〜2月は不定期開館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外遺跡は散策自由。1〜2月は不定期開館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外遺跡は散策自由。1〜2月は不定期開館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外遺跡は散策自由。1〜2月は不定期開館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外遺跡は散策自由。1〜2月は不定期開館"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外遺跡は散策自由。1〜2月は不定期開館"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外遺跡は散策自由。1〜2月は不定期開館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "3f5818fb-2333-40e7-8108-41ffd8dac463",
+    "name": "小菅修船場跡",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "通称「ソロバンドック」。日本初の西洋式スリップ・ドックであり、近代造船業の黎明期を支えた。",
+    "latitude": 32.7224,
+    "longitude": 129.867,
+    "address": "長崎県長崎市小菅町",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "土日祝のみ内部見学可"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "外観のみ見学可"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "外観のみ見学可"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "外観のみ見学可"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "外観のみ見学可"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "外観のみ見学可"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "土日祝のみ内部見学可"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "fbfdf4c8-220b-40ca-84f4-d141d891c3c3",
+    "name": "三角西港",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "明治三大築港の一つ。オランダ人技師ムルドルが設計した石積みの埠頭や水路が当時のまま残る。",
+    "latitude": 32.6261,
+    "longitude": 130.4593,
+    "address": "熊本県宇城市三角町三角浦",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "港周辺は散策自由"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "港周辺は散策自由"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "港周辺は散策自由"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "港周辺は散策自由"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "港周辺は散策自由"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "港周辺は散策自由"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "港周辺は散策自由"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "da4b337e-d21f-4507-ae8a-fda6a5bb1ea2",
+    "name": "旧鹿児島紡績所技師館",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "通称「異人館」。薩摩藩が招聘したイギリス人技師の宿舎であり、日本の初期洋風建築の代表例。",
+    "latitude": 31.6156,
+    "longitude": 130.5742,
+    "address": "鹿児島県鹿児島市吉野町9685-15",
+    "websiteUrl": null,
+    "admissionFee": 200,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "年中無休"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "年中無休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "年中無休"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "年中無休"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "年中無休"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "年中無休"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "年中無休"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7cc5352c-696d-4e0c-9fd1-2398db73d6f3",
+    "name": "寺山炭窯跡",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "薩摩藩の集成館事業における反射炉等の燃料となる白炭を製造した石積みの窯跡。",
+    "latitude": 31.6643,
+    "longitude": 130.6011,
+    "address": "鹿児島県鹿児島市吉野町",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "51ca6231-0ebb-48e1-9d6b-b3488e8befd3",
+    "name": "関吉の疎水溝",
+    "category": "INDUSTRIAL_HERITAGE",
+    "description": "集成館の工場群や高炉などの動力源となる水車に水を供給するために建設された用水路跡。",
+    "latitude": 31.647,
+    "longitude": 130.5525,
+    "address": "鹿児島県鹿児島市下田町",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "屋外史跡のため散策自由"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "0e58d605-f6b9-4181-b598-1949ed14c9a6",
+    "name": "白い恋人パーク",
+    "category": "FACTORY_TOUR",
+    "description": "北海道銘菓「白い恋人」の製造工程を見学でき、お菓子作り体験も楽しめるテーマパーク。",
+    "latitude": 43.0889,
+    "longitude": 141.2717,
+    "address": "北海道札幌市⻄区宮の沢2-2-11-36",
+    "websiteUrl": "https://www.shiroikoibitopark.jp/",
+    "admissionFee": 800,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "19:00",
+        "isClosed": false,
+        "note": "有料エリア最終受付16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "56824ac5-6fab-45b5-845e-444f1526024d",
+    "name": "グリコピアイースト",
+    "category": "FACTORY_TOUR",
+    "description": "ポッキーやプリッツの製造工程の見学に加え、クイズ形式で楽しくお菓子の歴史を学べる施設。",
+    "latitude": 36.0264,
+    "longitude": 139.5555,
+    "address": "埼玉県北本市中丸9丁目55番地",
+    "websiteUrl": "https://www.glico.com/jp/enjoy/experience/glicopia/east/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "金曜休館"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "227b4096-9ba8-4f8c-8578-5aefaf36b0d8",
+    "name": "アサヒビール吹田工場",
+    "category": "FACTORY_TOUR",
+    "description": "アサヒビール発祥の地。ビールの仕込みから瓶詰めまでの工程見学と、できたてのビールの試飲が可能。",
+    "latitude": 34.7627,
+    "longitude": 135.5197,
+    "address": "大阪府吹田市西の庄町1‐45",
+    "websiteUrl": "https://www.asahibeer-comm.jp/facility/suita",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "16:50",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "c6da6b3d-8dde-407b-ac5d-4794a777abae",
+    "name": "キリンビール 神戸工場",
+    "category": "FACTORY_TOUR",
+    "description": "「一番搾り」の麦汁飲み比べなど、ビールのこだわりを五感で体験できるブルワリーツアーを提供。",
+    "latitude": 34.8792,
+    "longitude": 135.1779,
+    "address": "兵庫県神戸市北区赤松台2-1-1",
+    "websiteUrl": "https://www.kirin.co.jp/experience/factory/kobe/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約。ツアー約60分+試飲20分"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌平日休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:40",
+        "closeTime": "15:10",
+        "isClosed": false,
+        "note": "要予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "d2700e1a-b040-4466-963b-07419454b162",
+    "name": "サントリー京都ビール工場",
+    "category": "FACTORY_TOUR",
+    "description": "ザ・プレミアム・モルツの製造工程を見学し、天然水と厳選素材へのこだわりを学べる施設。",
+    "latitude": 34.9101,
+    "longitude": 135.6934,
+    "address": "京都府長岡京市調子3-1-1",
+    "websiteUrl": "http://www.suntory.co.jp/factory/kyoto/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。ツアー約90分"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "deaa6867-aa80-4b5b-b6de-639d353b28d9",
+    "name": "雪印メグミルク 阿見工場",
+    "category": "FACTORY_TOUR",
+    "description": "プロセスチーズの製造工程や、バターなどの乳製品が作られる様子を専用通路から見学できる。",
+    "latitude": 35.9981,
+    "longitude": 140.2476,
+    "address": "茨城県稲敷郡阿見町星の里22番地",
+    "websiteUrl": "http://www.meg-snow.com/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f0dc526e-c866-4ed0-9997-2664759bb6f7",
+    "name": "崎陽軒 横浜工場",
+    "category": "FACTORY_TOUR",
+    "description": "横浜名物「シウマイ」の歴史や製造工程を見学し、できたてのシウマイの試食が楽しめる。",
+    "latitude": 35.5177,
+    "longitude": 139.5941,
+    "address": "神奈川県横浜市都筑区川向町675番1号",
+    "websiteUrl": "https://kiyoken.com/factory/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "日月火休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "日月火休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "日月火休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "15:30",
+        "isClosed": false,
+        "note": "要予約。見学約90分（試食含む）"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "15:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "15:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "15:30",
+        "isClosed": false,
+        "note": "要予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7e8d2de9-1cdc-4d48-abc2-c1734dcc1844",
+    "name": "ロイズカカオ＆チョコレートタウン",
+    "category": "FACTORY_TOUR",
+    "description": "カカオ豆からチョコレートができるまでの旅を体験できる、工場見学と展示を組み合わせた施設。",
+    "latitude": 43.1828,
+    "longitude": 141.432,
+    "address": "北海道石狩郡当別町ビトエ640-15",
+    "websiteUrl": "https://www.royce.com/cct/",
+    "admissionFee": 1200,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場15:00。要事前予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7d7f20b7-eb1c-445c-b679-10582c47e035",
+    "name": "シャトレーゼ 白州工場",
+    "category": "FACTORY_TOUR",
+    "description": "南アルプスの天然水を使用したアイスクリームや菓子の製造工程を見学できる大自然の中の工場。",
+    "latitude": 35.8203,
+    "longitude": 138.3053,
+    "address": "山梨県北杜市白州町白須大原8383-1",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "最終受付15:00。要予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "e72587f8-2db9-4930-8ac3-4373d5794d56",
+    "name": "サッポロビール 北海道工場",
+    "category": "FACTORY_TOUR",
+    "description": "北海道の雄大な自然環境の中でビールの製造工程を見学し、サッポロクラシックなどの試飲が可能。",
+    "latitude": 42.8627,
+    "longitude": 141.6052,
+    "address": "北海道恵庭市戸磯542-1",
+    "websiteUrl": "https://www.sapporobeer.jp/brewery/hokkaido/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約。ガイドツアー60分"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "月火休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "月火休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "16:20",
+        "isClosed": false,
+        "note": "要予約"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "961e5bd7-6071-4239-8dd9-e55da3bf510c",
+    "name": "トヨタ自動車 元町工場",
+    "category": "FACTORY_TOUR",
+    "description": "溶接や組立ラインなど、最新の自動車製造技術と「トヨタ生産方式」の現場を間近で見学。",
+    "latitude": 35.0729,
+    "longitude": 137.1303,
+    "address": "愛知県豊田市元町1",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約。見学約150分"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "9ba257eb-4964-4ab9-8cd8-38f7294dfdef",
+    "name": "うなぎパイファクトリー",
+    "category": "FACTORY_TOUR",
+    "description": "浜松銘菓「うなぎパイ」の製造工程をガラス越しに見学でき、焼き立ての香りを楽しめる。",
+    "latitude": 34.7149,
+    "longitude": 137.6565,
+    "address": "静岡県浜松市中央区大久保町748-51",
+    "websiteUrl": "https://www.unagipai-factory.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "自由見学無料"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "火水定休（変動あり）"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "火水定休（変動あり）"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "火水定休（変動あり）"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "自由見学無料"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "自由見学無料"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "自由見学無料"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "21a3032a-5142-44b4-89d6-22db0536aa15",
+    "name": "コカ･コーラ ボトラーズジャパン 多摩工場",
+    "category": "FACTORY_TOUR",
+    "description": "巨大なボトリングラインの見学や、コカ・コーラの歴史に関する展示を通じた体験型ツアー。",
+    "latitude": 35.7603,
+    "longitude": 139.513,
+    "address": "東京都東久留米市野火止1-2-9",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約。見学約60分"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要Web予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "3a2d9bf2-3eba-4b36-bc52-5a6711f10e81",
+    "name": "マツダミュージアム",
+    "category": "FACTORY_TOUR",
+    "description": "マツダ本社の敷地内にあり、実際の車両組立ラインの見学と歴代の名車展示を楽しめる。",
+    "latitude": 34.361,
+    "longitude": 132.4834,
+    "address": "広島県安芸郡府中町新地3-1",
+    "websiteUrl": "https://www.mazda.com/ja/about/museum/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "日曜休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制。ツアー約2時間"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "15:45",
+        "isClosed": false,
+        "note": "原則第1土曜のみ開館。完全予約制"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "6af1ada9-9034-4753-97da-cb45b834b477",
+    "name": "アサヒ飲料 明石工場",
+    "category": "FACTORY_TOUR",
+    "description": "三ツ矢サイダーをはじめとする飲料の製造ラインを見学でき、環境への取り組みも紹介。",
+    "latitude": 34.6895,
+    "longitude": 134.8713,
+    "address": "兵庫県明石市二見町南二見1-33",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:30",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "要予約。不定休あり"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "d3cd20ba-cee1-4afc-95e2-aba456fbd79e",
+    "name": "キッコーマン もの知りしょうゆ館",
+    "category": "FACTORY_TOUR",
+    "description": "醤油の醸造工程からボトリングまでを見学し、醤油の歴史や発酵のメカニズムを学べる。",
+    "latitude": 35.9553,
+    "longitude": 139.8746,
+    "address": "千葉県野田市野田110",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:00",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "62c5875e-192a-4d58-97a2-8f9973687fee",
+    "name": "めんたいパークとこなめ",
+    "category": "FACTORY_TOUR",
+    "description": "明太子の老舗「かねふく」が運営し、製造工場の見学や明太子グルメを堪能できるテーマパーク。",
+    "latitude": 34.8901,
+    "longitude": 136.8261,
+    "address": "愛知県常滑市りんくう町1-25-4",
+    "websiteUrl": "https://mentai-park.com/tokoname/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:30",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": ""
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": ""
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "7fa9bfa3-bb89-4f26-87f5-774882d23df9",
+    "name": "造幣局 埼玉支局",
+    "category": "FACTORY_TOUR",
+    "description": "硬貨や勲章の製造工程をガラス越しに見学でき、貨幣の歴史や偽造防止技術について展示。",
+    "latitude": 35.8939,
+    "longitude": 139.6405,
+    "address": "埼玉県さいたま市大宮区北袋町1-190-22",
+    "websiteUrl": "https://www.mint.go.jp/enjoy/plant-saitama",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約。第3水曜休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "要予約"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "1635cb60-b0bd-4374-a14d-05592dca8d29",
+    "name": "ヤクルト 湘南化粧品工場",
+    "category": "FACTORY_TOUR",
+    "description": "乳酸菌を活用した化粧品の製造工程を見学し、品質管理や美容に関する知識を深められる。",
+    "latitude": 35.339,
+    "longitude": 139.4698,
+    "address": "神奈川県藤沢市鵠沼神明7-1-6",
+    "websiteUrl": null,
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制。中学生以上対象"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "15:00",
+        "isClosed": false,
+        "note": "完全予約制"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "土日祝休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "6315c72c-fcbf-46ae-9ab5-c21b4624a2ca",
+    "name": "おたべ本館",
+    "category": "FACTORY_TOUR",
+    "description": "京都銘菓「生八つ橋」の製造ラインを公開しており、手作り体験や試食も実施している。",
+    "latitude": 34.9736,
+    "longitude": 135.7447,
+    "address": "京都府京都市南区西九条高畠町35-2",
+    "websiteUrl": "https://www.otabe.kyoto.jp/",
+    "admissionFee": 0,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "年中無休。工場見学無料（ガラス越し）"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "709af985-fa39-449d-a54c-2c7e45cda0bb",
+    "name": "熊本城",
+    "category": "CASTLE",
+    "description": "加藤清正が築城した日本三名城の一つ。武者返しと呼ばれる美しい石垣と復旧された天守閣が特徴。",
+    "latitude": 32.8061,
+    "longitude": 130.706,
+    "address": "熊本県熊本市中央区本丸1-1",
+    "websiteUrl": "https://castle.kumamoto-guide.jp/",
+    "admissionFee": 800,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入園16:00。震災復旧中のため一部エリアのみ公開"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "839fd7e0-8325-48ef-840d-d228650edb2a",
+    "name": "犬山城",
+    "category": "CASTLE",
+    "description": "現存12天守の一つであり国宝に指定。木曽川沿いの小高い山に建つ日本最古の様式の天守を持つ。",
+    "latitude": 35.3863,
+    "longitude": 136.9368,
+    "address": "愛知県犬山市犬山北古券65番地2",
+    "websiteUrl": "https://inuyama.gr.jp/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f0c93175-4e30-452b-b6df-1fed0105e665",
+    "name": "彦根城",
+    "category": "CASTLE",
+    "description": "国宝の天守をはじめ、櫓や庭園など江戸時代の城郭の姿を色濃く残す井伊家の居城。",
+    "latitude": 35.2764,
+    "longitude": 136.2517,
+    "address": "滋賀県彦根市元町4番2号",
+    "websiteUrl": "https://www.hikoneshi.com/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "0ebf9f19-3556-47ad-bb88-78fcd000bed2",
+    "name": "松江城",
+    "category": "CASTLE",
+    "description": "漆黒の雨覆い板が特徴の国宝天守。宍道湖の畔に築かれた水郷の都市・松江のシンボル。",
+    "latitude": 35.475,
+    "longitude": 133.0506,
+    "address": "島根県松江市殿町1-5",
+    "websiteUrl": "https://www.matsue-castle.jp/",
+    "admissionFee": 800,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "18:30",
+        "isClosed": false,
+        "note": "最終入場18:00。10〜3月は8:30〜17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "bec1bf26-1ce3-4bba-9a2d-6f95916db1d6",
+    "name": "名古屋城",
+    "category": "CASTLE",
+    "description": "徳川家康の命により築城。金の鯱で知られ、本丸御殿の復元など近世城郭の威容を誇る。",
+    "latitude": 35.1847,
+    "longitude": 136.8925,
+    "address": "愛知県名古屋市中区本丸1-1",
+    "websiteUrl": "https://www.nagoyajo.city.nagoya.jp/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "本丸御殿入場は16:00まで。天守閣は閉鎖中（木造復元工事）"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "8dd192e7-71e7-4581-ba82-561458e5eb98",
+    "name": "岡山城",
+    "category": "CASTLE",
+    "description": "黒い下見板張りの外観から「烏城」と呼ばれる。宇喜多秀家が築き、後楽園に隣接する名城。",
+    "latitude": 34.6652,
+    "longitude": 133.9361,
+    "address": "岡山県岡山市北区丸の内2-3",
+    "websiteUrl": "https://okayama-castle.jp/",
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "69d2f3d0-747a-49ac-86b3-598f5d3faea0",
+    "name": "広島城",
+    "category": "CASTLE",
+    "description": "毛利輝元によって築かれた水堀に囲まれた平城。原爆で倒壊後、復元され歴史博物館となっている。",
+    "latitude": 34.4027,
+    "longitude": 132.459,
+    "address": "広島県広島市中区基町21-1",
+    "websiteUrl": "https://dive-hiroshima.com/explore/3318/",
+    "admissionFee": 370,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。12〜2月は9:00〜17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "1c8d6d36-e5b6-42e1-b38d-164f9887d4b3",
+    "name": "弘前城",
+    "category": "CASTLE",
+    "description": "東北地方で唯一の現存天守を持ち、春には桜の名所として全国的に知られる津軽藩の城。",
+    "latitude": 40.6081,
+    "longitude": 140.4639,
+    "address": "青森県弘前市大字下白銀町1",
+    "websiteUrl": "https://www.city.hirosaki.aomori.jp/gaiyou/shisetsu/2014-1206-1528-48.html",
+    "admissionFee": 320,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "4/1〜11/23のみ有料開放。冬季は天守閉館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "cd2e193e-d2e0-4273-b76f-c0bb4acea048",
+    "name": "松本城",
+    "category": "CASTLE",
+    "description": "現存する五重六階の天守としては日本最古。北アルプスを背景に黒と白のコントラストが美しい国宝。",
+    "latitude": 36.2391,
+    "longitude": 137.9691,
+    "address": "長野県松本市丸の内4-1",
+    "websiteUrl": "https://www.matsumoto-castle.jp/",
+    "admissionFee": 1300,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "a3e6254b-876f-425b-b5bc-3ca279b00e50",
+    "name": "姫路城",
+    "category": "CASTLE",
+    "description": "白鷺城とも称される白亜の美しい連立式天守群。世界文化遺産および国宝に指定されている。",
+    "latitude": 34.8394,
+    "longitude": 134.6939,
+    "address": "兵庫県姫路市本町68",
+    "websiteUrl": "https://www.himejicastle.jp/",
+    "admissionFee": 2500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入城16:00。18歳以下無料"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "2c50e92d-7a3a-4c7d-9ee5-972a1677f841",
+    "name": "大阪城",
+    "category": "CASTLE",
+    "description": "豊臣秀吉が築城し、徳川時代に再築された巨城。現在は巨大な石垣と復興天守が大阪の象徴となっている。",
+    "latitude": 34.6873,
+    "longitude": 135.5262,
+    "address": "大阪府大阪市中央区大阪城1-1",
+    "websiteUrl": "https://www.osakacastle.net/",
+    "admissionFee": 1200,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "18:00",
+        "isClosed": false,
+        "note": "最終入館17:30。桜・GW・夏季は延長あり"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "04222494-b8dd-4604-bf5e-b057baee1e22",
+    "name": "和歌山城",
+    "category": "CASTLE",
+    "description": "紀州徳川家の居城として栄えた。虎伏山に建ち、連立式の白亜の天守が市街を見下ろす。",
+    "latitude": 34.2276,
+    "longitude": 135.1716,
+    "address": "和歌山県和歌山市一番丁3",
+    "websiteUrl": "http://wakayamajo.jp/",
+    "admissionFee": 410,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:30",
+        "isClosed": false,
+        "note": "最終入場17:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "3bc04605-9cec-49a4-8369-a8dde3c7af2f",
+    "name": "松前城",
+    "category": "CASTLE",
+    "description": "北海道で唯一の日本式城郭。幕末に北方警備の拠点として築かれ、桜の名所としても有名。",
+    "latitude": 41.4298,
+    "longitude": 140.1084,
+    "address": "北海道松前郡松前町松城144",
+    "websiteUrl": null,
+    "admissionFee": 360,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。4/10〜12/10のみ開館。冬季休館"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f85e1a57-0887-49c5-81ac-94402c09be85",
+    "name": "白石城",
+    "category": "CASTLE",
+    "description": "仙台藩の南の要衝として片倉氏が代々居住。木造で忠実に復元された大櫓（天守）が公開されている。",
+    "latitude": 38.0026,
+    "longitude": 140.6171,
+    "address": "宮城県白石市益岡町1-16",
+    "websiteUrl": null,
+    "admissionFee": 400,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。11〜3月は9:00〜16:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "ada7a91e-27cd-4361-8a3b-7fde9f2f51ba",
+    "name": "会津若松城",
+    "category": "CASTLE",
+    "description": "鶴ヶ城の愛称で親しまれる会津藩の居城。幕末の戊辰戦争の舞台であり、赤瓦の天守が復元されている。",
+    "latitude": 37.486,
+    "longitude": 139.9245,
+    "address": "福島県会津若松市追手町1-1",
+    "websiteUrl": "https://www.tsurugajo.com/",
+    "admissionFee": 410,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "08:30",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30。年中無休"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "26eea3aa-fe89-4c3a-8142-663d433c6d0e",
+    "name": "小田原城",
+    "category": "CASTLE",
+    "description": "北条氏の拠点として関東支配の中心となった巨大な城郭。現在は本丸周辺が整備され天守閣がそびえる。",
+    "latitude": 35.2505,
+    "longitude": 139.1534,
+    "address": "神奈川県小田原市城内6-1",
+    "websiteUrl": "https://odawaracastle.com/",
+    "admissionFee": 1000,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入場16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "e36704d1-9269-4151-843e-0500ec25ec27",
+    "name": "駿府城",
+    "category": "CASTLE",
+    "description": "徳川家康が大御所として晩年を過ごした城。巨大な平城であり、現在は巽櫓や東御門などが復元されている。",
+    "latitude": 34.9794,
+    "longitude": 138.3836,
+    "address": "静岡県静岡市葵区駿府城公園1-1",
+    "websiteUrl": null,
+    "admissionFee": 200,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00。天守閣は現存せず、東御門・巽櫓等を公開"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は開館し翌日休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "16:30",
+        "isClosed": false,
+        "note": "最終入館16:00"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "5bc63e95-9c38-4658-9078-e58e849834f2",
+    "name": "掛川城",
+    "category": "CASTLE",
+    "description": "山内一豊が拡張した城。日本初の本格的な木造復元天守として再建され、江戸時代の御殿も現存する。",
+    "latitude": 34.7752,
+    "longitude": 138.0139,
+    "address": "静岡県掛川市掛川1138-24",
+    "websiteUrl": null,
+    "admissionFee": 410,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30。年中無休"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "ed58f743-2f61-4f62-8f55-f0399bce5cbf",
+    "name": "福山城",
+    "category": "CASTLE",
+    "description": "徳川譜代の水野勝成が西国鎮衛のために築城。天守の北側に鉄板張りが施されていたことで知られる。",
+    "latitude": 34.488,
+    "longitude": 133.3567,
+    "address": "広島県福山市丸之内1-8",
+    "websiteUrl": "https://fukuyamajo.jp/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "",
+        "closeTime": "",
+        "isClosed": true,
+        "note": "祝日の場合は翌日休"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "code": "f8b1cc97-0040-452e-85f2-6396c8270522",
+    "name": "高知城",
+    "category": "CASTLE",
+    "description": "山内一豊が築き、現存12天守の一つである天守と本丸御殿がセットで残る唯一の城郭。",
+    "latitude": 33.5567,
+    "longitude": 133.5255,
+    "address": "高知県高知市丸ノ内1-2-1",
+    "websiteUrl": "https://kochipark.jp/kochijyo/",
+    "admissionFee": 500,
+    "isClosed": false,
+    "operatingHours": [
+      {
+        "dayOfWeek": 0,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "09:00",
+        "closeTime": "17:00",
+        "isClosed": false,
+        "note": "最終入館16:30"
+      }
+    ],
+    "tags": []
+  }
+]

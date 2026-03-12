@@ -1,6 +1,6 @@
 import { PrismaClient, Category } from "@/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
-import museumsData from "@/data/museums.json" with { type: "json" };
+import museumsData from "@/data/museums";
 import tagsData from "@/data/tags.json" with { type: "json" };
 
 const connectionString = process.env.DATABASE_URL_UNPOOLED || process.env.DATABASE_URL!;
@@ -20,22 +20,6 @@ async function main() {
       }
       const allTags = await tx.tag.findMany();
       const tagNameToId = new Map(allTags.map((t) => [t.name, t.id]));
-
-      // Align codes for existing museums (one-time migration support)
-      // If a museum exists by name but with a wrong code, and no museum
-      // with the target code exists yet, update the code.
-      for (const m of museumsData) {
-        const byCode = await tx.museum.findUnique({ where: { code: m.code } });
-        if (byCode) continue; // code already assigned correctly
-
-        const byName = await tx.museum.findFirst({ where: { name: m.name } });
-        if (byName) {
-          await tx.museum.update({
-            where: { id: byName.id },
-            data: { code: m.code },
-          });
-        }
-      }
 
       // Delete orphan museums (exist in DB but not in JSON, with no reviews)
       const jsonCodes = new Set(museumsData.map((m) => m.code));
@@ -61,7 +45,7 @@ async function main() {
           websiteUrl: m.websiteUrl,
           admissionFee: m.admissionFee,
           isClosed: m.isClosed,
-          closedMessage: "closedMessage" in m ? (m.closedMessage as string) : null,
+          closedMessage: ("closedMessage" in m ? m.closedMessage : null) as string | null,
         };
 
         const tagIds = m.tags

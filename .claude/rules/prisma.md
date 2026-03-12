@@ -31,7 +31,6 @@ globs:
 
 ## シードの注意事項
 
-- **UUID 後付け**: 既存データとの整合性問題が発生する。初回は `TRUNCATE ... RESTART IDENTITY CASCADE` でクリーンスタート
 - **JSON の UUID カラム**: UUID 形式の値が必要（`r001` のような短い ID は不可）
 
 ## npm scripts
