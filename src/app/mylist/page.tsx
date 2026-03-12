@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import useSWR from "swr";
 import { getBookmarks } from "@/lib/api";
@@ -19,7 +20,7 @@ function parseTab(param: string | null): BookmarkStatus {
   return DEFAULT_TAB;
 }
 
-export default function MylistPage() {
+function MylistContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const activeTab = parseTab(searchParams.get("tab"));
@@ -40,9 +41,7 @@ export default function MylistPage() {
   );
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-6">
-      <h1 className="mb-4 text-2xl font-bold">マイリスト</h1>
-
+    <>
       <div role="tablist" className="mb-6 flex gap-2 border-b">
         {TABS.map((tab) => (
           <button
@@ -79,6 +78,17 @@ export default function MylistPage() {
           </p>
         )}
       </div>
+    </>
+  );
+}
+
+export default function MylistPage() {
+  return (
+    <div className="mx-auto max-w-3xl px-4 py-6">
+      <h1 className="mb-4 text-2xl font-bold">マイリスト</h1>
+      <Suspense>
+        <MylistContent />
+      </Suspense>
     </div>
   );
 }
