@@ -20,7 +20,10 @@ export function ReviewCard({ review }: Props) {
           {formattedDate}
         </time>
       </div>
-      {review.comment && <p className="mt-2 text-sm text-muted-foreground">{review.comment}</p>}
+      {review.headline && (
+        <p className="mt-1 text-sm font-medium text-foreground">「{review.headline}」</p>
+      )}
+      {review.comment && <p className="mt-1 text-sm text-muted-foreground">{review.comment}</p>}
     </div>
   );
 }

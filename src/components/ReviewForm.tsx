@@ -10,6 +10,7 @@ type Props = {
 
 export function ReviewForm({ museumId, onSuccess }: Props) {
   const [rating, setRating] = useState<number | null>(null);
+  const [headline, setHeadline] = useState("");
   const [comment, setComment] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
@@ -25,7 +26,11 @@ export function ReviewForm({ museumId, onSuccess }: Props) {
       const res = await fetch(`/api/museums/${museumId}/reviews`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ rating, comment: comment || undefined }),
+        body: JSON.stringify({
+          rating,
+          headline: headline || undefined,
+          comment: comment || undefined,
+        }),
       });
 
       if (!res.ok) {
@@ -73,8 +78,25 @@ export function ReviewForm({ museumId, onSuccess }: Props) {
       </fieldset>
 
       <div>
+        <label htmlFor="review-headline" className="mb-1 block text-sm font-medium">
+          一言で表すと？
+        </label>
+        <input
+          id="review-headline"
+          aria-label="一言コメント"
+          type="text"
+          value={headline}
+          onChange={(e) => setHeadline(e.target.value)}
+          maxLength={50}
+          className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm"
+          placeholder="時が止まった紡績工場"
+        />
+        <p className="mt-1 text-xs text-muted-foreground">{headline.length}/50</p>
+      </div>
+
+      <div>
         <label htmlFor="review-comment" className="mb-1 block text-sm font-medium">
-          コメント
+          もう少し詳しく（任意）
         </label>
         <textarea
           id="review-comment"
@@ -84,7 +106,7 @@ export function ReviewForm({ museumId, onSuccess }: Props) {
           maxLength={1000}
           rows={3}
           className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm"
-          placeholder="感想を書いてください（任意）"
+          placeholder="感想を書いてください"
         />
       </div>
 

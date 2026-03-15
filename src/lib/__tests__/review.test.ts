@@ -46,4 +46,29 @@ describe("validateReviewInput", () => {
     expect(result.success).toBe(true);
     expect(result.data?.comment).toBeUndefined();
   });
+
+  it("should accept optional headline", () => {
+    const result = validateReviewInput({ rating: 4, headline: "時が止まった紡績工場" });
+    expect(result.success).toBe(true);
+    expect(result.data?.headline).toBe("時が止まった紡績工場");
+  });
+
+  it("should return error when headline exceeds 50 characters", () => {
+    const longHeadline = "あ".repeat(51);
+    const result = validateReviewInput({ rating: 4, headline: longHeadline });
+    expect(result.success).toBe(false);
+    expect(result.error).toBe("一言コメントは 50 文字以内で入力してください");
+  });
+
+  it("should treat empty string headline as undefined", () => {
+    const result = validateReviewInput({ rating: 4, headline: "" });
+    expect(result.success).toBe(true);
+    expect(result.data?.headline).toBeUndefined();
+  });
+
+  it("should return error when headline is non-string type", () => {
+    const result = validateReviewInput({ rating: 4, headline: 123 });
+    expect(result.success).toBe(false);
+    expect(result.error).toBe("一言コメントは文字列で指定してください");
+  });
 });

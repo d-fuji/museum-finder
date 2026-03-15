@@ -84,6 +84,7 @@ export function toOperatingHours(row: OperatingHoursRow): OperatingHours {
 type ReviewRow = {
   id: number;
   rating: number;
+  headline: string | null;
   comment: string | null;
   userId: string;
   museumId: number;
@@ -95,6 +96,7 @@ export function toReview(review: ReviewRow): Review {
   return {
     id: review.id,
     rating: review.rating,
+    headline: review.headline ?? undefined,
     comment: review.comment ?? undefined,
     userId: review.userId,
     museumId: review.museumId,

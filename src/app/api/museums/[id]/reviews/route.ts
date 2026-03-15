@@ -40,6 +40,7 @@ export async function POST(request: NextRequest, { params }: { params: Promise<{
   const review = await prisma.review.create({
     data: {
       rating: validation.data.rating,
+      headline: validation.data.headline ?? null,
       comment: validation.data.comment ?? null,
       userId: session.user.id,
       museumId,

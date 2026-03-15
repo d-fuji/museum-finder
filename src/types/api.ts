@@ -31,6 +31,7 @@ export interface MuseumSummary {
 export interface Review {
   id: number;
   rating: number;
+  headline?: string;
   comment?: string;
   userId: string;
   museumId: number;

@@ -30,6 +30,7 @@ const museumIdByName = new Map(museums.map((m) => [m.name, m.id]));
 const reviews: Review[] = reviewsData.map((r, i) => ({
   id: i + 1,
   rating: r.rating,
+  headline: undefined,
   comment: r.comment,
   userId: r.userId,
   museumId: museumIdByName.get(r.museumName) ?? 0,
