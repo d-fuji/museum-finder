@@ -21,7 +21,7 @@ DB 変更なし。既存の Museum モデルの以下のフィールドを使用
 
 ### OGP 画像生成
 
-- `@vercel/og`（Satori）を使用し、Edge Runtime で動的に OGP 画像を生成する
+- `@vercel/og`（Satori）を使用し、Node.js Runtime で動的に OGP 画像を生成する（Prisma が Edge Runtime 非対応のため）
 - 画像サイズ: 1200x630px（OGP 推奨サイズ）
 - 画像は API ルートで生成し、`Cache-Control` ヘッダーで CDN キャッシュする
 

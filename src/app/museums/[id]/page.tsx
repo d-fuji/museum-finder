@@ -95,7 +95,7 @@ export default async function MuseumDetailPage({ params }: Props) {
       ? {
           aggregateRating: {
             "@type": "AggregateRating",
-            ratingValue: avgRating.toFixed(1),
+            ratingValue: avgRating,
             reviewCount: museum.reviews.length,
             bestRating: 5,
             worstRating: 1,

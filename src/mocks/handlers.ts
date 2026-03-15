@@ -27,10 +27,16 @@ const museums = museumsData.map((m, i) => ({
 const museumsById = new Map(museums.map((m) => [m.id, m]));
 
 const museumIdByName = new Map(museums.map((m) => [m.name, m.id]));
+const reviewHeadlines: Record<number, string> = {
+  1: "船の模型が圧巻",
+  4: "赤レンガと鉄道の融合",
+  5: "一日では回りきれない",
+};
+
 const reviews: Review[] = reviewsData.map((r, i) => ({
   id: i + 1,
   rating: r.rating,
-  headline: undefined,
+  headline: reviewHeadlines[i + 1],
   comment: r.comment,
   userId: r.userId,
   museumId: museumIdByName.get(r.museumName) ?? 0,
