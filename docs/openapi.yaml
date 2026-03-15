@@ -73,6 +73,10 @@ paths:
                   type: integer
                   minimum: 1
                   maximum: 5
+                headline:
+                  type: string
+                  maxLength: 50
+                  description: 一言コメント
                 comment:
                   type: string
                   maxLength: 1000
@@ -206,6 +210,30 @@ paths:
           description: 未認証
         "404":
           description: ブックマークが見つからない
+
+  /og:
+    get:
+      summary: OGP 画像生成
+      operationId: getOgImage
+      parameters:
+        - name: museumId
+          in: query
+          required: true
+          schema:
+            type: integer
+          description: 施設 ID
+      responses:
+        "200":
+          description: OGP 画像（PNG）
+          content:
+            image/png:
+              schema:
+                type: string
+                format: binary
+        "400":
+          description: 不正な museumId
+        "404":
+          description: 施設が見つからない
 
   /tags:
     get:
@@ -424,6 +452,10 @@ components:
           type: integer
           minimum: 1
           maximum: 5
+        headline:
+          type: string
+          maxLength: 50
+          description: 一言コメント
         comment:
           type: string
         userId:

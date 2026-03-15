@@ -5,10 +5,10 @@ import { http, HttpResponse } from "msw";
 import { setupServer } from "msw/node";
 import type { MuseumDetail } from "@/types/api";
 import { SWRTestProvider } from "@/lib/test-utils";
-import MuseumDetailPage from "../[id]/page";
+import MuseumDetailClient from "../[id]/MuseumDetailClient";
 
 function renderDetailPage() {
-  return render(<MuseumDetailPage />, { wrapper: SWRTestProvider });
+  return render(<MuseumDetailClient />, { wrapper: SWRTestProvider });
 }
 
 const museumDetail: MuseumDetail = {
